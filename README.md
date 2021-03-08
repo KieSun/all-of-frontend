@@ -50,6 +50,8 @@ try {
 }
 ```
 
+[答案](./Answer/1%20~%2010/1.md)
+
 ## 前端十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
