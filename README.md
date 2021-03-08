@@ -15,6 +15,23 @@
 
 ## 今日原题
 
+第二题：[以下代码输出什么，为什么？](https://github.com/KieSun/fucking-frontend/issues/2)，这道题目是第一题的进阶版本，更有趣了。
+
+```js
+try {
+    let a = 0
+    ;(async function() {
+        a += 1
+        console.log('inner', a)
+        throw new Error('123')
+        // a()
+    })()
+    console.log('outer', a)
+} catch(e) {
+    console.warn('Error', e)
+}
+```
+
 第一题：[以下代码输出什么，为什么？](https://github.com/KieSun/fucking-frontend/issues/1)。
 
 ```js
