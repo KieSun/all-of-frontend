@@ -23,7 +23,28 @@
 
 ### 今日原题
 
+第三题：[请按照用例实现代码](https://github.com/KieSun/fucking-frontend/issues/3)
+
+```js
+// 请使用原生代码实现一个Events模块，可以实现自定义事件的订阅、触发、移除功能
+const fn1 = (... args)=>console.log('I want sleep1', ... args)
+const fn2 = (... args)=>console.log('I want sleep2', ... args)
+const event = new Events();
+event.on('sleep', fn1, 1, 2, 3);
+event.on('sleep', fn2, 1, 2, 3);
+event.fire('sleep', 4, 5, 6);
+// I want sleep1 1 2 3 4 5 6
+// I want sleep2 1 2 3 4 5 6
+event.off('sleep', fn1);
+event.once('sleep', () => console.log('I want sleep'));
+// I want sleep
+event.fire('sleep');
+// I want sleep2 1 2 3
+```
+
 第二题：[以下代码输出什么，为什么？](https://github.com/KieSun/fucking-frontend/issues/2)，这道题目是第一题的进阶版本，更有趣了。
+
+<details>
 
 ```js
 try {
@@ -39,8 +60,13 @@ try {
     console.warn('Error', e)
 }
 ```
+[答案](./Answer/1%20~%2010/2.md)
+
+</details>
 
 第一题：[以下代码输出什么，为什么？](https://github.com/KieSun/fucking-frontend/issues/1)
+
+<details>
 
 ```js
 try {
@@ -51,6 +77,8 @@ try {
 ```
 
 [答案](./Answer/1%20~%2010/1.md)
+
+</details>
 
 ## 前端十五万字面试资料
 
