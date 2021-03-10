@@ -37,10 +37,16 @@ event.fire('sleep', 4, 5, 6);
 // I want sleep2 1 2 3 4 5 6
 event.off('sleep', fn1);
 event.once('sleep', () => console.log('I want sleep'));
+event.fire('sleep');
+// I want sleep2 1 2 3
 // I want sleep
 event.fire('sleep');
 // I want sleep2 1 2 3
 ```
+
+发现题目有点问题，改动了一下
+
+新建了一个大厂真题每日打卡群，有意愿学习打卡的再进，[打开这个二维码](https://yck-1254263422.cos.ap-shanghai.myqcloud.com/2021/03/09/16152484585655.jpg)。
 
 第二题：[以下代码输出什么，为什么？](https://github.com/KieSun/fucking-frontend/issues/2)，这道题目是第一题的进阶版本，更有趣了。
 
