@@ -23,7 +23,15 @@
 
 ### 今日原题
 
+第四题：[Promise 并发控制](https://github.com/KieSun/fucking-frontend/issues/5)
+
+页面上有三个按钮，分别为 A、B、C，点击各个按钮都会发送异步请求且互不影响，每次请求回来的数据都为按钮的名字。
+
+请实现当用户依次点击 A、B、C、A、C、B 的时候，最终获取的数据为 ABCACB。
+
 第三题：[请按照用例实现代码](https://github.com/KieSun/fucking-frontend/issues/3)
+
+<details>
 
 ```js
 // 请使用原生代码实现一个Events模块，可以实现自定义事件的订阅、触发、移除功能
@@ -44,9 +52,9 @@ event.fire('sleep');
 // I want sleep2 1 2 3
 ```
 
-发现题目有点问题，改动了一下
+[答案](./Answer/1%20~%2010/3.md)
 
-新建了一个大厂真题每日打卡群，有意愿学习打卡的再进，[打开这个二维码](https://yck-1254263422.cos.ap-shanghai.myqcloud.com/2021/03/09/16152484585655.jpg)。
+</details>
 
 第二题：[以下代码输出什么，为什么？](https://github.com/KieSun/fucking-frontend/issues/2)，这道题目是第一题的进阶版本，更有趣了。
 
