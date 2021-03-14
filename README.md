@@ -23,7 +23,30 @@
 
 ### 今日原题
 
+第六题：[实现一个 chunk 函数](https://github.com/KieSun/fucking-frontend/issues/8)
+
+```js
+/**
+ * @param input
+ * @param size
+ * @returns {Array}
+ */
+_.chunk(['a', 'b', 'c', 'd'], 2)
+// => [['a', 'b'], ['c', 'd']]
+
+_.chunk(['a', 'b', 'c', 'd'], 3)
+// => [['a', 'b', 'c'], ['d']]
+
+_.chunk(['a', 'b', 'c', 'd'], 5)
+// => [['a', 'b', 'c', 'd']]
+
+_.chunk(['a', 'b', 'c', 'd'], 0)
+// => []
+```
+
 第五题：[Promise.all 错误处理](https://github.com/KieSun/fucking-frontend/issues/6)
+
+<details>
 
 异步请求通过 Promise.all 处理，怎么让其中失败的所有请求重试。
 
@@ -32,6 +55,10 @@ Promise.all([A, B, C, D])
 // 4 个请求完成后发现 AD 请求失败了，如果让 AD 请求重试
 ```
 
+[答案](./Answer/1%20~%2010/5.md)
+
+</details>
+
 第四题：[消息队列](https://github.com/KieSun/fucking-frontend/issues/5)
 
 <details>
@@ -39,6 +66,8 @@ Promise.all([A, B, C, D])
 页面上有三个按钮，分别为 A、B、C，点击各个按钮都会发送异步请求且互不影响，每次请求回来的数据都为按钮的名字。
 
 请实现当用户依次点击 A、B、C、A、C、B 的时候，最终获取的数据为 ABCACB。
+
+[答案](./Answer/1%20~%2010/4.md)
 
 </details>
 
