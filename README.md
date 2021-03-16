@@ -10,9 +10,12 @@
 
 ## 目录
 
-- [每日大厂原题](#每日大厂原题)
-- [前端十五万字面试资料](#前端十五万字面试资料)
-- [各类大厂内推](#各类大厂内推)
+- [干爆前端](#干爆前端)
+  - [目录](#目录)
+  - [每日大厂原题](#每日大厂原题)
+    - [今日原题](#今日原题)
+  - [前端十五万字面试资料](#前端十五万字面试资料)
+  - [各类大厂内推](#各类大厂内推)
 
 
 ## 每日大厂原题
@@ -23,7 +26,40 @@
 
 ### 今日原题
 
+第七题：[数据排重](https://github.com/KieSun/fucking-frontend/issues/11)
+
+```js
+const dedup = (data, getKey = () => {} ) => {
+  // todo
+}
+let data = [
+  { id: 1, v: 1 },
+  { id: 2, v: 2 },
+  { id: 1, v: 2 },
+];
+
+// 以 id 作为排重 key，执行函数得到结果
+// data = [
+//   { id: 1, v: 1 },
+//   { id: 2, v: 2 },
+// ];
+
+let data1 = [
+  { id: 1, v: 1, id1: 1 },
+  { id: 2, v: 2, id1: 2 },
+  { id: 1, v: 2, id1: 1 },
+]
+
+// 以 id 和 id1 作为排重 key，执行函数得到结果
+// data1 = [
+//   { id: 1, v: 1, id1: 1 },
+//   { id: 2, v: 2, id1: 2 },
+// ];
+```
+
 第六题：[实现一个 chunk 函数](https://github.com/KieSun/fucking-frontend/issues/8)
+
+<details>
 
 ```js
 /**
@@ -43,6 +79,8 @@ _.chunk(['a', 'b', 'c', 'd'], 5)
 _.chunk(['a', 'b', 'c', 'd'], 0)
 // => []
 ```
+
+</details>
 
 第五题：[Promise.all 错误处理](https://github.com/KieSun/fucking-frontend/issues/6)
 
