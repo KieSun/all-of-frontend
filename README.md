@@ -26,6 +26,27 @@
 
 ### 今日原题
 
+第九题：[修改嵌套层级很深对象的 key](https://github.com/KieSun/fucking-frontend/issues/14)
+
+```js
+const a = {
+  a_y: {
+    a_z: {
+      y_x: 6
+    },
+    b_c: 1
+  }
+}
+// {
+//   ay: {
+//     az: {
+//       yx: 6
+//     },
+//     bc: 1
+//   }
+// }
+```
+
 第八题：[对一个很长的名字数组，做分片更新名字请求](https://github.com/KieSun/fucking-frontend/issues/13)
 
 ```js
