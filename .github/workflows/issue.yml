@@ -12,5 +12,6 @@ jobs:
         env:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
           ISSUEHOST: ${{ secrets.ISSUEHOST }}
-        run: yarn
-        run: node ./script/issue.js
+        run: |
+          yarn
+          node ./script/issue.js
