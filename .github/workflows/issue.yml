@@ -11,5 +11,5 @@ jobs:
       - name: Dump GitHub context
         env:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
-          ISSUEHOST: ${{ secrets.ISSUE }}
+          ISSUEHOST: ${{ secrets.ISSUEHOST }}
         run: node ./script/issue.js
