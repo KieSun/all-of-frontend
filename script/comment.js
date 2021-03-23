@@ -1,6 +1,9 @@
 const axios = require("axios");
 const {
-  event: { comment },
+  event: {
+    comment,
+    issue: { number },
+  },
 } = JSON.parse(process.env.GITHUB_CONTEXT);
 const {
   body,
@@ -8,7 +11,6 @@ const {
   html_url,
   id,
   user: { avatar_url, login },
-  issue: { number },
 } = comment;
 const host = process.env.COMMENTHOST;
 
