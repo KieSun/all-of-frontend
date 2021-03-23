@@ -1,24 +1,23 @@
 const axios = require("axios");
 const {
-  event: { issue, action },
+  event: { comment },
 } = JSON.parse(process.env.GITHUB_CONTEXT);
-const { author_association, body, title, number } = issue;
-const host = process.env.ISSUEHOST;
+const {
+  body,
+  updated_at,
+  html_url,
+  id,
+  user: { avatar_url, login },
+  issue: { number },
+} = comment;
+const host = process.env.COMMENTHOST;
 
-console.log(JSON.parse(process.env.GITHUB_CONTEXT););
-
-// if (author_association === "OWNER") {
-//   if (action === "edited") {
-//     axios.put(host, {
-//       name: title,
-//       issueId: number,
-//       content: body,
-//     });
-//   } else if (action === "opened") {
-//     axios.post(host, {
-//       name: title,
-//       issueId: number,
-//       content: body,
-//     });
-//   }
-// }
+axios.post(host, {
+  issueId: number,
+  commentId: id,
+  htmlUrl: html_url,
+  userName: login,
+  avatarUrl: avatar_url,
+  content: body,
+  updatedAt: updated_at,
+});
