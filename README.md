@@ -28,11 +28,11 @@
 
 ### 今日原题
 
-[第十三题：有没有做过什么困难的项目？](https://github.com/KieSun/fucking-frontend/issues/18)：
+[第十四题：JS 类型](https://github.com/KieSun/fucking-frontend/issues/19)
 
-今天来做一道其实算是很常见的泛技术问题：有没有做过什么困难的项目？
+请问 JS 基本类型和对象类型中各有哪些类型？
 
-对于这个问题大家会如何作答？
+对于这些类型我们如何判断具体的类型。比如数组是对象类型，可以通过 `Array.isArray` 等方法判断是数组。
 
 ## 前端十五万字面试资料
 
