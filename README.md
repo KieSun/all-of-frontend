@@ -28,11 +28,18 @@
 
 ### 今日原题
 
-[第十四题：JS 类型](https://github.com/KieSun/fucking-frontend/issues/19)
+[第十七题：以下代码输出什么？为什么？](https://github.com/KieSun/fucking-frontend/issues/22)
 
-请问 JS 基本类型和对象类型中各有哪些类型？
-
-对于这些类型我们如何判断具体的类型。比如数组是对象类型，可以通过 `Array.isArray` 等方法判断是数组。
+```js
+var a = 0
+var b = async () => {
+  a = a + await 10
+  console.log('2', a) // -> ？
+}
+b()
+a++
+console.log('1', a) // -> ？
+```
 
 ## 前端十五万字面试资料
 
