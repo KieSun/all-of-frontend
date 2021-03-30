@@ -28,18 +28,7 @@
 
 ### 今日原题
 
-[第十七题：以下代码输出什么？为什么？](https://github.com/KieSun/fucking-frontend/issues/22)
-
-```js
-var a = 0
-var b = async () => {
-  a = a + await 10
-  console.log('2', a) // -> ？
-}
-b()
-a++
-console.log('1', a) // -> ？
-```
+[第十八题：请实现 Promise.all](https://github.com/KieSun/fucking-frontend/issues/23)
 
 ## 前端十五万字面试资料
 
