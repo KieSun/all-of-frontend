@@ -28,7 +28,7 @@
 
 ### 今日原题
 
-[第十八题：请实现 Promise.all](https://github.com/KieSun/fucking-frontend/issues/23)
+[第十九题：JS 中的数据存放位置](https://github.com/KieSun/fucking-frontend/issues/24)
 
 ## 前端十五万字面试资料
 
