@@ -28,7 +28,7 @@
 
 ### 今日原题
 
-[第十九题：JS 中的数据存放位置](https://github.com/KieSun/fucking-frontend/issues/24)
+[第十九题：JS 中的数据存放位置](https://github.com/KieSun/fucking-frontend/issues/25)
 
 ## 前端十五万字面试资料
 
