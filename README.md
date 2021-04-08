@@ -28,7 +28,7 @@
 
 ### 今日原题
 
-[第二十二题：0.1 + 0.2 !== 0.3](https://github.com/KieSun/fucking-frontend/issues/28)
+[第二十三题：普通函数和箭头函数的区别是什么？](https://github.com/KieSun/fucking-frontend/issues/29)
 
 ## 前端十五万字面试资料
 
