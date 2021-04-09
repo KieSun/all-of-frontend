@@ -28,7 +28,7 @@
 
 ### 今日原题
 
-[第二十三题：普通函数和箭头函数的区别是什么？](https://github.com/KieSun/fucking-frontend/issues/29)
+[第二十四题：Babel 会将箭头函数编译成什么？](https://github.com/KieSun/fucking-frontend/issues/30)
 
 ## 前端十五万字面试资料
 
