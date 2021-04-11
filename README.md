@@ -28,7 +28,7 @@
 
 ### 今日原题
 
-[第二十四题：Babel 会将箭头函数编译成什么？](https://github.com/KieSun/fucking-frontend/issues/30)
+[第二十五题：三问闭包](https://github.com/KieSun/fucking-frontend/issues/31)
 
 ## 前端十五万字面试资料
 
