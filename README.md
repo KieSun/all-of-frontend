@@ -27,6 +27,8 @@
 
 ## 前端工程化文章
 
+- [这才是你需要了解的性能优化呀！](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247489161&amp;idx=1&amp;sn=f029ea01370364f49fe61451b2d247ff)
+- [绝了，没想到一个 source map 居然涉及到那么多知识盲区](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488867&amp;idx=1&amp;sn=cac0ae95c560cca820658a8c3af3f8e5)
 - [揭秘自动化部署系统的核心原理](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488166&amp;idx=1&amp;sn=f62669f6c9331c95badbef2815a8d1b5)
 - [你知道 monorepo 居然有那么多坑么？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488604&amp;idx=1&amp;sn=6ded0f2ddaedb71bd5d12890cf462726)
 - [从零打造性能检测库](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247487811&amp;idx=2&amp;sn=40d02e839fb5400c5b82858d422fb738)
@@ -38,6 +40,8 @@
 
 ## 前端进阶文章
 
+- [这些 JS 新语法有点东西啊！](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247489249&amp;idx=1&amp;sn=9a3cedafd021afe8ed3ef81bcd0583c2)
+- [这个 React 小细节居然很多人都写错了？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247489054&amp;idx=1&amp;sn=f025d5dfd81656e5cffd7eb598b0954b)
 - [反直觉！大部分人并不知道浏览器到底是如何下载资源的](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488074&amp;idx=1&amp;sn=21dc9b18cf52d875dec5dc38b34900fe)
 - [好家伙，这些写 CSS 的新姿势你还不知道？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488007&amp;idx=1&amp;sn=8578ba4a4278de3286feeb18535c75a2)
 - [这个异步问题你肯定遇到过，但是会解决的并不多](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247487988&amp;idx=1&amp;sn=6b56888236e0cc8b59e7bf63ff882a21)
