@@ -56,7 +56,51 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 - [ ] 文档：
   - [ ] [JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+### 类型判断
 
+类型判断有好几种方式，分别为：
+
+- `typeof`
+- `instanceof`
+- `Object.prototype.toString`
+- `isXXX`，比如 `isArray`
+
+- [ ] 文档
+  - [ ] [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+  - [ ] [instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+  - [ ] [Object.prototype.toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString#using_tostring_to_detect_object_class)
+- [ ] 推荐文章，Issue 也挺重要
+  - [ ] [JavaScript专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
+  - [ ] [JavaScript专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
+
+### 类型转换
+
+类型转换算是 JS 中情况繁杂且容易出错，但是开发中还经常会遇到的知识点。强行全部记忆容易遗忘，推荐记忆及练习开发中的常见情况。
+
+- [ ] 文档
+  - [ ] [ES 标准](https://tc39.es/ecma262/#sec-abstract-operations)
+    - 标准并不好读，如果读者英文水平欠佳，可以只阅读该小节内的表格内容。
+  - [ ] [双等判断](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
+- [ ] 推荐文章
+  - [ ] [You Don't Know JS 书中关于类型转换的一章节](https://github.com/weiqinl/You-Dont-Know-JS-CN/blob/master/types%20%26%20grammar/ch4.md)
+  - [ ] [几种基本类型简单的类型转换](https://zh.javascript.info/type-conversions)
+  - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
+  - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
+
+> 务必自己总结规则！
+
+### this
+
+`this` 算是不少初学者容易搞混的一个知识点，但是它很重要，务必掌握。
+
+- [ ] 文档
+  - [ ] [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+- [ ] 推荐文章
+  - [ ] [You Don't Know JS 书中关于 this 的第一章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch1.md)
+  - [ ] [You Don't Know JS 书中关于 this 的第二章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch2.md)
+  - [ ] [深入理解 js this 绑定 ( 无需死记硬背，尾部有总结和面试题解析 )](https://segmentfault.com/a/1190000011194676)
+ 
+> 务必自己总结规则！
 
 ## 跨端框架
 
