@@ -70,9 +70,18 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
   - [ ] [instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
   - [ ] [Object.prototype.toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString#using_tostring_to_detect_object_class)
-- [ ] 推荐文章
+- [ ] 推荐文章，Issue 也挺重要
   - [ ] [JavaScript专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
   - [ ] [JavaScript专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
+
+### 类型转换
+
+类型转换算是 JS 中情况繁杂且容易出错，但是开发中还经常会遇到的知识点。强行全部记忆容易遗忘，推荐记忆及练习开发中的常见情况。
+
+- [ ] 文档
+  - [  ] [双等判断](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
+- [ ] 推荐文章
+  - [ ] [You Don't Know JS 书中关于类型转换的一章节](https://github.com/weiqinl/You-Dont-Know-JS-CN/blob/master/types%20%26%20grammar/ch4.md)
   
 ## 十五万字面试资料
 
