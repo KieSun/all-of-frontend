@@ -87,7 +87,22 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [几种基本类型简单的类型转换](https://zh.javascript.info/type-conversions)
   - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
   - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
-  
+
+> 务必自己总结规则！
+
+### this
+
+`this` 算是不少初学者容易搞混的一个知识点，但是它很重要，务必掌握。
+
+- [ ] 文档
+  - [ ] [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+- [ ] 推荐文章
+  - [ ] [You Don't Know JS 书中关于 this 的第一章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch1.md)
+  - [ ] [You Don't Know JS 书中关于 this 的第二章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch2.md)
+  - [ ] [深入理解 js this 绑定 ( 无需死记硬背，尾部有总结和面试题解析 )](https://segmentfault.com/a/1190000011194676)
+ 
+> 务必自己总结规则！
+
 ## 十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
