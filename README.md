@@ -57,6 +57,19 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 文档：
   - [ ] [JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
+
+## 跨端框架
+
+跨端的最主要的含义就是一套代码多端运行，减少重复劳动
+
+目前看来，国内比较流行的是`小程序, H5, app`三端跨的框架， uniapp跟taro是其中做的比较出彩的两个框架，当然在taro3.0之前（以下主要是说小程序），taro跟uniapp都是使用编译时做更多的事情，编译成小程序能够运行的代码
+
+而在taro3.0之后，与remax的相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容
+
+- [ ] [awesome-remax](https://github.com/remaxjs/awesome-remax)
+- [ ] [美团自研react跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
+- [ ] [京东taro](https://juejin.cn/post/6844904036743774216)
+
 ## 十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
