@@ -79,9 +79,14 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 类型转换算是 JS 中情况繁杂且容易出错，但是开发中还经常会遇到的知识点。强行全部记忆容易遗忘，推荐记忆及练习开发中的常见情况。
 
 - [ ] 文档
+  - [ ] [ES 标准](https://tc39.es/ecma262/#sec-abstract-operations)
+    - 标准并不好读，如果读者英文水平欠佳，可以只阅读该小节内的表格内容。
   - [ ] [双等判断](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
 - [ ] 推荐文章
   - [ ] [You Don't Know JS 书中关于类型转换的一章节](https://github.com/weiqinl/You-Dont-Know-JS-CN/blob/master/types%20%26%20grammar/ch4.md)
+  - [ ] [几种基本类型简单的类型转换](https://zh.javascript.info/type-conversions)
+  - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
+  - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
   
 ## 十五万字面试资料
 
