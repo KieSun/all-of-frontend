@@ -82,7 +82,17 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [双等判断](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Equality)
 - [ ] 推荐文章
   - [ ] [You Don't Know JS 书中关于类型转换的一章节](https://github.com/weiqinl/You-Dont-Know-JS-CN/blob/master/types%20%26%20grammar/ch4.md)
-  
+
+### 事件循环
+
+我们都知道，javascript是一门单线程的非阻塞的脚本语言。也就意味着，代码在执行的任何时候，只有一个主线程来处理所有的任务。所以弄懂事件循环机制对我们学习javascript至关重要。
+
+- [ ] 文档
+  - [ ] [事件循环](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/EventLoop)
+- [ ] 推荐文章
+  - [ ] [这一次，彻底弄懂 JavaScript 执行机制](https://juejin.cn/post/6844903512845860872)
+  - [ ] [JavaScript中的Event Loop（事件循环）机制](https://segmentfault.com/a/1190000022805523)
+
 ## 十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
