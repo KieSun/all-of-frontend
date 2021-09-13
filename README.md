@@ -1,5 +1,5 @@
 <p align='center'>
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=KieSun.awesome-frontend-source-interpretation" alt="visitor badge"/>  
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=KieSun.fucking-frontend" alt="visitor badge"/>  
 </p>
 
 干爆前端。一网打尽前端学习、进阶、面试等各类内容，帮助大家一年内拿到期望的 offer！大家可以关注【[公众号](#个人信息)】获取最新内容或者加我【[微信](#个人信息)】提意见（别忘了点个 Star 咯）。
