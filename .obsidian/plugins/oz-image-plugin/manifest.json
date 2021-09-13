@@ -1,0 +1,10 @@
+{
+	"id": "oz-image-plugin",
+	"name": "Ozan's Image in Editor Plugin",
+	"version": "1.3.0",
+	"minAppVersion": "0.12.3",
+	"description": "You can view images inside of the Editor as soon as you paste without a necessity to preview the note.",
+	"author": "Ozan Tellioglu",
+	"authorUrl": "https://ozan.pl/aboutme/",
+	"isDesktopOnly": true
+}

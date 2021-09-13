@@ -57,6 +57,23 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 文档：
   - [ ] [JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
+### 类型判断
+
+类型判断有好几种方式，分别为：
+
+- `typeof`
+- `instanceof`
+- `Object.prototype.toString`
+- `isXXX`，比如 `isArray`
+
+- [ ] 文档
+  - [ ] [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)
+  - [ ] [instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
+  - [ ] [Object.prototype.toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString#using_tostring_to_detect_object_class)
+- [ ] 推荐文章
+  - [ ] [JavaScript专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
+  - [ ] [JavaScript专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
+  
 ## 十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
