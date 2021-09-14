@@ -56,7 +56,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 - [ ] 文档：
   - [ ] [JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
-
 ### 类型判断
 
 类型判断有好几种方式，分别为：
@@ -88,6 +87,30 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
   - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
 
+> 务必自己总结规则！
+
+### this
+
+`this` 算是不少初学者容易搞混的一个知识点，但是它很重要，务必掌握。
+
+- [ ] 文档
+  - [ ] [this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+- [ ] 推荐文章
+  - [ ] [You Don't Know JS 书中关于 this 的第一章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch1.md)
+  - [ ] [You Don't Know JS 书中关于 this 的第二章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch2.md)
+  - [ ] [深入理解 js this 绑定 ( 无需死记硬背，尾部有总结和面试题解析 )](https://segmentfault.com/a/1190000011194676)
+ 
+> 务必自己总结规则！
+
+### 闭包
+
+- [ ] 文档
+  - [ ] [闭包](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [ ] 推荐文章
+  - [ ] [You Don't Know JS 第二版中对于闭包的解释](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch7.md)，该版本暂无中文翻译，读者可用 [DeepL](https://www.deepl.com/translator) 进行翻译。
+  - [ ] [JavaScript 的静态作用域链与“动态”闭包链](https://juejin.cn/post/6957913856488243237)
+  - [ ] [知乎中关于闭包的讨论](https://www.zhihu.com/question/34210214)
+  
 ### 作用域
 
 作用域是指程序中定义变量的区域，他决定了变量的生命周期，也就是变量和函数可访问的范围。
@@ -101,6 +124,18 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [Variable scope, closure](https://javascript.info/closure)
   - [ ] [You Don't Know JS Yet: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures)
   - [ ] [The battle between function scope and block scope](https://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/)
+
+## 跨端框架
+
+跨端的最主要的含义就是一套代码多端运行，减少重复劳动
+
+目前看来，国内比较流行的是`小程序, H5, app`三端跨的框架， uniapp跟taro是其中做的比较出彩的两个框架，当然在taro3.0之前（以下主要是说小程序），taro跟uniapp都是使用编译时做更多的事情，编译成小程序能够运行的代码
+
+而在taro3.0之后，与remax的相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容
+
+- [ ] [awesome-remax](https://github.com/remaxjs/awesome-remax)
+- [ ] [美团自研react跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
+- [ ] [京东taro](https://juejin.cn/post/6844904036743774216)
 
 ## 十五万字面试资料
 
