@@ -153,14 +153,15 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 ### 继承
 
-继承是面向对象语言（Object-Oriented Language）三大特征之一，在JS中也占有非常重要的地位。而想要实现继承有多种方式，它们都有各自的优缺点。
+继承是面向对象语言（Object-Oriented Language）三大特征之一，在 JS 中也占有非常重要的地位。而想要实现继承有多种方式，它们都有各自的优缺点。
 
 - [ ] 文档
   - [ ] [继承](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 - [ ] 推荐文章
-  - [ ] [Javascript继承机制的设计思想](https://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
-  - [ ] [JavaScript深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
-  - [ ] [JS原型链与继承别再被问倒了](https://juejin.cn/post/6844903475021627400)
+  - [ ] [Javascript 继承机制的设计思想](https://www.ruanyifeng.com/blog/2011/06/designing_ideas_of_inheritance_mechanism_in_javascript.html)
+  - [ ] [JavaScript 深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
+  - [ ] [JS 原型链与继承别再被问倒了](https://juejin.cn/post/6844903475021627400)
+
 ## 跨端框架
 
 跨端的最主要的含义就是一套代码多端运行，减少重复劳动
