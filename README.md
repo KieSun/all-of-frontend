@@ -22,6 +22,7 @@
 当然除了前端学习路径，笔者还提供了热门技术原理解析、工程化体系学习、Github 上的优秀资料等内容供大家自行选择，读者们可以挑选感兴趣的内容自行学习。
 
 ## 目录
+
 - [学习路径](#学习路径)
   - [前端核心知识点](#前端核心知识点)
 - [十五万字面试资料](#十五万字面试资料)
@@ -45,8 +46,8 @@
 
 如果你还是一位初学者，推荐先自行完整阅读一至二本书后再按照该计划学习。关于书籍笔者推荐以下两本：
 
-- [JavaScript高级程序设计（第4版）](https://book.douban.com/subject/35175321/)
-- [JavaScript忍者秘籍（第2版）](https://book.douban.com/subject/30143702/)
+- [JavaScript 高级程序设计（第 4 版）](https://book.douban.com/subject/35175321/)
+- [JavaScript 忍者秘籍（第 2 版）](https://book.douban.com/subject/30143702/)
 
 ## JS
 
@@ -56,6 +57,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 - [ ] 文档：
   - [ ] [JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
+
 ### 类型判断
 
 类型判断有好几种方式，分别为：
@@ -70,8 +72,8 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [instanceof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof)
   - [ ] [Object.prototype.toString](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString#using_tostring_to_detect_object_class)
 - [ ] 推荐文章，Issue 也挺重要
-  - [ ] [JavaScript专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
-  - [ ] [JavaScript专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
+  - [ ] [JavaScript 专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
+  - [ ] [JavaScript 专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
 
 ### 类型转换
 
@@ -99,7 +101,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [You Don't Know JS 书中关于 this 的第一章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch1.md)
   - [ ] [You Don't Know JS 书中关于 this 的第二章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch2.md)
   - [ ] [深入理解 js this 绑定 ( 无需死记硬背，尾部有总结和面试题解析 )](https://segmentfault.com/a/1190000011194676)
- 
+
 > 务必自己总结规则！
 
 ### 闭包
@@ -115,29 +117,56 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 跨端的最主要的含义就是一套代码多端运行，减少重复劳动
 
-目前看来，国内比较流行的是`小程序, H5, app`三端跨的框架， uniapp跟taro是其中做的比较出彩的两个框架，当然在taro3.0之前（以下主要是说小程序），taro跟uniapp都是使用编译时做更多的事情，编译成小程序能够运行的代码
+目前看来，国内比较流行的是`小程序, H5, app`三端跨的框架， uniapp 跟 taro 是其中做的比较出彩的两个框架，当然在 taro3.0 之前（以下主要是说小程序），taro 跟 uniapp 都是使用编译时做更多的事情，编译成小程序能够运行的代码
 
-而在taro3.0之后，与remax的相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容
+而在 taro3.0 之后，与 remax 的相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容
 
 - [ ] [awesome-remax](https://github.com/remaxjs/awesome-remax)
-- [ ] [美团自研react跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
-- [ ] [京东taro](https://juejin.cn/post/6844904036743774216)
+- [ ] [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
+- [ ] [京东 taro](https://juejin.cn/post/6844904036743774216)
+
+## 微前端
+
+是一种类似于微服务的架构，它将微服务的理念应用于浏览器端，即将单页面前端应用由单一的单体应用转变为多个小型前端应用聚合为一的应用。
+
+优势：
+
+- 代码库更小，更内聚、可维护性更高
+- 松耦合、自治的团队可扩展性更好
+- 渐进地升级、更新甚至重写部分前端功能成为了可能
+- 独立开发部署，缩小变更范围，进而降低相关风险
+
+推荐文章：
+
+- [single-spa](https://single-spa.js.org/)
+- [蚂蚁-乾坤](https://github.com/umijs/qiankun)
+- [淘系-icestark](https://github.com/ice-lab/icestark)
+- [字节-Garfish](https://github.com/modern-js-dev/garfish)
+- [京东-micro-app](https://github.com/micro-zoe/micro-app)
+- [Bit](https://bit.dev)
+- [从零到一实现企业级微前端框架，保姆级教学](https://juejin.cn/post/7004661323124441102)
+- [What Are Micro Frontends?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-4/)
+- [Bifrost 微前端框架及其在美团闪购中的实践](https://tech.meituan.com/2019/12/26/meituan-bifrost.html)
+- [每日优鲜供应链前端团队微前端改造](https://juejin.cn/post/6844903943873675271)
+- [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
+- [How We Build Micro Frontends](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
+- [Revolutionizing Micro Frontends with Webpack 5, Module Federation and Bit](https://blog.bitsrc.io/revolutionizing-micro-frontends-with-webpack-5-module-federation-and-bit-99ff81ceb0)
 
 ## 十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
 
 - [解决 90% 的大厂基础面试题](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488553&idx=1&sn=62d8a99b5554751221b45b3c411ad325)
-- [解决 90% 的大厂前端网络面试题](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488796&amp;idx=1&amp;sn=dec4fdb3e596ad87b02419f69c174113)
+- [解决 90% 的大厂前端网络面试题](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488796&idx=1&sn=dec4fdb3e596ad87b02419f69c174113)
 
 ## 前端工程化文章
 
-- [这才是你需要了解的性能优化呀！](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247489161&amp;idx=1&amp;sn=f029ea01370364f49fe61451b2d247ff)
-- [绝了，没想到一个 source map 居然涉及到那么多知识盲区](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488867&amp;idx=1&amp;sn=cac0ae95c560cca820658a8c3af3f8e5)
-- [揭秘自动化部署系统的核心原理](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488166&amp;idx=1&amp;sn=f62669f6c9331c95badbef2815a8d1b5)
-- [你知道 monorepo 居然有那么多坑么？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488604&amp;idx=1&amp;sn=6ded0f2ddaedb71bd5d12890cf462726)
-- [从零打造性能检测库](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247487811&amp;idx=2&amp;sn=40d02e839fb5400c5b82858d422fb738)
-- [还在看那些老掉牙的性能优化文章么？这些最新性能指标了解下](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247486142&amp;idx=1&amp;sn=b75b87a109c28cc6c32046d0fb234aab)
+- [这才是你需要了解的性能优化呀！](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247489161&idx=1&sn=f029ea01370364f49fe61451b2d247ff)
+- [绝了，没想到一个 source map 居然涉及到那么多知识盲区](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488867&idx=1&sn=cac0ae95c560cca820658a8c3af3f8e5)
+- [揭秘自动化部署系统的核心原理](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488166&idx=1&sn=f62669f6c9331c95badbef2815a8d1b5)
+- [你知道 monorepo 居然有那么多坑么？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488604&idx=1&sn=6ded0f2ddaedb71bd5d12890cf462726)
+- [从零打造性能检测库](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247487811&idx=2&sn=40d02e839fb5400c5b82858d422fb738)
+- [还在看那些老掉牙的性能优化文章么？这些最新性能指标了解下](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247486142&idx=1&sn=b75b87a109c28cc6c32046d0fb234aab)
 
 ## React 原理
 
@@ -145,18 +174,17 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 ## 前端进阶文章
 
-- [这些 JS 新语法有点东西啊！](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247489249&amp;idx=1&amp;sn=9a3cedafd021afe8ed3ef81bcd0583c2)
-- [这个 React 小细节居然很多人都写错了？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247489054&amp;idx=1&amp;sn=f025d5dfd81656e5cffd7eb598b0954b)
-- [反直觉！大部分人并不知道浏览器到底是如何下载资源的](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488074&amp;idx=1&amp;sn=21dc9b18cf52d875dec5dc38b34900fe)
-- [好家伙，这些写 CSS 的新姿势你还不知道？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247488007&amp;idx=1&amp;sn=8578ba4a4278de3286feeb18535c75a2)
-- [这个异步问题你肯定遇到过，但是会解决的并不多](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247487988&amp;idx=1&amp;sn=6b56888236e0cc8b59e7bf63ff882a21)
-- [前端前沿观察，Cookie 居然可以这样整了](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247486890&amp;idx=1&amp;sn=3f92d1290e62549731b9d840aed68cc9)
-- [Promise 你可能真的还没用明白（续集进阶版）](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&amp;mid=2247486584&amp;idx=1&amp;sn=26c5d27b34cc98f952715581b8c74027)
+- [这些 JS 新语法有点东西啊！](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247489249&idx=1&sn=9a3cedafd021afe8ed3ef81bcd0583c2)
+- [这个 React 小细节居然很多人都写错了？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247489054&idx=1&sn=f025d5dfd81656e5cffd7eb598b0954b)
+- [反直觉！大部分人并不知道浏览器到底是如何下载资源的](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488074&idx=1&sn=21dc9b18cf52d875dec5dc38b34900fe)
+- [好家伙，这些写 CSS 的新姿势你还不知道？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488007&idx=1&sn=8578ba4a4278de3286feeb18535c75a2)
+- [这个异步问题你肯定遇到过，但是会解决的并不多](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247487988&idx=1&sn=6b56888236e0cc8b59e7bf63ff882a21)
+- [前端前沿观察，Cookie 居然可以这样整了](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247486890&idx=1&sn=3f92d1290e62549731b9d840aed68cc9)
+- [Promise 你可能真的还没用明白（续集进阶版）](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247486584&idx=1&sn=26c5d27b34cc98f952715581b8c74027)
 
 ## 更多文章
 
 因为笔者文章实在太多，足足已经写了 150 篇+ 原创，更多文章欢迎大家到【[公众号](#个人信息)】里阅读。
-
 
 ## 个人信息
 
