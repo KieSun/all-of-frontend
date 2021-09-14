@@ -1,4 +1,7 @@
 <p align='center'>
+  <img alt="Commit" src="https://img.shields.io/github/commit-activity/w/KieSun/fucking-frontend" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/KieSun/fucking-frontend?style=plastic" />
+  <img alt="Forks" src="https://img.shields.io/github/forks/KieSun/fucking-frontend?style=plastic" />
   <img alt="GitHub" src="https://img.shields.io/github/license/KieSun/fucking-frontend">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=KieSun.fucking-frontend" alt="visitor badge"/>  
 </p>
