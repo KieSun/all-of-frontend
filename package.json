@@ -1,0 +1,24 @@
+{
+  "name": "fucking-frontend",
+  "version": "1.0.0",
+  "description": "仓库内容分为以下几块：",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KieSun/fucking-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KieSun/fucking-frontend/issues"
+  },
+  "homepage": "https://github.com/KieSun/fucking-frontend#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "gitment": "^0.0.3"
+  }
+}

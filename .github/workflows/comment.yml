@@ -1,0 +1,17 @@
+on:
+  issue_comment:
+    types: [created, edited]
+
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Dump GitHub context
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
+          COMMENTHOST: ${{ secrets.COMMENTHOST }}
+        run: |
+          yarn
+          node ./script/comment.js
