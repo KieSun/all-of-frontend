@@ -153,7 +153,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 ### 继承
 
-继承是面向对象语言（Object-Oriented Language）三大特征之一，在JS中也占有非常重要的地位。而想要实现继承有多种方式，它们都有各自的优缺点。
+继承是面向对象语言（Object-Oriented Language）三大特征之一，在 JS 中也占有非常重要的地位。而想要实现继承有多种方式，它们都有各自的优缺点。
 
 - [ ] 文档
   - [ ] [继承](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
