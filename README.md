@@ -89,17 +89,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 推荐文章
   - [ ] [You Don't Know JS 书中关于类型转换的一章节](https://github.com/weiqinl/You-Dont-Know-JS-CN/blob/master/types%20%26%20grammar/ch4.md)
 
-### Class(类)
-
-ES6 提供了更接近面向对象（javascript 本质上是基于对象的语言）语言的写法，引入了 Class（类）这个概念，作为对象的模板。通过 class 关键字，可以定义类。 基本上，ES6 的 class 可以看作只是一个语法糖，它的绝大部分功能，ES5 都可以做到，新的 class 写法只是让对象原型的写法更加清晰、更像面向对象编程的语法而已
-
-- [ ] 文档
-  - [ ] [Class](https://developer.mozilla.org/en-US/docs/Glossary/Class)
-- [ ] 推荐文章
-  - [ ] [理解 JavaScript 的类](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
-  - [ ] [Babel 是如何编译 Class 上](https://github.com/mqyqingfeng/Blog/issues/105)
-  - [ ] [Babel 是如何编译 Class 下](https://github.com/mqyqingfeng/Blog/issues/106)
-
 ### this
 
 `this` 算是不少初学者容易搞混的一个知识点，但是它很重要，务必掌握。
@@ -145,6 +134,19 @@ ES6 提供了更接近面向对象（javascript 本质上是基于对象的语�
 - [ ] 推荐文章
   - [ ] [JS 的 new 到底是干什么的？](https://zhuanlan.zhihu.com/p/23987456)
   - [ ] [JavaScript 深入之 new 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
+
+### Class(类)
+
+`class` 只是原型链的语法糖，与其它语言中的类不是同一样东西。
+
+- [ ] 文档
+  - [ ] [Class](https://developer.mozilla.org/en-US/docs/Glossary/Class)
+- [ ] 推荐文章
+  - [ ] [理解 JavaScript 的类](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
+  - [ ] [Babel 是如何编译 Class 上](https://github.com/mqyqingfeng/Blog/issues/105)
+  - [ ] [Babel 是如何编译 Class 下](https://github.com/mqyqingfeng/Blog/issues/106)
+  - [ ] [给 ES6 class 说句公道话](https://juejin.cn/post/6924108426125508616)
+  - [ ] [应该在JavaScript中使用Class吗？](https://zhuanlan.zhihu.com/p/158956514)
 
 ### 事件循环
 
