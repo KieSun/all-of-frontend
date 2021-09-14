@@ -21,7 +21,7 @@
 
 成功采纳后，如果你面试遇到其他问题，笔者可以提供免费解答服务。
 
-### 变量提升&变量提升
+### 变量提升&函数提升
 
 > 变量提升（Hoisting）被认为是， Javascript中执行上下文 （特别是创建和执行阶段）工作方式的一种认识。例如，从概念的字面意义上说，“变量提升”意味着变量和函数的声明会在物理层面移动到代码的最前面，但这么说并不准确。实际上变量和函数声明在代码里的位置是不会动的，而是在编译阶段被放入内存中。
 
@@ -53,6 +53,14 @@ var Gangster = "我是变量的值";
 console.log(Gangster);  // 我是变量的值
 ```
 
+用 `var` 声明变量时会将声明提升到函数或全局作用域的顶部。但是 `let` 或者 `const`，会将声明放进 TemporalDeadZone，简称 TDZ(暂时性死区)，只有JavaScript执行到当前变量声明这句语句时，才能使用这个变量。
+```js
+console.log(yck) // undefined
+var yck='大佬';
+
+console.log(typeof yck) //ReferenceError
+let yck='大佬';
+```
 - [ ] 文档
   - [ ] [JS 变量提升](https://developer.mozilla.org/zh-CN/docs/Glossary/Hoisting)
 - [ ] 推荐文章
