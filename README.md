@@ -1,3 +1,5 @@
+# Fucking Frontend
+
 <p align='center'>
   <img alt="Commit" src="https://img.shields.io/github/commit-activity/w/KieSun/fucking-frontend" />
   <img alt="Stars" src="https://img.shields.io/github/stars/KieSun/fucking-frontend" />
