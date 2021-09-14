@@ -83,6 +83,15 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 推荐文章
   - [ ] [You Don't Know JS 书中关于类型转换的一章节](https://github.com/weiqinl/You-Dont-Know-JS-CN/blob/master/types%20%26%20grammar/ch4.md)
   
+### Class(类)
+
+ES6提供了更接近面向对象（javascript本质上是基于对象的语言）语言的写法，引入了Class（类）这个概念，作为对象的模板。通过class关键字，可以定义类。 基本上，ES6的class可以看作只是一个语法糖，它的绝大部分功能，ES5都可以做到，新的class写法只是让对象原型的写法更加清晰、更像面向对象编程的语法而已
+
+- [ ] 文档
+  - [ ] [Class](https://developer.mozilla.org/en-US/docs/Glossary/Class)
+- [ ] 推荐文章
+  - [ ] [ECMAScript 6 入门之Class ](https://es6.ruanyifeng.com/#docs/class)
+  - [ ] [详解Class ](https://juejin.cn/post/6844904086089760775#heading-15)
 ## 十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
