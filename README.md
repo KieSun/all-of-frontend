@@ -90,8 +90,9 @@ ES6提供了更接近面向对象（javascript本质上是基于对象的语言�
 - [ ] 文档
   - [ ] [Class](https://developer.mozilla.org/en-US/docs/Glossary/Class)
 - [ ] 推荐文章
-  - [ ] [ECMAScript 6 入门之Class ](https://es6.ruanyifeng.com/#docs/class)
-  - [ ] [详解Class ](https://juejin.cn/post/6844904086089760775#heading-15)
+  - [ ] [理解JavaScript的类](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
+  - [ ] [Babel 是如何编译 Class 上](https://github.com/mqyqingfeng/Blog/issues/105)
+  - [ ] [Babel 是如何编译 Class 下](https://github.com/mqyqingfeng/Blog/issues/106)
 ## 十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
