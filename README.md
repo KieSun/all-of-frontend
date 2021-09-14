@@ -170,7 +170,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 ### 垃圾回收
 
-JavaScrip 在对象被创建时分配内存，并在对象不再使用时“自动”释放内存，这个过程被称为垃圾回收。
+JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动释放内存，这个过程被称为垃圾回收。另外我们主要学习 V8 引擎下的垃圾回收机制。
 
 - [ ] 文档
   - [ ] [内存管理 & 垃圾回收](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
