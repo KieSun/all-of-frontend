@@ -149,9 +149,9 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 而在 taro3.0 之后变成了与 [remax](https://github.com/remaxjs/remax) 相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容。
 
-- [ ] [awesome-remax](https://github.com/remaxjs/awesome-remax)
-- [ ] [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
-- [ ] [京东 taro](https://juejin.cn/post/6844904036743774216)
+- [awesome-remax](https://github.com/remaxjs/awesome-remax)
+- [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
+- [京东 taro](https://juejin.cn/post/6844904036743774216)
 
 ## 微前端
 
