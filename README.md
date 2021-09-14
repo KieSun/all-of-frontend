@@ -102,6 +102,15 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
  
 > 务必自己总结规则！
 
+### 闭包
+
+- [ ] 文档
+  - [ ] [闭包](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+- [ ] 推荐文章
+  - [ ] [You Don't Know JS 第二版中对于闭包的解释](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch7.md)，该版本暂无中文翻译，读者可用 [DeepL](https://www.deepl.com/translator) 进行翻译。
+  - [ ] [JavaScript 的静态作用域链与“动态”闭包链](https://juejin.cn/post/6957913856488243237)
+  - [ ] [知乎中关于闭包的讨论](https://www.zhihu.com/question/34210214)
+
 ## 跨端框架
 
 跨端的最主要的含义就是一套代码多端运行，减少重复劳动
