@@ -26,8 +26,23 @@
 
 ## 目录
 
+- [这是什么？](#这是什么)
+- [如何使用](#如何使用)
+- [目录](#目录)
 - [学习路径](#学习路径)
-  - [前端核心知识点](#前端核心知识点)
+- [前端核心知识点](#前端核心知识点)
+- [JS](#js)
+  - [数据类型](#数据类型)
+  - [类型判断](#类型判断)
+  - [类型转换](#类型转换)
+  - [this](#this)
+  - [闭包](#闭包)
+  - [作用域](#作用域)
+  - [new](#new)
+  - [事件循环](#事件循环)
+  - [垃圾回收](#垃圾回收)
+- [跨端框架](#跨端框架)
+- [微前端](#微前端)
 - [十五万字面试资料](#十五万字面试资料)
 - [前端工程化文章](#前端工程化文章)
 - [React 原理](#react-原理)
@@ -150,6 +165,18 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [几种基本类型简单的类型转换](https://zh.javascript.info/type-conversions)
   - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
   - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
+
+### 垃圾回收
+
+JavaScrip 在对象被创建时分配内存，并在对象不再使用时“自动”释放内存，这个过程被称为垃圾回收。
+
+- [ ] 文档
+  - [ ] [内存管理 & 垃圾回收](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
+- [ ] 推荐文章
+  - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
+  - [ ] [V8 引擎垃圾回收与内存分配](https://juejin.cn/post/6909239354418266119)
+  - [ ] [JavaScript 工作原理：内存管理 + 处理常见的4种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
+
 
 ## 跨端框架
 
