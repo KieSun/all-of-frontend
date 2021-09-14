@@ -125,6 +125,16 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [You Don't Know JS Yet: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures)
   - [ ] [The battle between function scope and block scope](https://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/)
 
+### new
+
+`new` 操作符可以帮助我们构建出一个实例，并且绑定上 `this`。
+
+- [ ] 文档
+  - [ ] [new](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
+- [ ] 推荐文章
+  - [ ] [JS 的 new 到底是干什么的？](https://zhuanlan.zhihu.com/p/23987456) 
+  - [ ] [JavaScript深入之new的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
+
 ### 事件循环
 
 大家都知道 JS 是一门单线程的非阻塞的脚本语言。这也就意味着，代码在执行的任何时候只有一个主线程来处理所有的任务。所以弄懂事件循环机制对我们学习 JS 至关重要。
