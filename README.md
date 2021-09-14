@@ -158,9 +158,10 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 文档
   - [ ] [继承](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
 - [ ] 推荐文章
-  - [ ] [JavaScript深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
+  - [ ] [JavaScript 深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
   - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
-  - [ ] [JS类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
+  - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
+
 ## 跨端框架
 
 跨端的最主要的含义就是一套代码多端运行，减少重复劳动
