@@ -113,11 +113,11 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   
 ### 作用域
 
-作用域是指程序中定义变量的区域，他决定了变量的生命周期，也就是变量和函数可访问的范围。
+作用域是指程序中定义变量的区域，该位置决定了变量的生命周期，也就是变量和函数的可访问范围。
 
 - [ ] 文档
-  - [ ] [作用域](https://developer.mozilla.org/zh-CN/docs/Glossary/Scope)
-  - [ ] [块作用域](https://developer.mozilla.org/zh-CN/docs/Glossary/Block/Scripting)
+  - [ ] [作用域](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+  - [ ] [块作用域](https://developer.mozilla.org/en-US/docs/Glossary/Block/Scripting)
 - [ ] 推荐文章
   - [ ] [JavaScript 深入之词法作用域和动态作用域](https://github.com/mqyqingfeng/Blog/issues/3)
   - [ ] [JavaScript 深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
