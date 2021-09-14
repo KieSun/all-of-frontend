@@ -166,6 +166,21 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
   - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
 
+## React
+
+### 合成事件
+
+React 根据 [W3C规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。这是一个稍微冷门的知识点，但很考验我们是否扎实的掌握了浏览器的事件机制。掌握这个知识点，可以给人眼前一亮的感觉。
+
+- [ ] 文档
+  - [ ] [React官方文档-英文](https://reactjs.org/docs/events.html)
+  - [ ] [React官方文档-中文](https://zh-hans.reactjs.org/docs/events.html)
+- [ ] 推荐文章
+  - [ ] [【React深入】React事件机制](https://mp.weixin.qq.com/s?__biz=Mzg2NDAzMjE5NQ==&mid=2247484039&idx=1&sn=1f657356676d4809633f30668acb50d2&chksm=ce6ec62bf9194f3d8a4eb382bd01c56231908a1b08fb9c2c9783f96df6650ee808fe18343032&scene=178&cur_album_id=1403155327595495424#rd)
+   - [ ] [深入React合成事件机制原理](https://segmentfault.com/a/1190000039108951)
+  - [ ] [深入学习 React 合成事件](https://mp.weixin.qq.com/s/7Y70ozwJHBXON11fBCD9Og)
+  - [ ] [React源码分析6 — React合成事件系统](https://zhuanlan.zhihu.com/p/25883536)
+ 
 ## 跨端框架
 
 跨端的最主要的含义就是一套代码多端运行，减少重复劳动
