@@ -23,33 +23,42 @@
 
 ### 变量提升
 
-- 为什么会出现变量提升？ 因为JavaScript在运行的时候会有 编译和和执行两个过程，在它编译的时候，会对全局进行搜索，所有的变量和函数声明会被移至其作用域的顶部，而其它的语句不会改变它们的顺序，所以在编译阶段，先执行了变量的声明。
-
-- JavaScript 只会提升声明，不会提升其初始化。如果一个变量先被使用再被声明和赋值的话，使用时的值是 undefined
- ```js
-console.log(yck) 输出结果 undefined
-var yck='大佬';
- ```
-
-- 用 `var` 声明变量时会将声明提升到函数或全局作用域的顶部。但是 `let` 或者 `const`，会将声明放进 TemporalDeadZone，简称 TDZ(暂时性死区)，只有JavaScript执行到当前变量声明这句语句时，才能使用这个变量。
-```js
-console.log(typeof yck) ReferenceError
-let yck='大佬';
-```
-```js
-console.log(typeof yck) undefined
-var yck='大佬';
-```
-
 > 变量提升（Hoisting）被认为是， Javascript中执行上下文 （特别是创建和执行阶段）工作方式的一种认识。例如，从概念的字面意义上说，“变量提升”意味着变量和函数的声明会在物理层面移动到代码的最前面，但这么说并不准确。实际上变量和函数声明在代码里的位置是不会动的，而是在编译阶段被放入内存中。
+
+为什么会出现变量提升？ 因为JavaScript在运行的时候会有 编译和和执行两个过程，在它编译的时候，会对全局进行搜索，所有的变量和函数声明会被移至其作用域的顶部，而其它的语句不会改变它们的顺序，所以在编译阶段，先执行了变量的声明。
+
+我们声明一个函数的时候如果在声明函数的前面调用这个函数也是可以执行的，因为这个函数在解析的时候函数声明会被移至其作用域的顶部 。函数提升只提升函数声明，不会提升函数表达式。
+```js
+// 普通函数声明
+console.log(Gangster("yck")) // yck undefined
+function Gangster(name) {
+    console.log(name);
+}
+```
+```js
+// 声明式函数
+console.log(Gangster("yck")) // Gangster is not a function
+var Gangster = function (name) {
+  console.log(name);
+}
+```
+在变量赋值前，函数声明依旧是函数声明,当变量赋值后，函数声明被会被相同名字的变量覆盖，所以说函数提升的优先级大于变量提升
+```js
+function Gangster(){
+    console.log("大佬");
+};
+console.log(Gangster);   // Function: Gangster
+Gangster(); // 大佬
+var Gangster = "我是变量的值";  
+console.log(Gangster);  // 我是变量的值
+```
 
 - [ ] 文档
   - [ ] [JS 变量提升](https://developer.mozilla.org/zh-CN/docs/Glossary/Hoisting)
 - [ ] 推荐文章
-  - [ ] [JavaScript：变量提升&&作用域](https://www.huaweicloud.com/articles/716b97a06ee15d04f34b2d24b46e2bfe.html)
   - [ ] [JavsScript 变量提升和函数提升](https://towind.fun/2021/05/10/js-hoisting/)
   - [ ] [JavaScript的执行上下文](https://www.huaweicloud.com/articles/b0e28ae85a6f6d4e4e28824a94d17b51.html)
-  - [ ] [var，let，const和变量提升](https://www.clloz.com/programming/front-end/js/2020/07/01/variable-hoist/)
+  - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
 
 > 务必自己总结规则！
 
