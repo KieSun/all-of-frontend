@@ -147,7 +147,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - 渐进地升级、更新甚至重写部分前端功能成为了可能
 - 独立开发部署，缩小变更范围，进而降低相关风险
 
-推荐框架：
+框架：
 
 - [single-spa](https://single-spa.js.org/)
 - [蚂蚁-乾坤](https://github.com/umijs/qiankun)
