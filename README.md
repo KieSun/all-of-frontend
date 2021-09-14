@@ -137,6 +137,19 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JS 的 new 到底是干什么的？](https://zhuanlan.zhihu.com/p/23987456)
   - [ ] [JavaScript 深入之 new 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 
+### Class(类)
+
+`class` 只是原型链的语法糖，与其它语言中的类不是同一样东西。
+
+- [ ] 文档
+  - [ ] [Class](https://developer.mozilla.org/en-US/docs/Glossary/Class)
+- [ ] 推荐文章
+  - [ ] [理解 JavaScript 的类](https://www.digitalocean.com/community/tutorials/understanding-classes-in-javascript)
+  - [ ] [Babel 是如何编译 Class 上](https://github.com/mqyqingfeng/Blog/issues/105)
+  - [ ] [Babel 是如何编译 Class 下](https://github.com/mqyqingfeng/Blog/issues/106)
+  - [ ] [给 ES6 class 说句公道话](https://juejin.cn/post/6924108426125508616)
+  - [ ] [应该在JavaScript中使用Class吗？](https://zhuanlan.zhihu.com/p/158956514)
+
 ### 事件循环
 
 大家都知道 JS 是一门单线程的非阻塞的脚本语言。这也就意味着，代码在执行的任何时候只有一个主线程来处理所有的任务。所以弄懂事件循环机制对我们学习 JS 至关重要。
