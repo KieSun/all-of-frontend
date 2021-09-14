@@ -87,7 +87,21 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [几种基本类型简单的类型转换](https://zh.javascript.info/type-conversions)
   - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
   - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
-  
+
+### 作用域
+
+作用域是指程序中定义变量的区域，他决定了变量的生命周期，也就是变量和函数可访问的范围。
+
+- [ ] 文档
+  - [ ] [作用域](https://developer.mozilla.org/zh-CN/docs/Glossary/Scope)
+  - [ ] [块作用域](https://developer.mozilla.org/zh-CN/docs/Glossary/Block/Scripting)
+- [ ] 推荐文章
+  - [ ] [JavaScript 深入之词法作用域和动态作用域](https://github.com/mqyqingfeng/Blog/issues/3)
+  - [ ] [JavaScript 深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
+  - [ ] [Variable scope, closure](https://javascript.info/closure)
+  - [ ] [You Don't Know JS Yet: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures)
+  - [ ] [The battle between function scope and block scope](https://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/)
+
 ## 十五万字面试资料
 
 [在线阅读](https://yuchengkai.cn/home/)
