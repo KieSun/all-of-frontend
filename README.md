@@ -117,7 +117,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 推荐文章
   - [ ] [JavaScript 深入之词法作用域和动态作用域](https://github.com/mqyqingfeng/Blog/issues/3)
   - [ ] [JavaScript 深入之作用域链](https://github.com/mqyqingfeng/Blog/issues/6)
-  - [ ] [Variable scope, closure](https://javascript.info/closure) 另有 [中文翻译版](https://zh.javascript.info/closure)
+  - [ ] [Variable scope, closure](https://javascript.info/closure)，另有 [中文翻译版](https://zh.javascript.info/closure)
   - [ ] [You Don't Know JS Yet: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures)
   - [ ] [The battle between function scope and block scope](https://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/)
   
