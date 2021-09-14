@@ -148,7 +148,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [Babel 是如何编译 Class 上](https://github.com/mqyqingfeng/Blog/issues/105)
   - [ ] [Babel 是如何编译 Class 下](https://github.com/mqyqingfeng/Blog/issues/106)
   - [ ] [给 ES6 class 说句公道话](https://juejin.cn/post/6924108426125508616)
-  - [ ] [应该在JavaScript中使用Class吗？](https://zhuanlan.zhihu.com/p/158956514)
+  - [ ] [应该在 JavaScript 中使用 Class 吗？](https://zhuanlan.zhihu.com/p/158956514)
 
 ### 事件循环
 
