@@ -141,12 +141,11 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
   - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
 ### 迭代器与生成器
-忍者秘籍这章讲的很好，再次强推
-
+忍者秘籍 P125
 - [ ] 文档
   - [ ] [生成器与迭代器](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Iterators_and_Generators)
 - [ ] 推荐文章
-  - [ ] [一文带你理解：可以迭代大部分数据类型的 for…of 为什么不能遍历普通对象](https://juejin.cn/post/6903299729388470285#heading-9)
+  - [ ] [[译] 什么是 JavaScript 生成器？如何使用生成器？](https://juejin.cn/post/6844903616357072910)
   - [ ] [Understanding Generators in ES6 JavaScript with Examples](https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5)
   - [ ] [A Simple Guide to ES6 Iterators in JavaScript with Examples](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)
 
