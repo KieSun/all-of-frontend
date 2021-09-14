@@ -20,5 +20,10 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Markdown autodocs
-        uses: dineshsonachalam/markdown-autodocs@v1.0.3
+      - name: install
+        run: |
+          npm i -g prettier
+          prettier README.md -w
+      - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version.
+        with:
+          add: './README.md'
