@@ -211,10 +211,9 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 - [ ] 文档
   - [ ] [内存管理 & 垃圾回收](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
 - [ ] 推荐文章
-  - [ ] [深入理解Chrome V8垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
+  - [ ] [深入理解 Chrome V8 垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
-  - [ ] [JavaScript 工作原理：内存管理 + 处理常见的4种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
-
+  - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
 
 ## 跨端框架
 
