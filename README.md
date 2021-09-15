@@ -28,14 +28,34 @@
 
 ## 目录
 
-- [学习路径](#学习路径)
+- [Fucking Frontend](#fucking-frontend)
+  - [这是什么？](#这是什么)
+  - [如何使用](#如何使用)
+  - [目录](#目录)
+  - [学习路径](#学习路径)
   - [前端核心知识点](#前端核心知识点)
-- [十五万字面试资料](#十五万字面试资料)
-- [前端工程化文章](#前端工程化文章)
-- [React 原理](#react-原理)
-- [前端进阶文章](#前端进阶文章)
-- [更多文章](#更多文章)
-- [个人信息](#个人信息)
+  - [JS](#js)
+    - [数据类型](#数据类型)
+    - [类型判断](#类型判断)
+    - [类型转换](#类型转换)
+    - [this](#this)
+    - [闭包](#闭包)
+    - [作用域](#作用域)
+    - [new](#new)
+    - [变量提升](#变量提升)
+    - [Class(类)](#class类)
+    - [事件循环](#事件循环)
+    - [继承](#继承)
+    - [垃圾回收](#垃圾回收)
+  - [组件库](#组件库)
+  - [跨端框架](#跨端框架)
+  - [微前端](#微前端)
+  - [十五万字面试资料](#十五万字面试资料)
+  - [前端工程化文章](#前端工程化文章)
+  - [React 原理](#react-原理)
+  - [前端进阶文章](#前端进阶文章)
+  - [更多文章](#更多文章)
+  - [个人信息](#个人信息)
 
 ## 学习路径
 
@@ -199,6 +219,42 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [Understanding Generators in ES6 JavaScript with Examples](https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5)
   - [ ] [A Simple Guide to ES6 Iterators in JavaScript with Examples](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)
 
+### 节流与防抖
+
+节流指连续触发事件的情况下，在某个时间段内，函数只会执行一次。
+防抖指在事件被触发后一定时间后再执行回调函数，如果在一定时间内，该事件又被重复触发，则重启计时。
+
+- [ ] 推荐文章
+  - [ ] [函数防抖与函数节流](https://zhuanlan.zhihu.com/p/38313717)
+  - [ ] [浅谈 JS 防抖和节流](https://segmentfault.com/a/1190000018428170)
+  - [ ] [Debounce – How to Delay a Function in JavaScript](https://www.freecodecamp.org/news/javascript-debounce-example)
+  - [ ] [Debouncing and Throttling in JavaScript](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
+
+### 垃圾回收
+
+JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动释放内存，这个过程被称为垃圾回收。另外我们主要学习 V8 引擎下的垃圾回收机制。
+
+- [ ] 文档
+  - [ ] [内存管理 & 垃圾回收](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
+- [ ] 推荐文章
+  - [ ] [深入理解 Chrome V8 垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
+  - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
+  - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
+
+## React
+
+### 合成事件
+
+合成事件（SyntheticEvent）是 React 模拟原生 DOM 事件所有能力的一个事件对象，即浏览器原生事件的跨浏览器包装器。React 根据 [W3C 规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。需要注意的是 v16 和 17 版本中的合成事件有差异。
+
+- [ ] 文档
+  - [ ] [React 官方文档](https://reactjs.org/docs/events.html)
+- [ ] 推荐文章
+  - [ ] [探索 React 合成事件](https://segmentfault.com/a/1190000038251163)
+  - [ ] [大佬，怎么办？升级 React17，Toast 组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
+  - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
+  - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
+
 ## 跨端框架
 
 跨端的最主要的含义就是一套代码多端运行，减少重复劳动
@@ -210,6 +266,29 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [awesome-remax](https://github.com/remaxjs/awesome-remax)
 - [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
 - [京东 taro](https://juejin.cn/post/6844904036743774216)
+
+## 组件库
+
+组件库顾名思义指的就是将多个公共模块或者可复用的组件提取整合生成的一个仓库
+
+知名度较广的组件库：
+
+- [antd](https://github.com/ant-design/ant-design.git)
+- [elementUI](https://github.com/ElemeFE/element.git)
+
+相关文档：
+
+- [lerna](https://github.com/lerna/lerna)
+- [angular commit 规范](https://github.com/angular/angular/blob/master/CONTRIBUTING.md#commit)
+- [yarn](https://yarnpkg.com/)
+- [css variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+
+推荐文章：
+
+- [从 0 到 1，搭建一个体系完善的前端 React 组件库](https://www.infoq.cn/article/i4q9ybdmxzmu8eex8qvh)
+- [如何规范你的 Git commit？](https://zhuanlan.zhihu.com/p/182553920)
+- [基于 lerna 和 yarn workspace 的 monorepo 工作流](https://zhuanlan.zhihu.com/p/71385053)
+- [FusionNext 可配置能力从 Sass 体系升级为支持 Css Variable](https://zhuanlan.zhihu.com/p/257159028)
 
 ## 微前端
 
