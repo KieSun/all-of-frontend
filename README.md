@@ -203,6 +203,17 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
   - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
 
+### 节流与防抖
+
+节流指连续触发事件的情况下，在某个时间段内，函数只会执行一次。
+防抖指在事件被触发后一定时间后再执行回调函数，如果在一定时间内，该事件又被重复触发，则重启计时。
+
+- [ ] 推荐文章
+  - [ ] [函数防抖与函数节流](https://zhuanlan.zhihu.com/p/38313717)
+  - [ ] [浅谈 JS 防抖和节流](https://segmentfault.com/a/1190000018428170)
+  - [ ] [Debounce – How to Delay a Function in JavaScript](https://www.freecodecamp.org/news/javascript-debounce-example)
+  - [ ] [Debouncing and Throttling in JavaScript](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
+  
 ### 垃圾回收
 
 JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动释放内存，这个过程被称为垃圾回收。另外我们主要学习 V8 引擎下的垃圾回收机制。
