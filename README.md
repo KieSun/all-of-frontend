@@ -29,7 +29,22 @@
 ## 目录
 
 - [学习路径](#学习路径)
-  - [前端核心知识点](#前端核心知识点)
+- [前端核心知识点](#前端核心知识点)
+- [JS](#js)
+  - [数据类型](#数据类型)
+  - [类型判断](#类型判断)
+  - [类型转换](#类型转换)
+  - [this](#this)
+  - [闭包](#闭包)
+  - [作用域](#作用域)
+  - [new](#new)
+  - [变量提升](#变量提升)
+  - [Class(类)](#class类)
+  - [事件循环](#事件循环)
+  - [继承](#继承)
+  - [垃圾回收](#垃圾回收)
+- [跨端框架](#跨端框架)
+- [微前端](#微前端)
 - [十五万字面试资料](#十五万字面试资料)
 - [前端工程化文章](#前端工程化文章)
 - [React 原理](#react-原理)
@@ -140,6 +155,17 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JS 的 new 到底是干什么的？](https://zhuanlan.zhihu.com/p/23987456)
   - [ ] [JavaScript 深入之 new 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 
+### 变量提升
+
+变量提升（Hoisting）可以将变量和函数在编译阶段放入内存，从而在执行阶段时在声明前使用。
+
+- [ ] 文档
+  - [ ] [JS 变量提升](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+- [ ] 推荐文章
+  - [ ] [JavsScript 变量提升和函数提升](https://towind.fun/2021/05/10/js-hoisting/)
+  - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)
+  - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
+
 ### Class(类)
 
 `class` 只是原型链的语法糖，与其它语言中的类不是同一样东西。
@@ -176,6 +202,17 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
   - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
   - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
+ 
+### 垃圾回收
+
+JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动释放内存，这个过程被称为垃圾回收。另外我们主要学习 V8 引擎下的垃圾回收机制。
+
+- [ ] 文档
+  - [ ] [内存管理 & 垃圾回收](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
+- [ ] 推荐文章
+  - [ ] [深入理解 Chrome V8 垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
+  - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
+  - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
 
 ## React
 
@@ -190,7 +227,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [大佬，怎么办？升级React17，Toast组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
   - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
   - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
- 
+
 ## 跨端框架
 
 跨端的最主要的含义就是一套代码多端运行，减少重复劳动
