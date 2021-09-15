@@ -238,9 +238,9 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 推荐文章：
 
 - [从 0 到 1，搭建一个体系完善的前端 React 组件库](https://www.infoq.cn/article/i4q9ybdmxzmu8eex8qvh)
-- [如何规范你的Git commit？](https://zhuanlan.zhihu.com/p/182553920)
-- [基于lerna和yarn workspace的monorepo工作流](https://zhuanlan.zhihu.com/p/71385053)
-- [FusionNext可配置能力从Sass体系升级为支持Css Variable](https://zhuanlan.zhihu.com/p/257159028)
+- [如何规范你的 Git commit？](https://zhuanlan.zhihu.com/p/182553920)
+- [基于 lerna 和 yarn workspace 的 monorepo 工作流](https://zhuanlan.zhihu.com/p/71385053)
+- [FusionNext 可配置能力从 Sass 体系升级为支持 Css Variable](https://zhuanlan.zhihu.com/p/257159028)
 
 ## 跨端框架
 
