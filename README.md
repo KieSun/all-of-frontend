@@ -208,6 +208,17 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
   - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
 
+### 节流与防抖
+
+节流指连续触发事件的情况下，在某个时间段内，函数只会执行一次。
+防抖指在事件被触发后一定时间后再执行回调函数，如果在一定时间内，该事件又被重复触发，则重启计时。
+
+- [ ] 推荐文章
+  - [ ] [函数防抖与函数节流](https://zhuanlan.zhihu.com/p/38313717)
+  - [ ] [浅谈 JS 防抖和节流](https://segmentfault.com/a/1190000018428170)
+  - [ ] [Debounce – How to Delay a Function in JavaScript](https://www.freecodecamp.org/news/javascript-debounce-example)
+  - [ ] [Debouncing and Throttling in JavaScript](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
+
 ### 垃圾回收
 
 JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动释放内存，这个过程被称为垃圾回收。另外我们主要学习 V8 引擎下的垃圾回收机制。
@@ -218,6 +229,33 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [深入理解 Chrome V8 垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
+
+
+## React
+
+### 合成事件
+
+合成事件（SyntheticEvent）是 React 模拟原生 DOM 事件所有能力的一个事件对象，即浏览器原生事件的跨浏览器包装器。React 根据 [W3C 规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。需要注意的是 v16 和 17 版本中的合成事件有差异。
+
+- [ ] 文档
+  - [ ] [React 官方文档](https://reactjs.org/docs/events.html)
+- [ ] 推荐文章
+  - [ ] [探索 React 合成事件](https://segmentfault.com/a/1190000038251163)
+  - [ ] [大佬，怎么办？升级 React17，Toast 组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
+  - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
+  - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
+
+## 跨端框架
+
+跨端的最主要的含义就是一套代码多端运行，减少重复劳动
+
+目前看来，国内比较流行的是小程序, H5, App 三端跨的框架， [uniapp](https://github.com/dcloudio/uni-app) 及 [taro](https://github.com/NervJS/taro) 是其中做的比较出彩的两个框架。当然在 taro3.0 之前（以下主要是说小程序），taro 跟 uniapp 都是使用编译时做更多的事情，编译成小程序能够运行的代码。
+
+而在 taro3.0 之后变成了与 [remax](https://github.com/remaxjs/remax) 相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容。
+
+- [awesome-remax](https://github.com/remaxjs/awesome-remax)
+- [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
+- [京东 taro](https://juejin.cn/post/6844904036743774216)
 
 ## 组件库
 
@@ -241,18 +279,6 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 - [如何规范你的Git commit？](https://zhuanlan.zhihu.com/p/182553920)
 - [基于lerna和yarn workspace的monorepo工作流](https://zhuanlan.zhihu.com/p/71385053)
 - [FusionNext可配置能力从Sass体系升级为支持Css Variable](https://zhuanlan.zhihu.com/p/257159028)
-
-## 跨端框架
-
-跨端的最主要的含义就是一套代码多端运行，减少重复劳动
-
-目前看来，国内比较流行的是小程序, H5, App 三端跨的框架， [uniapp](https://github.com/dcloudio/uni-app) 及 [taro](https://github.com/NervJS/taro) 是其中做的比较出彩的两个框架。当然在 taro3.0 之前（以下主要是说小程序），taro 跟 uniapp 都是使用编译时做更多的事情，编译成小程序能够运行的代码。
-
-而在 taro3.0 之后变成了与 [remax](https://github.com/remaxjs/remax) 相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容。
-
-- [awesome-remax](https://github.com/remaxjs/awesome-remax)
-- [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
-- [京东 taro](https://juejin.cn/post/6844904036743774216)
 
 ## 微前端
 
