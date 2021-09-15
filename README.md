@@ -196,8 +196,8 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 推荐文章
   - [ ] [函数防抖与函数节流](https://zhuanlan.zhihu.com/p/38313717)
   - [ ] [浅谈 JS 防抖和节流](https://segmentfault.com/a/1190000018428170)
-  - [ ] [Debounce – How to Delay a Function in JavaScript](https://www.freecodecamp.org/news/javascript-debounce-example/)，需自备梯子
-  - [ ] [Debouncing and Throttling in JavaScript](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)，需自备梯子
+  - [ ] [Debounce – How to Delay a Function in JavaScript](https://www.freecodecamp.org/news/javascript-debounce-example)
+  - [ ] [Debouncing and Throttling in JavaScript](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
 
 ## 跨端框架
 
