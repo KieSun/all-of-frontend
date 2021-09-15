@@ -256,15 +256,11 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 
 - [ ] 文档
-  - [ ] [Promise-MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+  - [ ] [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
   - [ ] [Promises/A+ 规范](https://promisesaplus.com/)
 - [ ] 推荐文章
- - [ ] [Promise 你真的用明白了么？](https://juejin.cn/post/6869573288478113799)
- - [ ] [45道Promise面试题](https://juejin.cn/post/6844904077537574919)
- - [ ] [剖析Promise内部结构](https://github.com/xieranmaya/blog/issues/3)
- - [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
  - [ ] [最简实现Promise，支持异步链式调用（20行）](https://juejin.cn/post/6844904094079926286)
- 
+ - [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
 
 ## React
 
