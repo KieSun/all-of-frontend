@@ -28,14 +28,30 @@
 
 ## 目录
 
-- [学习路径](#学习路径)
+- [Fucking Frontend](#fucking-frontend)
+  - [这是什么？](#这是什么)
+  - [如何使用](#如何使用)
+  - [目录](#目录)
+  - [学习路径](#学习路径)
   - [前端核心知识点](#前端核心知识点)
-- [十五万字面试资料](#十五万字面试资料)
-- [前端工程化文章](#前端工程化文章)
-- [React 原理](#react-原理)
-- [前端进阶文章](#前端进阶文章)
-- [更多文章](#更多文章)
-- [个人信息](#个人信息)
+  - [JS](#js)
+    - [数据类型](#数据类型)
+    - [类型判断](#类型判断)
+    - [类型转换](#类型转换)
+    - [this](#this)
+    - [闭包](#闭包)
+    - [作用域](#作用域)
+    - [new](#new)
+    - [事件循环](#事件循环)
+    - [垃圾回收](#垃圾回收)
+  - [跨端框架](#跨端框架)
+  - [微前端](#微前端)
+  - [十五万字面试资料](#十五万字面试资料)
+  - [前端工程化文章](#前端工程化文章)
+  - [React 原理](#react-原理)
+  - [前端进阶文章](#前端进阶文章)
+  - [更多文章](#更多文章)
+  - [个人信息](#个人信息)
 
 ## 学习路径
 
@@ -187,6 +203,18 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
   - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
   - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
+
+### 垃圾回收
+
+JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动释放内存，这个过程被称为垃圾回收。另外我们主要学习 V8 引擎下的垃圾回收机制。
+
+- [ ] 文档
+  - [ ] [内存管理 & 垃圾回收](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Memory_Management)
+- [ ] 推荐文章
+  - [ ] [深入理解Chrome V8垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
+  - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
+  - [ ] [JavaScript 工作原理：内存管理 + 处理常见的4种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
+
 
 ## 跨端框架
 
