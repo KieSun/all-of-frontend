@@ -206,13 +206,23 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 ### 节流与防抖
 
 节流指连续触发事件的情况下，在某个时间段内，函数只会执行一次。
-防抖指在事件被触发后一定时间后再执行回调函数，如果在一定时间内，该事件又被重复触发，则重启计时。
+防抖指在事件被触发一定时间后再执行回调函数，如果在一定时间内该事件又被重复触发，则重启计时。
 
 - [ ] 推荐文章
   - [ ] [函数防抖与函数节流](https://zhuanlan.zhihu.com/p/38313717)
   - [ ] [浅谈 JS 防抖和节流](https://segmentfault.com/a/1190000018428170)
   - [ ] [Debounce – How to Delay a Function in JavaScript](https://www.freecodecamp.org/news/javascript-debounce-example)
   - [ ] [Debouncing and Throttling in JavaScript](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
+
+### 柯里化（Currying）
+
+柯里化是一种将使用多个参数的函数转换成使用一个参数的函数的技术，那么柯里化函数就是将一个多参数的函数转换成多个单参数的函数。
+
+- [ ] 推荐文章
+  - [ ] [JavaScript专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
+  - [ ] [柯里化（Currying）](https://zh.javascript.info/currying-partials)
+  - [ ] [Understanding Currying in JavaScript](https://blog.bitsrc.io/understanding-currying-in-javascript-ceb2188c339)，另有 [中文翻译版](https://www.cnblogs.com/GeniusLyzh/p/9937829.html)
+
 
 ### 垃圾回收
 
