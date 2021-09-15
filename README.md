@@ -156,11 +156,11 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 文档
   - [ ] [原型](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 - [ ] 推荐文章
-  - [ ] [JavaScript 深入之从原型到原型链](https://github.com/mqyqingfeng/Blog/issues/2)
   - [ ] [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch5.md)
   - [ ] [深入理解 JavaScript 原型](https://mp.weixin.qq.com/s/1UDILezroK5wrcK-Z5bHOg)
   - [ ] [深度解析原型中的各个难点](https://juejin.cn/post/6844903575974313992)
   - [ ] [Prototypes in JavaScript](https://betterprogramming.pub/prototypes-in-javascript-5bba2990e04b) 需自备梯子
+
 ### new
 
 `new` 操作符可以帮助我们构建出一个实例，并且绑定上 `this`。
