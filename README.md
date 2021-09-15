@@ -202,7 +202,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
   - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
   - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
- 
+
 ### 垃圾回收
 
 JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动释放内存，这个过程被称为垃圾回收。另外我们主要学习 V8 引擎下的垃圾回收机制。
@@ -218,13 +218,13 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 
 ### 合成事件
 
-合成事件（SyntheticEvent）是 React 模拟原生 DOM 事件所有能力的一个事件对象，即浏览器原生事件的跨浏览器包装器。React 根据 [W3C规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。需要注意的是 v16 和 17 版本中的合成事件有差异。
+合成事件（SyntheticEvent）是 React 模拟原生 DOM 事件所有能力的一个事件对象，即浏览器原生事件的跨浏览器包装器。React 根据 [W3C 规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。需要注意的是 v16 和 17 版本中的合成事件有差异。
 
 - [ ] 文档
-  - [ ] [React官方文档](https://reactjs.org/docs/events.html)
+  - [ ] [React 官方文档](https://reactjs.org/docs/events.html)
 - [ ] 推荐文章
   - [ ] [探索 React 合成事件](https://segmentfault.com/a/1190000038251163)
-  - [ ] [大佬，怎么办？升级React17，Toast组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
+  - [ ] [大佬，怎么办？升级 React17，Toast 组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
   - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
   - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
 
