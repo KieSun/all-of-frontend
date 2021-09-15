@@ -181,15 +181,14 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 ### 合成事件
 
-React 根据 [W3C规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。这是一个稍微冷门的知识点，但很考验我们是否扎实的掌握了浏览器的事件机制。掌握这个知识点，可以给人眼前一亮的感觉。
+合成事件（SyntheticEvent）是 React 模拟原生 DOM 事件所有能力的一个事件对象，即浏览器原生事件的跨浏览器包装器。React 根据 [W3C规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。需要注意的是 v16 和 17 版本中的合成事件有差异。
 
 - [ ] 文档
   - [ ] [React官方文档](https://reactjs.org/docs/events.html)
 - [ ] 推荐文章
-  - [ ] [浅谈React17事件机制](https://juejin.cn/post/6971242638716436487)
-  - [ ] [深入React合成事件机制原理](https://segmentfault.com/a/1190000039108951)
-  - [ ] [React17 事件系统 更改 & 16 之前事件系统介绍](https://juejin.cn/post/6964257086859378724)
-  - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)
+  - [ ] [探索 React 合成事件](https://segmentfault.com/a/1190000038251163)
+  - [ ] [大佬，怎么办？升级React17，Toast组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
+  - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
   - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
  
 ## 跨端框架
