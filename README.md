@@ -48,6 +48,7 @@
     - [事件循环](#事件循环)
     - [继承](#继承)
     - [垃圾回收](#垃圾回收)
+    - [Promise](#Promise)
   - [组件库](#组件库)
   - [跨端框架](#跨端框架)
   - [微前端](#微前端)
@@ -249,6 +250,21 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [深入理解 Chrome V8 垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
+
+### Promise
+
+Promise 是由社区最早提出和实现的异步编程的一种解决方案。
+
+- [ ] 文档
+  - [ ] [Promise-MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+  - [ ] [Promises/A+ 规范](https://promisesaplus.com/)
+- [ ] 推荐文章
+ - [ ] [Promise 你真的用明白了么？](https://juejin.cn/post/6869573288478113799)
+ - [ ] [45道Promise面试题](https://juejin.cn/post/6844904077537574919)
+ - [ ] [剖析Promise内部结构](https://github.com/xieranmaya/blog/issues/3)
+ - [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
+ - [ ] [最简实现Promise，支持异步链式调用（20行）](https://juejin.cn/post/6844904094079926286)
+ 
 
 ## React
 
