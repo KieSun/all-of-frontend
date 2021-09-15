@@ -251,13 +251,14 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
 
 ## CSS
+
 ### flex
+
 - [ ] 文档
   - [ ] [flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
 - [ ] 推荐文章
   - [ ] [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-  - [ ] [Flexbox布局中不为人知的细节](https://juejin.cn/post/6938292463605907492)
-
+  - [ ] [Flexbox 布局中不为人知的细节](https://juejin.cn/post/6938292463605907492)
 
 ## React
 
