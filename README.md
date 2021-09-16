@@ -297,7 +297,6 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
 
 ### 如何编写一个组件
-组件是 React 中的核心概念，页面当中的所有元素都是通过 React 组件来表达。创建一个组件通常使用 Class 和函数式 Functional两种方式，两者创建的组件在用法和生命周期上有一定的区别，但是可以互相引用。
 
 - [ ] 文档
   - [ ] [React 官方文档](https://reactjs.org/docs/components-and-props.html)
@@ -306,6 +305,7 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [寫 React Components 該注意的6個地方與技巧](https://medium.com/@chihsuan/%E5%AF%AB-react-components-%E8%A9%B2%E6%B3%A8%E6%84%8F%E7%9A%846%E5%80%8B%E5%9C%B0%E6%96%B9%E8%88%87%E6%8A%80%E5%B7%A7-faa2bb87a18e)
   - [ ] [编写高效且可读组件的 5 个最佳实践](https://www.infoq.cn/article/ry4icky5crb1pokvi0ql)
   - [ ] [designing-react-components-best-practices](https://www.thisdot.co/blog/designing-react-components-best-practices)
+
 ## Vue
 
 ## 组件库
