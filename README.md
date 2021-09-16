@@ -259,9 +259,9 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
   - [ ] [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
   - [ ] [Promises/A+ 规范](https://promisesaplus.com/)
 - [ ] 推荐文章
- - [ ] [深入浅出Promises](https://medium.com/@keshidong.dev/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BApromise-69bcafbe4496)
- - [ ] [The JavaScript Promise Tutorial](https://adrianmejia.com/promises-tutorial-concurrency-in-javascript-node/)，另有[译文](https://cloud.tencent.com/developer/article/1696283?from=article.detail.1825559)
- - [ ] [Promise 中的三兄弟 .all(), .race(), .allSettled()](https://segmentfault.com/a/1190000020034361)
+ - [Callbacks Vs Promises and basics of JS](https://theflyingmantis.medium.com/callbacks-vs-promises-and-basics-of-js-80d3d1515e81)，需自备梯子
+ - [ ] [ES6 Promise](https://zhuanlan.zhihu.com/p/23907711)
+ - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
  - [ ] [最简实现Promise，支持异步链式调用（20行）](https://juejin.cn/post/6844904094079926286)
  - [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
 
