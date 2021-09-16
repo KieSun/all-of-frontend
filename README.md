@@ -216,12 +216,12 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 ### 柯里化（Currying）
 
-柯里化是一种将使用多个参数的函数转换成使用一个参数的函数的技术，那么柯里化函数就是将一个多参数的函数转换成多个单参数的函数。
+柯里化就是将接收多个参数的函数转换成接收一个参数的函数。
 
 - [ ] 推荐文章
-  - [ ] [JavaScript 专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
   - [ ] [柯里化（Currying）](https://zh.javascript.info/currying-partials)
-  - [ ] [Understanding Currying in JavaScript](https://blog.bitsrc.io/understanding-currying-in-javascript-ceb2188c339)，另有 [中文翻译版](https://www.cnblogs.com/GeniusLyzh/p/9937829.html)
+  - [ ] [JavaScript 专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
+  - [ ] [Understanding Currying in JavaScript](https://blog.bitsrc.io/understanding-currying-in-javascript-ceb2188c339)，需自备梯子，另有 [中文翻译版](https://www.cnblogs.com/GeniusLyzh/p/9937829.html)
 
 ### 垃圾回收
 
