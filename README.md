@@ -190,7 +190,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 在 CSS 中，所有的元素都被一个个的“盒子（box）”包围着，我们广泛地使用两种“盒子” —— 块级盒子 (block box) 和 内联盒子 (inline box)，理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
 
 - [ ] 文档
-  - [ ] [HTML 盒子模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+  - [ ] [CSS 盒子模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
 - [ ] 推荐文章
   - [ ] [CSS 盒模型之内边距、边框、外边距 十九问](https://juejin.cn/post/6880111680153059341)
   - [ ] [CSS Box Model](https://www.w3.org/TR/css-box-3/)
