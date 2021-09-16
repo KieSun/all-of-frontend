@@ -281,15 +281,15 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 
 #### CSS 选择器
 
-CSS中，选择器用来指定网页上我们想要样式化的HTML元素。CSS选择器提供了很多种方法，所以在选择要样式化的元素时，我们可以做到很精细的地步。
+CSS 中，选择器用来指定网页上我们想要样式化的 HTML 元素。CSS 选择器提供了很多种方法，所以在选择要样式化的元素时，我们可以做到很精细的地步。
 
-CSS选择器是CSS规则的第一部分。它是元素和其他部分组合起来告诉浏览器哪个HTML元素应当是被选为应用规则中的CSS属性值的方式。选择器所选择的元素，叫做“选择器的对象”。
+CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合起来告诉浏览器哪个 HTML 元素应当是被选为应用规则中的 CSS 属性值的方式。选择器所选择的元素，叫做“选择器的对象”。
 
 - [ ] 文档
-  - [ ] [CSS选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+  - [ ] [CSS 选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
 - [ ] 推荐文章
-  - [ ] [30个你必须熟记的CSS选择器](https://code.tutsplus.com/zh-hans/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
-  - [ ] [深入解析CSS样式优先级](https://cloud.tencent.com/developer/article/1545341)
+  - [ ] [30 个你必须熟记的 CSS 选择器](https://code.tutsplus.com/zh-hans/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+  - [ ] [深入解析 CSS 样式优先级](https://cloud.tencent.com/developer/article/1545341)
 
 #### Flex
 
