@@ -185,17 +185,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)
   - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
 
-#### CSS 盒子模型
-
-在 CSS 中，所有的元素都被一个个的“盒子（box）”包围着，我们广泛地使用两种“盒子” —— 块级盒子 (block box) 和 内联盒子 (inline box)，理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
-
-- [ ] 文档
-  - [ ] [CSS 盒子模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
-- [ ] 推荐文章
-  - [ ] [CSS 盒模型之内边距、边框、外边距 十九问](https://juejin.cn/post/6880111680153059341)
-  - [ ] [CSS Box Model](https://www.w3.org/TR/css-box-3/)
-  - [ ] [CSS 盒模型详解（图文教程）](https://www.cnblogs.com/qianguyihao/p/7256371.html)
-
 #### Class(类)
 
 `class` 只是原型链的语法糖，与其它语言中的类不是同一样东西。
@@ -276,6 +265,17 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 ### HTML
 
 ### CSS
+
+#### CSS 盒子模型
+
+在 CSS 中，所有的元素都被一个个的“盒子（box）”包围着，我们广泛地使用两种“盒子” —— 块级盒子 (block box) 和 内联盒子 (inline box)，理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
+
+- [ ] 文档
+  - [ ] [CSS 盒子模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- [ ] 推荐文章
+  - [ ] [CSS 盒模型之内边距、边框、外边距 十九问](https://juejin.cn/post/6880111680153059341)
+  - [ ] [CSS Box Model](https://www.w3.org/TR/css-box-3/)
+  - [ ] [CSS 盒模型详解（图文教程）](https://www.cnblogs.com/qianguyihao/p/7256371.html)
 
 #### Flex
 
