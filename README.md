@@ -72,18 +72,18 @@
 
 ### 初级
 
-- [JavaScript高级程序设计（第4版）](https://book.douban.com/subject/35175321/)
+- [JavaScript 高级程序设计（第 4 版）](https://book.douban.com/subject/35175321/)
 
 ### 进阶
 
 - [JavaScript 忍者秘籍（第 2 版）](https://book.douban.com/subject/30143702/)
 - [你不知道的 JS 三卷](https://book.douban.com/subject/26351021/)，该书英文版是开源的，并且作者已经在写第二版，有能力阅读英文的读者推荐直接看 [原著](https://github.com/getify/You-Dont-Know-JS)
-- [CSS揭秘](https://book.douban.com/subject/26745943/)
+- [CSS 揭秘](https://book.douban.com/subject/26745943/)
 
 ### 高级
 
 - [JavaScript 悟道](https://book.douban.com/subject/35469273/)
-- [JavaScript语言精髓与编程实践（第3版）](https://book.douban.com/subject/35085910/)
+- [JavaScript 语言精髓与编程实践（第 3 版）](https://book.douban.com/subject/35085910/)
 
 以上书籍主要还是推荐了 JS 方面的，其它比如说框架、TS 等等技术会在各自章节为大家介绍。
 
