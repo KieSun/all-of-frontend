@@ -46,6 +46,7 @@
     - [迭代器与生成器](#迭代器与生成器)
     - [节流与防抖](#节流与防抖)
     - [垃圾回收](#垃圾回收)
+    - [Promise](#Promise)
   - [HTML](#html)
   - [CSS](#css)
     - [Flex](#flex)
@@ -264,6 +265,20 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
 
+### Promise
+
+Promise 是由社区最早提出和实现的异步编程的一种解决方案。
+
+- [ ] 文档
+  - [ ] [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+  - [ ] [Promises/A+ 规范](https://promisesaplus.com/)
+- [ ] 推荐文章
+ - [Callbacks Vs Promises and basics of JS](https://theflyingmantis.medium.com/callbacks-vs-promises-and-basics-of-js-80d3d1515e81)，需自备梯子
+ - [ ] [最简实现Promise，支持异步链式调用（20行）](https://juejin.cn/post/6844904094079926286)
+ - [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
+- [ ] Github
+ - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
+ 
 ### HTML
 
 ### CSS
