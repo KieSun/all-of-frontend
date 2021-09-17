@@ -69,6 +69,12 @@
 - [Github 优秀学习资料](#github-优秀学习资料)
 - [作者信息](#作者信息)
 
+## 如何高效自学
+
+![Z0qdJz](https://yck-1254263422.file.myqcloud.com/uPic/Z0qdJz.png)
+
+这个学习方法笔者百试百灵，学习任何技术都会用上这个思路，并且不容易遗忘。
+
 ## 书籍推荐
 
 ### 初级
@@ -104,8 +110,6 @@
 
 - [JavaScript 高级程序设计（第 4 版）](https://book.douban.com/subject/35175321/)
 - [JavaScript 忍者秘籍（第 2 版）](https://book.douban.com/subject/30143702/)
-
-![Z0qdJz](https://yck-1254263422.file.myqcloud.com/uPic/Z0qdJz.png)
 
 ### JS
 
