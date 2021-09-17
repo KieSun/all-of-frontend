@@ -57,6 +57,7 @@
   - [合成事件](#合成事件)
 - [Vue](#vue)
 - [组件库](#组件库)
+- [性能优化](#性能优化)
 - [微前端](#微前端)
 - [跨端框架](#跨端框架)
 - [面试](#面试)
@@ -403,6 +404,19 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [如何规范你的 Git commit？](https://zhuanlan.zhihu.com/p/182553920)
 - [基于 lerna 和 yarn workspace 的 monorepo 工作流](https://zhuanlan.zhihu.com/p/71385053)
 - [FusionNext 可配置能力从 Sass 体系升级为支持 Css Variable](https://zhuanlan.zhihu.com/p/257159028)
+
+## 性能优化
+
+性能优化与用户体验密切相关，是前端进阶中必不可少的一部分。
+
+推荐文章:
+
+- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)
+- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)
+- [Web Vitals](https://web.dev/learn-web-vitals/)
+- [Metrics](https://web.dev/metrics/)
+- [Fast load times](https://web.dev/fast/)
+- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
 
 ## 微前端
 
