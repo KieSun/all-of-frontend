@@ -46,10 +46,13 @@
     - [迭代器与生成器](#迭代器与生成器)
     - [节流与防抖](#节流与防抖)
     - [垃圾回收](#垃圾回收)
+    - [Promise](#Promise)
   - [HTML](#html)
   - [CSS](#css)
     - [Flex](#flex)
     - [Grid](#grid)
+    - [CSS 盒子模型](#CSS-盒子模型)
+    - [CSS 选择器](#CSS-选择器)
 - [React](#react)
   - [合成事件](#合成事件)
 - [Vue](#vue)
@@ -262,9 +265,46 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
 
+### Promise
+
+Promise 是由社区最早提出和实现的异步编程的一种解决方案。
+
+- [ ] 文档
+  - [ ] [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+  - [ ] [Promises/A+ 规范](https://promisesaplus.com/)
+- [ ] 推荐文章
+- [Callbacks Vs Promises and basics of JS](https://theflyingmantis.medium.com/callbacks-vs-promises-and-basics-of-js-80d3d1515e81)，需自备梯子
+- [ ] [最简实现 Promise，支持异步链式调用（20 行）](https://juejin.cn/post/6844904094079926286)
+- [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
+- [ ] Github
+- [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
+
 ### HTML
 
 ### CSS
+
+#### CSS 盒子模型
+
+在 CSS 中，所有的元素都被一个个的“盒子（box）”包围着，我们广泛地使用两种“盒子” —— 块级盒子 (block box) 和 内联盒子 (inline box)，理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
+
+- [ ] 文档
+  - [ ] [CSS 盒子模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- [ ] 推荐文章
+  - [ ] [CSS 盒模型之内边距、边框、外边距 十九问](https://juejin.cn/post/6880111680153059341)
+  - [ ] [CSS Box Model](https://www.w3.org/TR/css-box-3/)
+  - [ ] [CSS 盒模型详解（图文教程）](https://www.cnblogs.com/qianguyihao/p/7256371.html)
+
+#### CSS 选择器
+
+CSS 中，选择器用来指定网页上我们想要样式化的 HTML 元素。CSS 选择器提供了很多种方法，所以在选择要样式化的元素时，我们可以做到很精细的地步。
+
+CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合起来告诉浏览器哪个 HTML 元素应当是被选为应用规则中的 CSS 属性值的方式。选择器所选择的元素，叫做“选择器的对象”。
+
+- [ ] 文档
+  - [ ] [CSS 选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+- [ ] 推荐文章
+  - [ ] [30 个你必须熟记的 CSS 选择器](https://code.tutsplus.com/zh-hans/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+  - [ ] [深入解析 CSS 样式优先级](https://cloud.tencent.com/developer/article/1545341)
 
 #### Flex
 
@@ -295,6 +335,16 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [大佬，怎么办？升级 React17，Toast 组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
   - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
   - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
+
+### 如何编写一个组件
+
+- [ ] 文档
+  - [ ] [React 官方文档](https://reactjs.org/docs/components-and-props.html)
+- [ ] 推荐文章
+  - [ ] [[译]React 函数组件和类组件的差异](https://jishuin.proginn.com/p/763bfbd4cad4)
+  - [ ] [寫 React Components 該注意的 6 個地方與技巧](https://medium.com/@chihsuan/%E5%AF%AB-react-components-%E8%A9%B2%E6%B3%A8%E6%84%8F%E7%9A%846%E5%80%8B%E5%9C%B0%E6%96%B9%E8%88%87%E6%8A%80%E5%B7%A7-faa2bb87a18e)
+  - [ ] [编写高效且可读组件的 5 个最佳实践](https://www.infoq.cn/article/ry4icky5crb1pokvi0ql)
+  - [ ] [designing-react-components-best-practices](https://www.thisdot.co/blog/designing-react-components-best-practices)
 
 ## Vue
 
