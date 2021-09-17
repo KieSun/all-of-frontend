@@ -260,10 +260,10 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
   - [ ] [Promises/A+ 规范](https://promisesaplus.com/)
 - [ ] 推荐文章
  - [Callbacks Vs Promises and basics of JS](https://theflyingmantis.medium.com/callbacks-vs-promises-and-basics-of-js-80d3d1515e81)，需自备梯子
- - [ ] [ES6 Promise](https://zhuanlan.zhihu.com/p/23907711)
- - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
  - [ ] [最简实现Promise，支持异步链式调用（20行）](https://juejin.cn/post/6844904094079926286)
  - [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
+- [ ] Github
+ - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
 
 ## React
 
