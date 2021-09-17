@@ -345,7 +345,15 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
   - [ ] [寫 React Components 該注意的 6 個地方與技巧](https://medium.com/@chihsuan/%E5%AF%AB-react-components-%E8%A9%B2%E6%B3%A8%E6%84%8F%E7%9A%846%E5%80%8B%E5%9C%B0%E6%96%B9%E8%88%87%E6%8A%80%E5%B7%A7-faa2bb87a18e)
   - [ ] [编写高效且可读组件的 5 个最佳实践](https://www.infoq.cn/article/ry4icky5crb1pokvi0ql)
   - [ ] [designing-react-components-best-practices](https://www.thisdot.co/blog/designing-react-components-best-practices)
+### 受控组件和非受控组件
+* 受控组件：在 HTML 中，表单元素（如 input、 textarea 和 select ）通常自己维护 state，并根据用户输入进行更新。而在 React 中，可变状态（mutable state）通常保存在组件的 state 属性中，并且只能通过使用 setState() 或者 props 来更新
+* 非受控组件：是一个存储其自己的内部状态，并且您使用查询DOM ref，当你需要它来找到它的当前值，这有点像传统的HTML
 
+- [ ] 文档
+  - [ ] [React 官方文档](https://reactjs.org/docs/uncontrolled-components.html)
+- [ ] 推荐文章
+  - [ ] [受控和非受控组件真的那么难理解吗](https://juejin.cn/post/6858276396968951822)
+  - [ ] [[译]受控组件 & 非受控组件](https://www.baobangdong.cn/controlled-components-and-uncontrolled-components/)
 ## Vue
 
 ## Electron
