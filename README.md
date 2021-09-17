@@ -59,6 +59,7 @@
 - [React](#react)
   - [合成事件](#合成事件)
 - [Vue](#vue)
+- [TypeScript](#TypeScript)
 - [组件库](#组件库)
 - [性能优化](#性能优化)
 - [微前端](#微前端)
@@ -393,6 +394,24 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
   - [ ] [[译]受控组件 & 非受控组件](https://www.baobangdong.cn/controlled-components-and-uncontrolled-components/)
 
 ## Vue
+
+## TypeScript
+
+TypeScript 是为开发大型应用而设计的，并且 TypeScript 可转译成 JavaScript。由于 TypeScript 是 JavaScript 的严格超集，任何现有的 JavaScript 程序都是合法的 TypeScript 程序。
+
+文档
+
+- [TypeScript 官方文档](https://www.typescriptlang.org/docs/)
+
+推荐文章
+
+- [TypeScript 入门教程](https://ts.xcatliu.com/)
+- [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) 另有[中文版](https://jkchao.github.io/typescript-book-chinese/)
+
+推荐开源项目
+
+- [type-challenges](https://github.com/type-challenges/type-challenges)
+- [TypeScript exercises](https://github.com/typescript-exercises/typescript-exercises)
 
 ## Electron
 
