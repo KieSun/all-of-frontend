@@ -48,6 +48,7 @@
     - [垃圾回收](#垃圾回收)
     - [Promise](#Promise)
   - [HTML](#html)
+    - [HTML 语义化](#HTML-语义化)
   - [CSS](#css)
     - [Flex](#flex)
     - [Grid](#grid)
@@ -280,6 +281,16 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
 
 ### HTML
+
+#### HTML 语义化
+
+html 语义化就是让页面的内容结构化，便于对浏览器、搜索引擎解析。在没有引入样式 CCS 样式的时候也能以一种可以分辨出来大致表示内容的文档格式显示，并且是容易阅读的。 搜索引擎的爬虫依赖于标记来确定上下文和各个关键字的权重，利于 SEO。 使阅读源代码的人对网站更容易将网站分块，便于阅读维护理解。
+
+- [ ] 文档
+  - [ ] [HTML 中的语义](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)
+- [ ] 推荐文章
+  - [ ] [IFE-NOTE：页面结构语义化](https://rainylog.com/post/ife-note-1/)
+  - [ ] [关于 HTML 语义和前端架构](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
 
 ### CSS
 
