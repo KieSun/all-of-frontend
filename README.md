@@ -348,6 +348,28 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 
 ## Vue
 
+## Electron
+
+Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建跨平台原生桌面应用的框架。借助 Electron，我们可以使用纯 JavaScript 来调用丰富的原生 APIs。
+
+文档
+
+- [Electron 官网](https://www.electronjs.org/)
+- [Electron 中文教程](https://weishuai.gitbooks.io/electron-/content/)
+
+推荐文章
+
+- [分享这半年的 Electron 应用开发和优化经验](https://juejin.cn/post/6844904029231775758)
+- [用 JS 开发跨平台桌面应用，从原理到实践](https://juejin.cn/post/6844903862302670862)
+- [Building a desktop application with Electron](https://medium.com/developers-writing/building-a-desktop-application-with-electron-204203eeb658) 需翻墙访问
+
+推荐开源项目
+
+- [Electron 资源](https://github.com/sindresorhus/awesome-electron)
+- [Electron Playground](https://github.com/tal-tech/electron-playground)
+- [electron-vue-cloud-music](https://github.com/xiaozhu188/electron-vue-cloud-music)
+- [electron-builder](https://github.com/electron-userland/electron-builder)
+
 ## 组件库
 
 组件库顾名思义指的就是将多个公共模块或者可复用的组件提取整合生成的一个仓库
