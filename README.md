@@ -28,12 +28,8 @@
 
 ## 目录
 
-- [Fucking Frontend](#fucking-frontend)
-  - [这是什么？](#这是什么)
-  - [如何使用](#如何使用)
-  - [目录](#目录)
-  - [学习路径](#学习路径)
-  - [前端核心知识点](#前端核心知识点)
+- [前端核心学习路径](#前端核心学习路径)
+  - [前端核心三板斧](#前端核心三板斧)
   - [JS](#js)
     - [数据类型](#数据类型)
     - [类型判断](#类型判断)
@@ -47,19 +43,28 @@
     - [Class(类)](#class类)
     - [事件循环](#事件循环)
     - [继承](#继承)
+    - [迭代器与生成器](#迭代器与生成器)
+    - [节流与防抖](#节流与防抖)
     - [垃圾回收](#垃圾回收)
     - [Promise](#Promise)
-  - [组件库](#组件库)
-  - [跨端框架](#跨端框架)
-  - [微前端](#微前端)
-  - [十五万字面试资料](#十五万字面试资料)
-  - [前端工程化文章](#前端工程化文章)
-  - [React 原理](#react-原理)
-  - [前端进阶文章](#前端进阶文章)
-  - [更多文章](#更多文章)
-  - [个人信息](#个人信息)
+  - [HTML](#html)
+  - [CSS](#css)
+    - [Flex](#flex)
+    - [Grid](#grid)
+    - [CSS 盒子模型](#CSS-盒子模型)
+    - [CSS 选择器](#CSS-选择器)
+- [React](#react)
+  - [合成事件](#合成事件)
+- [Vue](#vue)
+- [组件库](#组件库)
+- [微前端](#微前端)
+- [跨端框架](#跨端框架)
+- [面试](#面试)
+- [日常充电](#日常充电)
+- [Github 优秀学习资料](#github-优秀学习资料)
+- [作者信息](#作者信息)
 
-## 学习路径
+## 前端核心学习路径
 
 前端知识点很多这是公认的事情，但是我们确实没必要把所有知识都去学习，那样只会贪多嚼不烂。我们能把核心知识点、热门技术以及工作中需要用到的知识学好就已经能打败大部分前端工程师了，剩下的大家可以自行选择学习内容。
 
@@ -67,25 +72,25 @@
 
 > 为了保证大家学到的知识是正确的，下文中的文档资料笔者都使用了英文版本。因为在审核资料的过程中笔者发现不少中文文档都存在翻译错误或者过时的情况。
 
-## 前端核心知识点
+### 前端核心三板斧
 
-前端核心知识点分为三块，分别为 HTML、CSS、JS，其中最重要的当然是 JS 了。
+前端核心三板斧分为三块，分别为 HTML、CSS、JS，其中最重要的当然是 JS 了。
 
 如果你还是一位初学者，推荐先自行完整阅读一至二本书后再按照该计划学习。关于书籍笔者推荐以下两本：
 
 - [JavaScript 高级程序设计（第 4 版）](https://book.douban.com/subject/35175321/)
 - [JavaScript 忍者秘籍（第 2 版）](https://book.douban.com/subject/30143702/)
 
-## JS
+### JS
 
-### 数据类型
+#### 数据类型
 
 JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增的 `bigint`。
 
 - [ ] 文档：
   - [ ] [JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
-### 类型判断
+#### 类型判断
 
 类型判断有好几种方式，分别为：
 
@@ -102,7 +107,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 专题之类型判断(上)](https://github.com/mqyqingfeng/Blog/issues/28)
   - [ ] [JavaScript 专题之类型判断(下)](https://github.com/mqyqingfeng/Blog/issues/30)
 
-### 类型转换
+#### 类型转换
 
 类型转换算是 JS 中情况繁杂且容易出错，但是开发中还经常会遇到的知识点。强行全部记忆容易遗忘，推荐记忆及练习开发中的常见情况。
 
@@ -116,7 +121,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 深入之头疼的类型转换(上)](https://github.com/mqyqingfeng/Blog/issues/159)
   - [ ] [JavaScript 深入之头疼的类型转换(下)](https://github.com/mqyqingfeng/Blog/issues/164)
 
-### this
+#### this
 
 `this` 算是不少初学者容易搞混的一个知识点，但是它很重要，务必掌握。
 
@@ -129,7 +134,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 > 务必自己总结规则！
 
-### 闭包
+#### 闭包
 
 - [ ] 文档
   - [ ] [闭包](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
@@ -138,7 +143,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 的静态作用域链与“动态”闭包链](https://juejin.cn/post/6957913856488243237)
   - [ ] [知乎中关于闭包的讨论](https://www.zhihu.com/question/34210214)
 
-### 作用域
+#### 作用域
 
 作用域是指程序中定义变量的区域，该位置决定了变量的生命周期，也就是变量和函数的可访问范围。
 
@@ -152,7 +157,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [You Don't Know JS Yet: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures)
   - [ ] [The battle between function scope and block scope](https://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/)
 
-### 原型
+#### 原型
 
 - [ ] 文档
   - [ ] [原型](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
@@ -162,7 +167,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [深度解析原型中的各个难点](https://juejin.cn/post/6844903575974313992)
   - [ ] [Prototypes in JavaScript](https://betterprogramming.pub/prototypes-in-javascript-5bba2990e04b) 需自备梯子
 
-### new
+#### new
 
 `new` 操作符可以帮助我们构建出一个实例，并且绑定上 `this`。
 
@@ -172,7 +177,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JS 的 new 到底是干什么的？](https://zhuanlan.zhihu.com/p/23987456)
   - [ ] [JavaScript 深入之 new 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
 
-### 变量提升
+#### 变量提升
 
 变量提升（Hoisting）可以将变量和函数在编译阶段放入内存，从而在执行阶段时在声明前使用。
 
@@ -183,7 +188,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)
   - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
 
-### Class(类)
+#### Class(类)
 
 `class` 只是原型链的语法糖，与其它语言中的类不是同一样东西。
 
@@ -196,7 +201,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [给 ES6 class 说句公道话](https://juejin.cn/post/6924108426125508616)
   - [ ] [应该在 JavaScript 中使用 Class 吗？](https://zhuanlan.zhihu.com/p/158956514)
 
-### 事件循环
+#### 事件循环
 
 大家都知道 JS 是一门单线程的非阻塞的脚本语言。这也就意味着，代码在执行的任何时候只有一个主线程来处理所有的任务。所以弄懂事件循环机制对我们学习 JS 至关重要。
 
@@ -209,7 +214,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 事件循环可视化
   - [ ] [Loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
 
-### 继承
+#### 继承
 
 继承是面向对象语言（Object-Oriented Language）三大特征之一，在 JS 中也占有非常重要的地位。而想要实现继承有多种方式，它们都有各自的优缺点。
 
@@ -220,7 +225,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
   - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
 
-### 迭代器与生成器
+#### 迭代器与生成器
 
 - [ ] 文档
   - [ ] [迭代器与生成器](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators)
@@ -229,10 +234,10 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [Understanding Generators in ES6 JavaScript with Examples](https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5)，需自备梯子
   - [ ] [A Simple Guide to ES6 Iterators in JavaScript with Examples](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)，需自备梯子
 
-### 节流与防抖
+#### 节流与防抖
 
 节流指连续触发事件的情况下，在某个时间段内，函数只会执行一次。
-防抖指在事件被触发后一定时间后再执行回调函数，如果在一定时间内，该事件又被重复触发，则重启计时。
+防抖指在事件被触发一定时间后再执行回调函数，如果在一定时间内该事件又被重复触发，则重启计时。
 
 - [ ] 推荐文章
   - [ ] [函数防抖与函数节流](https://zhuanlan.zhihu.com/p/38313717)
@@ -240,7 +245,16 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [Debounce – How to Delay a Function in JavaScript](https://www.freecodecamp.org/news/javascript-debounce-example)
   - [ ] [Debouncing and Throttling in JavaScript](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
 
-### 垃圾回收
+#### 柯里化（Currying）
+
+柯里化就是将接收多个参数的函数转换成接收一个参数的函数。
+
+- [ ] 推荐文章
+  - [ ] [柯里化（Currying）](https://zh.javascript.info/currying-partials)
+  - [ ] [JavaScript 专题之函数柯里化](https://github.com/mqyqingfeng/Blog/issues/42)
+  - [ ] [Understanding Currying in JavaScript](https://blog.bitsrc.io/understanding-currying-in-javascript-ceb2188c339)，需自备梯子，另有 [中文翻译版](https://www.cnblogs.com/GeniusLyzh/p/9937829.html)
+
+#### 垃圾回收
 
 JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动释放内存，这个过程被称为垃圾回收。另外我们主要学习 V8 引擎下的垃圾回收机制。
 
@@ -264,6 +278,49 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
  - [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
 - [ ] Github
  - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
+ 
+### HTML
+
+### CSS
+
+#### CSS 盒子模型
+
+在 CSS 中，所有的元素都被一个个的“盒子（box）”包围着，我们广泛地使用两种“盒子” —— 块级盒子 (block box) 和 内联盒子 (inline box)，理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
+
+- [ ] 文档
+  - [ ] [CSS 盒子模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)
+- [ ] 推荐文章
+  - [ ] [CSS 盒模型之内边距、边框、外边距 十九问](https://juejin.cn/post/6880111680153059341)
+  - [ ] [CSS Box Model](https://www.w3.org/TR/css-box-3/)
+  - [ ] [CSS 盒模型详解（图文教程）](https://www.cnblogs.com/qianguyihao/p/7256371.html)
+
+#### CSS 选择器
+
+CSS 中，选择器用来指定网页上我们想要样式化的 HTML 元素。CSS 选择器提供了很多种方法，所以在选择要样式化的元素时，我们可以做到很精细的地步。
+
+CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合起来告诉浏览器哪个 HTML 元素应当是被选为应用规则中的 CSS 属性值的方式。选择器所选择的元素，叫做“选择器的对象”。
+
+- [ ] 文档
+  - [ ] [CSS 选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+- [ ] 推荐文章
+  - [ ] [30 个你必须熟记的 CSS 选择器](https://code.tutsplus.com/zh-hans/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+  - [ ] [深入解析 CSS 样式优先级](https://cloud.tencent.com/developer/article/1545341)
+
+#### Flex
+
+- [ ] 文档
+  - [ ] [flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+- [ ] 推荐文章
+  - [ ] [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+  - [ ] [Flexbox 布局中不为人知的细节](https://juejin.cn/post/6938292463605907492)
+
+#### grid
+
+- [ ] 文档
+  - [ ] [grid](https://developer.mozilla.org/zh-CN/docs/Web/CSS/grid)
+- [ ] 推荐文档
+  - [ ] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+  - [ ] [最强大的 CSS 布局 —— Grid 布局](https://juejin.cn/post/6854573220306255880)
 
 ## React
 
@@ -279,17 +336,17 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
   - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
   - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
 
-## 跨端框架
+### 如何编写一个组件
 
-跨端的最主要的含义就是一套代码多端运行，减少重复劳动
+- [ ] 文档
+  - [ ] [React 官方文档](https://reactjs.org/docs/components-and-props.html)
+- [ ] 推荐文章
+  - [ ] [[译]React 函数组件和类组件的差异](https://jishuin.proginn.com/p/763bfbd4cad4)
+  - [ ] [寫 React Components 該注意的 6 個地方與技巧](https://medium.com/@chihsuan/%E5%AF%AB-react-components-%E8%A9%B2%E6%B3%A8%E6%84%8F%E7%9A%846%E5%80%8B%E5%9C%B0%E6%96%B9%E8%88%87%E6%8A%80%E5%B7%A7-faa2bb87a18e)
+  - [ ] [编写高效且可读组件的 5 个最佳实践](https://www.infoq.cn/article/ry4icky5crb1pokvi0ql)
+  - [ ] [designing-react-components-best-practices](https://www.thisdot.co/blog/designing-react-components-best-practices)
 
-目前看来，国内比较流行的是小程序, H5, App 三端跨的框架， [uniapp](https://github.com/dcloudio/uni-app) 及 [taro](https://github.com/NervJS/taro) 是其中做的比较出彩的两个框架。当然在 taro3.0 之前（以下主要是说小程序），taro 跟 uniapp 都是使用编译时做更多的事情，编译成小程序能够运行的代码。
-
-而在 taro3.0 之后变成了与 [remax](https://github.com/remaxjs/remax) 相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容。
-
-- [awesome-remax](https://github.com/remaxjs/awesome-remax)
-- [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
-- [京东 taro](https://juejin.cn/post/6844904036743774216)
+## Vue
 
 ## 组件库
 
@@ -344,41 +401,25 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 - [How We Build Micro Frontends](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
 - [Revolutionizing Micro Frontends with Webpack 5, Module Federation and Bit](https://blog.bitsrc.io/revolutionizing-micro-frontends-with-webpack-5-module-federation-and-bit-99ff81ceb0)
 
-## 十五万字面试资料
+## 跨端框架
 
-[在线阅读](https://yuchengkai.cn/home/)
+跨端的最主要的含义就是一套代码多端运行，减少重复劳动
 
-- [解决 90% 的大厂基础面试题](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488553&idx=1&sn=62d8a99b5554751221b45b3c411ad325)
-- [解决 90% 的大厂前端网络面试题](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488796&idx=1&sn=dec4fdb3e596ad87b02419f69c174113)
+目前看来，国内比较流行的是小程序, H5, App 三端跨的框架， [uniapp](https://github.com/dcloudio/uni-app) 及 [taro](https://github.com/NervJS/taro) 是其中做的比较出彩的两个框架。当然在 taro3.0 之前（以下主要是说小程序），taro 跟 uniapp 都是使用编译时做更多的事情，编译成小程序能够运行的代码。
 
-## 前端工程化文章
+而在 taro3.0 之后变成了与 [remax](https://github.com/remaxjs/remax) 相同的思想，在运行时做更多的事情，保证了原框架代码能够完全使用，而不需要为了转换成其他小程序时做兼容。
 
-- [这才是你需要了解的性能优化呀！](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247489161&idx=1&sn=f029ea01370364f49fe61451b2d247ff)
-- [绝了，没想到一个 source map 居然涉及到那么多知识盲区](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488867&idx=1&sn=cac0ae95c560cca820658a8c3af3f8e5)
-- [揭秘自动化部署系统的核心原理](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488166&idx=1&sn=f62669f6c9331c95badbef2815a8d1b5)
-- [你知道 monorepo 居然有那么多坑么？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488604&idx=1&sn=6ded0f2ddaedb71bd5d12890cf462726)
-- [从零打造性能检测库](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247487811&idx=2&sn=40d02e839fb5400c5b82858d422fb738)
-- [还在看那些老掉牙的性能优化文章么？这些最新性能指标了解下](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247486142&idx=1&sn=b75b87a109c28cc6c32046d0fb234aab)
+- [awesome-remax](https://github.com/remaxjs/awesome-remax)
+- [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
+- [京东 taro](https://juejin.cn/post/6844904036743774216)
 
-## React 原理
+## 面试
 
-[在线阅读](https://github.com/KieSun/react-interpretation)，另外笔者最近也在准备更新这部分内容，有兴趣的读者可以持续关注。
+## 日常充电
 
-## 前端进阶文章
+## Github 优秀学习资料
 
-- [这些 JS 新语法有点东西啊！](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247489249&idx=1&sn=9a3cedafd021afe8ed3ef81bcd0583c2)
-- [这个 React 小细节居然很多人都写错了？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247489054&idx=1&sn=f025d5dfd81656e5cffd7eb598b0954b)
-- [反直觉！大部分人并不知道浏览器到底是如何下载资源的](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488074&idx=1&sn=21dc9b18cf52d875dec5dc38b34900fe)
-- [好家伙，这些写 CSS 的新姿势你还不知道？](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247488007&idx=1&sn=8578ba4a4278de3286feeb18535c75a2)
-- [这个异步问题你肯定遇到过，但是会解决的并不多](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247487988&idx=1&sn=6b56888236e0cc8b59e7bf63ff882a21)
-- [前端前沿观察，Cookie 居然可以这样整了](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247486890&idx=1&sn=3f92d1290e62549731b9d840aed68cc9)
-- [Promise 你可能真的还没用明白（续集进阶版）](https://mp.weixin.qq.com/s?__biz=MzUyNDYxNDAyMg==&mid=2247486584&idx=1&sn=26c5d27b34cc98f952715581b8c74027)
-
-## 更多文章
-
-因为笔者文章实在太多，足足已经写了 150 篇+ 原创，更多文章欢迎大家到【[公众号](#个人信息)】里阅读。
-
-## 个人信息
+## 作者信息
 
 | 微信扫码关注公众号，订阅更多精彩内容                                                                 | 加笔者微信进群与大厂大佬讨论技术                                                                    |
 | ---------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
