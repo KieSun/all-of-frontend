@@ -523,6 +523,12 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 
 ## Github 优秀学习资料
 
+## 生产力工具
+
+### 流程图
+
+- [whimsical](https://whimsical.com/)
+
 ## 作者信息
 
 | 微信扫码关注公众号，订阅更多精彩内容                                                                 | 加笔者微信进群与大厂大佬讨论技术                                                                    |
