@@ -525,6 +525,14 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 
 ## 生产力工具
 
+- [caniuse](https://caniuse.com/) 查询浏览器兼容性
+- [The ultimate CSS tools for web designers](https://www.cssmatic.com/) 在线调试 `box-shadow`, `border-radius` 等样式的工具网站
+
+推荐阅读：
+
+- [那些前端开发必不可少的生产力工具](https://juejin.cn/post/6854573221417582600)
+
+
 ### 流程图
 
 - [whimsical](https://whimsical.com/)
