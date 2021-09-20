@@ -538,7 +538,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 推荐开源库：
 
 - [rrweb](https://github.com/rrweb-io/rrweb)，提供像素级的录制与回放，帮助正确定位问题是如何发生的
-- [monitor](https://github.com/clouDr-f2e/monitor)，👀 一款轻量级的收集页面的用户点击行为、路由跳转、接口报错、代码报错、并上报服务端的SDK
+- [monitor](https://github.com/clouDr-f2e/monitor)，👀 一款轻量级的收集页面的用户点击行为、路由跳转、接口报错、代码报错、并上报服务端的 SDK
 
 推荐文章：
 
