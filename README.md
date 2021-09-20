@@ -349,7 +349,7 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 #### Flex
 
 - [ ] 文档
-  - [ ] [flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+  - [ ] [flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox)
 - [ ] 推荐文章
   - [ ] [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
   - [ ] [Flexbox 布局中不为人知的细节](https://juejin.cn/post/6938292463605907492)
@@ -357,7 +357,7 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 #### grid
 
 - [ ] 文档
-  - [ ] [grid](https://developer.mozilla.org/zh-CN/docs/Web/CSS/grid)
+  - [ ] [grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout)
 - [ ] 推荐文档
   - [ ] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
   - [ ] [最强大的 CSS 布局 —— Grid 布局](https://juejin.cn/post/6854573220306255880)
