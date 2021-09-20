@@ -523,6 +523,27 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [美团自研 react 跨端](https://tech.meituan.com/2021/06/10/react-native-hybrid-practice-dsl-in-meituan.html)
 - [京东 taro](https://juejin.cn/post/6844904036743774216)
 
+## 监控
+
+当业务进入稳定，最需要做的肯定是对于业务线上的各种性能，异常，常规业务进行监控，避免在上线之后成为瞎子。
+
+目前市场比较出名的监控系统：
+
+- [sentry](https://sentry.io/welcome/)
+- [ali node](https://www.aliyun.com/product/nodejs)
+- [bugly](https://bugly.qq.com/v2/)
+- [mixpanel](https://mixpanel.com/)
+- [听云](https://www.tingyun.com/)
+
+
+推荐文章：
+
+- [美团 可视化埋点方案](https://tech.meituan.com/2019/08/15/mtflexbox-automation-buried-point-exploration.html)
+- [如何进行web性能监控？](http://www.alloyteam.com/2020/01/14184/#prettyPhoto)
+- [蚂蚁金服如何把前端性能监控做到极致?](https://www.infoq.cn/article/dxa8am44oz*lukk5ufhy)
+- [知乎 如何做前端异常监控 回复](https://www.zhihu.com/question/29953354)
+
+
 ## 面试
 
 ## 日常充电
