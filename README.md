@@ -400,8 +400,8 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 ### 原理
 
 - [react-source-code-debug](https://github.com/neroneroffy/react-source-code-debug)，学习如何调试源码
-- [react-illustration-series](https://github.com/7kms/react-illustration-series)，图解react源码，用大量配图的方式，致力于将react原理表述清楚
-- [just-react](https://github.com/BetaSu/just-react)，「React技术揭秘」，一本自顶向下的React源码分析书
+- [react-illustration-series](https://github.com/7kms/react-illustration-series)，图解 react 源码，用大量配图的方式，致力于将 react 原理表述清楚
+- [just-react](https://github.com/BetaSu/just-react)，「React 技术揭秘」，一本自顶向下的 React 源码分析书
 
 ## Vue
 
