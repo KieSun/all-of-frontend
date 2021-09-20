@@ -548,7 +548,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [如何做前端异常监控？](https://www.zhihu.com/question/29953354)
 
 ## 面试
-
+  - [React面试相关问题](https://dev.to/sakhnyuk/300-react-interview-questions-2ko4#what-is-virtual-dom)，需自备梯子
 ## 日常充电
 
 ## Github 优秀学习资料
