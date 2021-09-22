@@ -61,6 +61,7 @@
 - [Vue](#vue)
 - [TypeScript](#TypeScript)
 - [组件库](#组件库)
+- [浏览器](#浏览器)
 - [性能优化](#性能优化)
 - [微前端](#微前端)
 - [跨端框架](#跨端框架)
@@ -482,6 +483,13 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [如何规范你的 Git commit？](https://zhuanlan.zhihu.com/p/182553920)
 - [基于 lerna 和 yarn workspace 的 monorepo 工作流](https://zhuanlan.zhihu.com/p/71385053)
 - [FusionNext 可配置能力从 Sass 体系升级为支持 Css Variable](https://zhuanlan.zhihu.com/p/257159028)
+
+## 浏览器
+
+推荐文章：
+
+- [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1) 另有[中文翻译](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
+- [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 
 ## 性能优化
 
