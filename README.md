@@ -397,6 +397,12 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
   - [ ] [受控和非受控组件真的那么难理解吗](https://juejin.cn/post/6858276396968951822)
   - [ ] [[译]受控组件 & 非受控组件](https://www.baobangdong.cn/controlled-components-and-uncontrolled-components/)
 
+### 源码阅读
+- [ ] [React 原理解析](https://yuchengkai.cn/react/)
+- [ ] [React技术揭秘 卡颂](https://react.iamkasong.com/)
+- [ ] [图解React原理系列 7kms](https://7kms.github.io/react-illustration-series/)
+- [ ] [React 运行时优化方案的演进 ConardLi](https://juejin.cn/post/7010539227284766751)
+
 ## Vue
 
 ## TypeScript
