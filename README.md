@@ -400,13 +400,14 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
   - [ ] [[译]受控组件 & 非受控组件](https://www.baobangdong.cn/controlled-components-and-uncontrolled-components/)
 
 ### 高阶组件（HOC）
+
 高阶组件（HOC）是 React 中用于复用组件逻辑的一种高级技巧。HOC 自身不是 React API 的一部分，它是一种基于 React 的组合特性而形成的设计模式。
 
 具体而言，高阶组件是参数为组件，返回值为新组件的函数。
 
-* [ ] 文档
+- [ ] 文档
   - [ ] [React 官方文档](https://reactjs.org/docs/higher-order-components.html)
-* [ ] 推荐文章
+- [ ] 推荐文章
   - [ ] [React 高阶组件(HOC)入门指南](https://github.com/MrErHu/blog/issues/4)
   - [ ] [hoc 库 recompose](https://github.com/acdlite/recompose)
   - [ ] [精读 React 高阶组件](https://zhuanlan.zhihu.com/p/27434557)
