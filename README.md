@@ -412,6 +412,17 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
   - [ ] [hoc 库 recompose](https://github.com/acdlite/recompose)
   - [ ] [精读 React 高阶组件](https://zhuanlan.zhihu.com/p/27434557)
 
+### React 虚拟DOM
+
+virtul DOM 也就是虚拟节点。通过JS的Object对象模拟DOM中的真实节点对象，再通过特定的render方法将其渲染成真实的DOM节点。
+- [ ] 文档
+  - [ ] [React 官方文档](https://reactjs.org/docs/faq-internals.html)
+- [ ] 推荐文章
+  - [ ] [ Virtual Dom 和 Diff 算法在 React 中是如何工作的？](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)，需自备梯子
+  - [ ] [ React 核心知识点 -- Virtual Dom 与 Diff ](https://github.com/pfan123/Articles/issues/62)
+  - [ ] [ React 背后的算法(原文)](https://www.velotio.com/engineering-blog/react-fiber-algorithm)
+  - [ ] [ React 背后的算法(译文)](https://github.com/NieZhuZhu/Blog/issues/13)
+  - [ ] [ React fiber架构及源码 ](https://medium.com/react-in-depth/inside-fiber-in-depth-overview-of-the-new-reconciliation-algorithm-in-react-e1c04700ef6e)，需自备梯子
 ### 原理
 
 - [react-source-code-debug](https://github.com/neroneroffy/react-source-code-debug)，学习如何调试源码
