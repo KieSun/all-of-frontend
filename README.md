@@ -94,6 +94,8 @@
 
 以上书籍主要还是推荐了 JS 方面的，其它比如说框架、TS 等等技术会在各自章节为大家介绍。
 
+**上述书籍大家可以关注【[公众号](#个人信息)】发送「资料」获取。**
+
 ## 前端核心学习路径
 
 前端知识点很多这是公认的事情，但是我们确实没必要把所有知识都去学习，那样只会贪多嚼不烂。我们能把核心知识点、热门技术以及工作中需要用到的知识学好就已经能打败大部分前端工程师了，剩下的大家可以自行选择学习内容。
@@ -396,6 +398,19 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 * [ ] 推荐文章
   - [ ] [受控和非受控组件真的那么难理解吗](https://juejin.cn/post/6858276396968951822)
   - [ ] [[译]受控组件 & 非受控组件](https://www.baobangdong.cn/controlled-components-and-uncontrolled-components/)
+
+### 高阶组件（HOC）
+
+高阶组件（HOC）是 React 中用于复用组件逻辑的一种高级技巧。HOC 自身不是 React API 的一部分，它是一种基于 React 的组合特性而形成的设计模式。
+
+具体而言，高阶组件是参数为组件，返回值为新组件的函数。
+
+- [ ] 文档
+  - [ ] [React 官方文档](https://reactjs.org/docs/higher-order-components.html)
+- [ ] 推荐文章
+  - [ ] [React 高阶组件(HOC)入门指南](https://github.com/MrErHu/blog/issues/4)
+  - [ ] [hoc 库 recompose](https://github.com/acdlite/recompose)
+  - [ ] [精读 React 高阶组件](https://zhuanlan.zhihu.com/p/27434557)
 
 ### 原理
 
