@@ -325,7 +325,8 @@ html 语义化就是让页面的内容结构化，便于对浏览器、搜索引
   - [ ] [关于 HTML 语义和前端架构](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)
 
 ### CSS
-
+- [ ] 推荐文章
+  - [ ] [一文梳理CSS必会知识点](https://juejin.cn/post/6854573212337078285)
 #### CSS 盒子模型
 
 在 CSS 中，所有的元素都被一个个的“盒子（box）”包围着，我们广泛地使用两种“盒子” —— 块级盒子 (block box) 和 内联盒子 (inline box)，理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
@@ -364,6 +365,11 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 - [ ] 推荐文档
   - [ ] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
   - [ ] [最强大的 CSS 布局 —— Grid 布局](https://juejin.cn/post/6854573220306255880)
+
+#### 其他
+- [ ] 推荐文档
+  - [ ] [详谈层合成（composite)](http://jartto.wang/2017/09/29/expand-on-performance-composite/)
+  - [ ] [移动设备如何实现真正1px的线？](https://jinlong.github.io/2015/05/24/css-retina-hairlines/)
 
 ## 框架
 
@@ -445,6 +451,7 @@ TypeScript 是为开发大型应用而设计的，并且 TypeScript 可转译成
 推荐文章
 
 - [TypeScript 入门教程](https://ts.xcatliu.com/)
+- [TypeScript 的另一面：类型编程](https://juejin.cn/post/6989796543880495135)
 - [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) 另有[中文版](https://jkchao.github.io/typescript-book-chinese/)
 
 推荐开源项目
