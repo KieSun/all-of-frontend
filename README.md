@@ -312,10 +312,6 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 - [ ] Github
 - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
 
-#### 推荐开源库
-
-- [ ] [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
-
 ### HTML
 
 #### HTML 语义化
@@ -607,6 +603,10 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 ## 日常充电
 
 ## Github 优秀学习资料
+
+### JS
+
+- [ ] [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
 
 ## 生产力工具
 
