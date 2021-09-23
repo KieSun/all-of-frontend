@@ -629,6 +629,13 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 ### JS
 
 - [ ] [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+### CSS
+
+- [ ] [You-need-to-know-css](https://github.com/l-hammer/You-need-to-know-css)
+- [ ] [CSS Inspiration](https://csscoco.com/inspiration/#/)
+- [ ] [CSS Tricks](https://qishaoxuan.github.io/css_tricks/)
+- [ ] [spinkit](https://tobiasahlin.com/spinkit/) 需自备梯子
+- [ ] [animista](https://animista.net/)
 
 ## 生产力工具
 
