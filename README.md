@@ -364,6 +364,18 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
   - [ ] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
   - [ ] [最强大的 CSS 布局 —— Grid 布局](https://juejin.cn/post/6854573220306255880)
 
+## 框架
+
+### 虚拟 DOM
+
+virtul DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的真实节点对象，再通过特定的 render 方法将其渲染成真实的 DOM 节点。
+
+- [ ] 文档
+  - [ ] [React 官网介绍](https://reactjs.org/docs/faq-internals.html)
+- [ ] 推荐文章
+  - [ ] [ Virtual Dom 和 Diff 算法在 React 中是如何工作的？](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)，需自备梯子
+  - [ ] [ React 核心知识点 -- Virtual Dom 与 Diff ](https://github.com/pfan123/Articles/issues/62)
+
 ## React
 
 ### 合成事件
