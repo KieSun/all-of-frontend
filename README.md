@@ -312,7 +312,7 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 - [ ] Github
 - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
 
-### 推荐开源库
+#### 推荐开源库
 
 - [ ] [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
 
