@@ -312,6 +312,10 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 - [ ] Github
 - [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
 
+### 推荐开源库
+
+- [ ] [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+
 ### HTML
 
 #### HTML 语义化
@@ -434,6 +438,26 @@ virtul DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的�
 
 ## Vue
 
+文档
+
+- [ ] [Vue 官方文档](https://vuejs.org/)
+- [ ] [Vue Router 官方文档](https://router.vuejs.org/)
+- [ ] [Vuex 官方文档](https://vuex.vuejs.org/)
+
+推荐文章
+
+- [ ] [实战技巧，Vue原来还可以这样写](https://juejin.cn/post/6844904196626448391#heading-9)
+- [ ] [来聊聊源码学习](https://juejin.cn/post/6844903617762492423)
+
+推荐开源项目
+
+- [ ] [awesome-vue](https://github.com/vuejs/awesome-vue)
+
+原理
+
+- [ ] [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662#heading-3)
+- [ ] [详解vue的diff算法](https://juejin.cn/post/6844903607913938951#heading-3)
+
 ## TypeScript
 
 TypeScript 是为开发大型应用而设计的，并且 TypeScript 可转译成 JavaScript。由于 TypeScript 是 JavaScript 的严格超集，任何现有的 JavaScript 程序都是合法的 TypeScript 程序。
@@ -449,6 +473,7 @@ TypeScript 是为开发大型应用而设计的，并且 TypeScript 可转译成
 
 推荐开源项目
 
+- [TypeScript-for-Beginner-Programmers](https://github.com/chibicode/TypeScript-for-Beginner-Programmers) 需自备梯子
 - [type-challenges](https://github.com/type-challenges/type-challenges)
 - [TypeScript exercises](https://github.com/typescript-exercises/typescript-exercises)
 
@@ -575,6 +600,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [如何进行 web 性能监控？](http://www.alloyteam.com/2020/01/14184/#prettyPhoto)
 - [蚂蚁金服如何把前端性能监控做到极致?](https://www.infoq.cn/article/dxa8am44oz*lukk5ufhy)
 - [如何做前端异常监控？](https://www.zhihu.com/question/29953354)
+- [前端监控平台系列：JS SDK（已开源）](https://juejin.cn/post/6862559324632252430#heading-17)
 
 ## 面试
 
