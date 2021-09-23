@@ -490,6 +490,10 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 
 - [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1) 另有[中文翻译](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
 - [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+- [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
+- [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.cn/post/6844903569087266823)
+- [九种跨域方式实现原理（完整版](https://juejin.cn/post/6844903767226351623)
+- [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
 
 ## 性能优化
 
