@@ -1,6 +1,7 @@
 # Fucking Frontend
 
 <p align='center'>
+  <img alt="contributors" src="https://img.shields.io/github/contributors/KieSun/fucking-frontend.svg" />
   <img alt="Commit" src="https://img.shields.io/github/commit-activity/w/KieSun/fucking-frontend" />
   <img alt="Stars" src="https://img.shields.io/github/stars/KieSun/fucking-frontend" />
   <img alt="Forks" src="https://img.shields.io/github/forks/KieSun/fucking-frontend" />
@@ -12,7 +13,7 @@
 
 **本仓库欢迎各位读者提交你认为不错的内容，直接开 PR 或者 Issue 都可。**
 
-## 这是什么？
+## 🔥 这是什么？
 
 这是一份笔者从自学前端逐步成长为大厂基架组资深前端开发所沉淀下来的资料，其中包含了前端体系化学习、进阶、面试等内容。
 
@@ -20,7 +21,7 @@
 
 **内容每天都在更新，大家可以持续关注。**
 
-## 如何使用
+## 💻 如何使用
 
 前端学习路径笔者会以计划的方式呈现，从基础到进阶内容都会涉及，并且会附带上笔者的一些解释以便读者们将知识连贯起来，从而建立自己的知识体系而不是单独记忆松散的知识点。
 
@@ -28,7 +29,7 @@
 
 当然除了前端学习路径，笔者还提供了热门技术原理解析、工程化体系学习、Github 上的优秀资料等内容供大家自行选择，读者们可以挑选感兴趣的内容自行学习。
 
-## 目录
+## 📖 目录
 
 - [前端核心学习路径](#前端核心学习路径)
   - [前端核心三板斧](#前端核心三板斧)
@@ -364,6 +365,18 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 - [ ] 推荐文档
   - [ ] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
   - [ ] [最强大的 CSS 布局 —— Grid 布局](https://juejin.cn/post/6854573220306255880)
+
+## 框架
+
+### 虚拟 DOM
+
+virtul DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的真实节点对象，再通过特定的 render 方法将其渲染成真实的 DOM 节点。
+
+- [ ] 文档
+  - [ ] [React 官网介绍](https://reactjs.org/docs/faq-internals.html)
+- [ ] 推荐文章
+  - [ ] [ Virtual Dom 和 Diff 算法在 React 中是如何工作的？](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)，需自备梯子
+  - [ ] [ React 核心知识点 -- Virtual Dom 与 Diff ](https://github.com/pfan123/Articles/issues/62)
 
 ## React
 
