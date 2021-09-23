@@ -1,6 +1,7 @@
 # Fucking Frontend
 
 <p align='center'>
+  <img alt="contributors" src="https://img.shields.io/github/contributors/KieSun/fucking-frontend.svg" />
   <img alt="Commit" src="https://img.shields.io/github/commit-activity/w/KieSun/fucking-frontend" />
   <img alt="Stars" src="https://img.shields.io/github/stars/KieSun/fucking-frontend" />
   <img alt="Forks" src="https://img.shields.io/github/forks/KieSun/fucking-frontend" />
@@ -12,7 +13,7 @@
 
 **本仓库欢迎各位读者提交你认为不错的内容，直接开 PR 或者 Issue 都可。**
 
-## 这是什么？
+## 这是什么？🔥 
 
 这是一份笔者从自学前端逐步成长为大厂基架组资深前端开发所沉淀下来的资料，其中包含了前端体系化学习、进阶、面试等内容。
 
@@ -28,7 +29,7 @@
 
 当然除了前端学习路径，笔者还提供了热门技术原理解析、工程化体系学习、Github 上的优秀资料等内容供大家自行选择，读者们可以挑选感兴趣的内容自行学习。
 
-## 目录
+## 📖 目录
 
 - [前端核心学习路径](#前端核心学习路径)
   - [前端核心三板斧](#前端核心三板斧)
