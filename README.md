@@ -35,6 +35,15 @@
 
 ## 📖 目录
 
+- [🔥 这是什么？](#-这是什么)
+- [💻 如何使用](#-如何使用)
+- [如何获取本仓库资料](#如何获取本仓库资料)
+- [📖 目录](#-目录)
+- [如何高效自学](#如何高效自学)
+- [书籍推荐](#书籍推荐)
+  - [初级](#初级)
+  - [进阶](#进阶)
+  - [高级](#高级)
 - [前端核心学习路径](#前端核心学习路径)
   - [前端核心三板斧](#前端核心三板斧)
   - [JS](#js)
@@ -43,36 +52,53 @@
     - [类型转换](#类型转换)
     - [this](#this)
     - [闭包](#闭包)
+    - [变量提升](#变量提升)
     - [作用域](#作用域)
     - [原型](#原型)
     - [new](#new)
-    - [变量提升](#变量提升)
     - [Class(类)](#class类)
-    - [事件循环](#事件循环)
     - [继承](#继承)
+    - [模块化](#模块化)
+    - [事件循环](#事件循环)
+    - [Promise](#promise)
     - [迭代器与生成器](#迭代器与生成器)
     - [节流与防抖](#节流与防抖)
+    - [柯里化（Currying）](#柯里化currying)
     - [垃圾回收](#垃圾回收)
-    - [Promise](#Promise)
+    - [其他零散但重要的知识点](#其他零散但重要的知识点)
   - [HTML](#html)
-    - [HTML 语义化](#HTML-语义化)
+    - [HTML 语义化](#html-语义化)
   - [CSS](#css)
+    - [CSS 盒子模型](#css-盒子模型)
+    - [CSS 选择器](#css-选择器)
     - [Flex](#flex)
-    - [Grid](#grid)
-    - [CSS 盒子模型](#CSS-盒子模型)
-    - [CSS 选择器](#CSS-选择器)
-- [React](#react)
-  - [合成事件](#合成事件)
-- [Vue](#vue)
-- [TypeScript](#TypeScript)
-- [组件库](#组件库)
+    - [grid](#grid)
+    - [其他](#其他)
 - [浏览器](#浏览器)
 - [性能优化](#性能优化)
+- [框架](#框架)
+  - [虚拟 DOM](#虚拟-dom)
+- [React](#react)
+  - [合成事件](#合成事件)
+  - [如何编写一个组件](#如何编写一个组件)
+  - [受控组件和非受控组件](#受控组件和非受控组件)
+  - [高阶组件（HOC）](#高阶组件hoc)
+  - [原理](#原理)
+- [Vue](#vue)
+- [TypeScript](#typescript)
+- [Electron](#electron)
+- [组件库](#组件库)
 - [微前端](#微前端)
 - [跨端框架](#跨端框架)
+- [监控](#监控)
 - [面试](#面试)
 - [日常充电](#日常充电)
+  - [CSS](#css-1)
 - [Github 优秀学习资料](#github-优秀学习资料)
+  - [JS](#js-1)
+  - [代码样式及安全](#代码样式及安全)
+- [生产力工具](#生产力工具)
+  - [流程图](#流程图)
 - [作者信息](#作者信息)
 
 ## 如何高效自学
@@ -255,7 +281,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 文档
   - [ ] [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 - [ ] 推荐文章
-  - [ ] [【深度全面】前端JavaScript模块化规范进化论](https://segmentfault.com/a/1190000023711059)，记录了 JS 模块化的进化之路
+  - [ ] [【深度全面】前端 JavaScript 模块化规范进化论](https://segmentfault.com/a/1190000023711059)，记录了 JS 模块化的进化之路
   - [ ] [JavaScript modules](https://v8.dev/features/modules)，由浅入深解释 JS 模块化
   - [ ] [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)，一篇对 JS 模块化深入解释的文章，另有 [中文版](https://juejin.cn/post/6844903591979778061)
 
@@ -271,7 +297,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 的工作原理](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)，需自备梯子，另有 [中文翻译版](https://github.com/Troland/how-javascript-works/blob/master/event-loop.md)。
 - [ ] 事件循环可视化
   - [ ] [Loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
-
 
 #### Promise
 
@@ -393,11 +418,35 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
   - [ ] [详谈层合成（composite)](http://jartto.wang/2017/09/29/expand-on-performance-composite/)
   - [ ] [移动设备如何实现真正 1px 的线？](https://jinlong.github.io/2015/05/24/css-retina-hairlines/)
 
+## 浏览器
+
+推荐文章：
+
+- [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1) 另有[中文翻译](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
+- [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+- [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
+- [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.cn/post/6844903569087266823)
+- [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
+- [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
+
+## 性能优化
+
+性能优化与用户体验密切相关，是前端进阶中必不可少的一部分。
+
+推荐文章:
+
+- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)
+- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)
+- [Web Vitals](https://web.dev/learn-web-vitals/)
+- [Metrics](https://web.dev/metrics/)
+- [Fast load times](https://web.dev/fast/)
+- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
+
 ## 框架
 
 ### 虚拟 DOM
 
-virtul DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的真实节点对象，再通过特定的 render 方法将其渲染成真实的 DOM 节点。
+Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的真实节点对象，再通过特定的 render 方法将其渲染成真实的 DOM 节点。
 
 - [ ] 文档
   - [ ] [React 官网介绍](https://reactjs.org/docs/faq-internals.html)
@@ -548,30 +597,6 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [如何规范你的 Git commit？](https://zhuanlan.zhihu.com/p/182553920)
 - [基于 lerna 和 yarn workspace 的 monorepo 工作流](https://zhuanlan.zhihu.com/p/71385053)
 - [FusionNext 可配置能力从 Sass 体系升级为支持 Css Variable](https://zhuanlan.zhihu.com/p/257159028)
-
-## 浏览器
-
-推荐文章：
-
-- [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1) 另有[中文翻译](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
-- [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
-- [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
-- [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.cn/post/6844903569087266823)
-- [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
-- [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
-
-## 性能优化
-
-性能优化与用户体验密切相关，是前端进阶中必不可少的一部分。
-
-推荐文章:
-
-- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)
-- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)
-- [Web Vitals](https://web.dev/learn-web-vitals/)
-- [Metrics](https://web.dev/metrics/)
-- [Fast load times](https://web.dev/fast/)
-- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
 
 ## 微前端
 
