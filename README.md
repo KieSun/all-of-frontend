@@ -469,6 +469,7 @@ virtul DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的�
 - [ ] [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662#heading-3)
 - [ ] [详解 vue 的 diff 算法](https://juejin.cn/post/6844903607913938951#heading-3)
 - [ ] [Vue Design](https://github.com/HcySunYang/vue-design)，master分支：《渲染器》 elegant分支：逐行级别的源码分析
+
 ## TypeScript
 
 TypeScript 是为开发大型应用而设计的，并且 TypeScript 可转译成 JavaScript。由于 TypeScript 是 JavaScript 的严格超集，任何现有的 JavaScript 程序都是合法的 TypeScript 程序。
