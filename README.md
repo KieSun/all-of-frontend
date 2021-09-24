@@ -327,6 +327,10 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
 
+#### 其他零散但重要的知识点
+
+- [ ] [0.1 + 0.2 !== 0.3](https://zhuanlan.zhihu.com/p/225490777)，JS 浮点数会造成的问题
+
 ### HTML
 
 #### HTML 语义化
