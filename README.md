@@ -462,11 +462,13 @@ virtul DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的�
 推荐开源项目
 
 - [ ] [awesome-vue](https://github.com/vuejs/awesome-vue)
+- [ ] [vue-patterns](https://github.com/learn-vuejs/vue-patterns)，有用的Vue模式，技巧，提示以及有帮助的精选链接
 
 原理
 
 - [ ] [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662#heading-3)
 - [ ] [详解 vue 的 diff 算法](https://juejin.cn/post/6844903607913938951#heading-3)
+- [ ] [Vue Design](https://github.com/HcySunYang/vue-design)，master分支：《渲染器》 elegant分支：逐行级别的源码分析
 
 ## TypeScript
 
@@ -643,6 +645,8 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 ### JS
 
 - [ ] [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+- [ ] [JavaScript安全指南](https://github.com/Tencent/secguide/blob/main/JavaScript%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97.md#1.1)
+- [ ] [What the f*ck JavaScript?](https://github.com/denysdovhan/wtfjs)，有趣的 JavaScript 示例列表，附有解释
 
 ### 代码样式及安全
 
