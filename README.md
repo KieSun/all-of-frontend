@@ -401,6 +401,8 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 - [ ] 推荐文章
   - [ ] [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
   - [ ] [Flexbox 布局中不为人知的细节](https://juejin.cn/post/6938292463605907492)
+- [] 实战
+  - [ ] [FLEXBOX FROGGY](https://flexboxfroggy.com/) 一个趣味性小游戏学习 Flex 的网站
 
 #### grid
 
