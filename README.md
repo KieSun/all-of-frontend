@@ -1,6 +1,7 @@
 # Fucking Frontend
 
 <p align='center'>
+  <img alt="contributors" src="https://img.shields.io/github/contributors/KieSun/fucking-frontend.svg" />
   <img alt="Commit" src="https://img.shields.io/github/commit-activity/w/KieSun/fucking-frontend" />
   <img alt="Stars" src="https://img.shields.io/github/stars/KieSun/fucking-frontend" />
   <img alt="Forks" src="https://img.shields.io/github/forks/KieSun/fucking-frontend" />
@@ -12,7 +13,7 @@
 
 **本仓库欢迎各位读者提交你认为不错的内容，直接开 PR 或者 Issue 都可。**
 
-## 这是什么？
+## 🔥 这是什么？
 
 这是一份笔者从自学前端逐步成长为大厂基架组资深前端开发所沉淀下来的资料，其中包含了前端体系化学习、进阶、面试等内容。
 
@@ -20,7 +21,7 @@
 
 **内容每天都在更新，大家可以持续关注。**
 
-## 如何使用
+## 💻 如何使用
 
 前端学习路径笔者会以计划的方式呈现，从基础到进阶内容都会涉及，并且会附带上笔者的一些解释以便读者们将知识连贯起来，从而建立自己的知识体系而不是单独记忆松散的知识点。
 
@@ -28,8 +29,21 @@
 
 当然除了前端学习路径，笔者还提供了热门技术原理解析、工程化体系学习、Github 上的优秀资料等内容供大家自行选择，读者们可以挑选感兴趣的内容自行学习。
 
-## 目录
+## 如何获取本仓库资料
 
+**笔者已经将仓库内容全部分门别类整理好了，大家可以关注【[公众号](#作者信息)】发送「资料」获取。**
+
+## 📖 目录
+
+- [🔥 这是什么？](#-这是什么)
+- [💻 如何使用](#-如何使用)
+- [如何获取本仓库资料](#如何获取本仓库资料)
+- [📖 目录](#-目录)
+- [如何高效自学](#如何高效自学)
+- [书籍推荐](#书籍推荐)
+  - [初级](#初级)
+  - [进阶](#进阶)
+  - [高级](#高级)
 - [前端核心学习路径](#前端核心学习路径)
   - [前端核心三板斧](#前端核心三板斧)
   - [JS](#js)
@@ -38,35 +52,53 @@
     - [类型转换](#类型转换)
     - [this](#this)
     - [闭包](#闭包)
+    - [变量提升](#变量提升)
     - [作用域](#作用域)
     - [原型](#原型)
     - [new](#new)
-    - [变量提升](#变量提升)
     - [Class(类)](#class类)
-    - [事件循环](#事件循环)
     - [继承](#继承)
+    - [模块化](#模块化)
+    - [事件循环](#事件循环)
+    - [Promise](#promise)
     - [迭代器与生成器](#迭代器与生成器)
     - [节流与防抖](#节流与防抖)
+    - [柯里化（Currying）](#柯里化currying)
     - [垃圾回收](#垃圾回收)
-    - [Promise](#Promise)
+    - [其他零散但重要的知识点](#其他零散但重要的知识点)
   - [HTML](#html)
-    - [HTML 语义化](#HTML-语义化)
+    - [HTML 语义化](#html-语义化)
   - [CSS](#css)
+    - [CSS 盒子模型](#css-盒子模型)
+    - [CSS 选择器](#css-选择器)
     - [Flex](#flex)
-    - [Grid](#grid)
-    - [CSS 盒子模型](#CSS-盒子模型)
-    - [CSS 选择器](#CSS-选择器)
+    - [grid](#grid)
+    - [其他](#其他)
+- [浏览器](#浏览器)
+- [性能优化](#性能优化)
+- [框架](#框架)
+  - [虚拟 DOM](#虚拟-dom)
 - [React](#react)
   - [合成事件](#合成事件)
+  - [如何编写一个组件](#如何编写一个组件)
+  - [受控组件和非受控组件](#受控组件和非受控组件)
+  - [高阶组件（HOC）](#高阶组件hoc)
+  - [原理](#原理)
 - [Vue](#vue)
-- [TypeScript](#TypeScript)
+- [TypeScript](#typescript)
+- [Electron](#electron)
 - [组件库](#组件库)
-- [性能优化](#性能优化)
 - [微前端](#微前端)
 - [跨端框架](#跨端框架)
+- [监控](#监控)
 - [面试](#面试)
 - [日常充电](#日常充电)
+  - [CSS](#css-1)
 - [Github 优秀学习资料](#github-优秀学习资料)
+  - [JS](#js-1)
+  - [代码样式及安全](#代码样式及安全)
+- [生产力工具](#生产力工具)
+  - [流程图](#流程图)
 - [作者信息](#作者信息)
 
 ## 如何高效自学
@@ -94,7 +126,7 @@
 
 以上书籍主要还是推荐了 JS 方面的，其它比如说框架、TS 等等技术会在各自章节为大家介绍。
 
-**上述书籍大家可以关注【[公众号](#个人信息)】发送「资料」获取。**
+**上述书籍大家可以关注【[公众号](#作者信息)】发送「资料」获取。**
 
 ## 前端核心学习路径
 
@@ -175,6 +207,17 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript 的静态作用域链与“动态”闭包链](https://juejin.cn/post/6957913856488243237)
   - [ ] [知乎中关于闭包的讨论](https://www.zhihu.com/question/34210214)
 
+#### 变量提升
+
+变量提升（Hoisting）可以将变量和函数在编译阶段放入内存，从而在执行阶段时在声明前使用。
+
+- [ ] 文档
+  - [ ] [JS 变量提升](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+- [ ] 推荐文章
+  - [ ] [JavaScript 变量提升和函数提升](https://towind.fun/2021/05/10/js-hoisting/)
+  - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)
+  - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
+
 #### 作用域
 
 作用域是指程序中定义变量的区域，该位置决定了变量的生命周期，也就是变量和函数的可访问范围。
@@ -214,7 +257,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 变量提升（Hoisting）可以将变量和函数在编译阶段放入内存，从而在执行阶段时在声明前使用。
 
 - [ ] 文档
-  - [ ] [JS 变量提升](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting) 变量提升的概念
+  - [ ] [JS 变量提升](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)，变量提升的概念
 - [ ] 推荐文章
   - [ ] [JavsScript 变量提升和函数提升](https://towind.fun/2021/05/10/js-hoisting/)，深度解析变量提升和函数提升，举例说明各种情况下的变量提升
   - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)，深度理解解析let和val的区别，和let的暂时死区
@@ -233,6 +276,26 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [给 ES6 class 说句公道话](https://juejin.cn/post/6924108426125508616)
   - [ ] [应该在 JavaScript 中使用 Class 吗？](https://zhuanlan.zhihu.com/p/158956514)
 
+#### 继承
+
+继承是面向对象语言（Object-Oriented Language）三大特征之一，在 JS 中也占有非常重要的地位。而想要实现继承有多种方式，它们都有各自的优缺点。
+
+- [ ] 文档
+  - [ ] [继承](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
+- [ ] 推荐文章
+  - [ ] [JavaScript 深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
+  - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
+  - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
+
+#### 模块化
+
+- [ ] 文档
+  - [ ] [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
+- [ ] 推荐文章
+  - [ ] [【深度全面】前端 JavaScript 模块化规范进化论](https://segmentfault.com/a/1190000023711059)，记录了 JS 模块化的进化之路
+  - [ ] [JavaScript modules](https://v8.dev/features/modules)，由浅入深解释 JS 模块化
+  - [ ] [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)，一篇对 JS 模块化深入解释的文章，另有 [中文版](https://juejin.cn/post/6844903591979778061)
+
 #### 事件循环
 
 大家都知道 JS 是一门单线程的非阻塞的脚本语言。这也就意味着，代码在执行的任何时候只有一个主线程来处理所有的任务。所以弄懂事件循环机制对我们学习 JS 至关重要。
@@ -246,16 +309,19 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 事件循环可视化
   - [ ] [Loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
 
-#### 继承
+#### Promise
 
-继承是面向对象语言（Object-Oriented Language）三大特征之一，在 JS 中也占有非常重要的地位。而想要实现继承有多种方式，它们都有各自的优缺点。
+Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 
 - [ ] 文档
-  - [ ] [继承](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Inheritance)
+  - [ ] [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+  - [ ] [Promises/A+ 规范](https://promisesaplus.com/)
 - [ ] 推荐文章
-  - [ ] [JavaScript 深入之继承的多种方式和优缺点](https://github.com/mqyqingfeng/Blog/issues/16)
-  - [ ] [JavaScript 中的继承](https://medium.com/@happymishra66/inheritance-in-javascript-21d2b82ffa6f)，需自备梯子
-  - [ ] [JS 类继承](https://javascript.info/class-inheritance)，另有 [中文翻译版](https://zh.javascript.info/class-inheritance)
+- [Callbacks Vs Promises and basics of JS](https://theflyingmantis.medium.com/callbacks-vs-promises-and-basics-of-js-80d3d1515e81)，需自备梯子
+- [ ] [最简实现 Promise，支持异步链式调用（20 行）](https://juejin.cn/post/6844904094079926286)
+- [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
+- [ ] Github
+- [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
 
 #### 迭代器与生成器
 
@@ -297,19 +363,9 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
 
-### Promise
+#### 其他零散但重要的知识点
 
-Promise 是由社区最早提出和实现的异步编程的一种解决方案。
-
-- [ ] 文档
-  - [ ] [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
-  - [ ] [Promises/A+ 规范](https://promisesaplus.com/)
-- [ ] 推荐文章
-- [Callbacks Vs Promises and basics of JS](https://theflyingmantis.medium.com/callbacks-vs-promises-and-basics-of-js-80d3d1515e81)，需自备梯子
-- [ ] [最简实现 Promise，支持异步链式调用（20 行）](https://juejin.cn/post/6844904094079926286)
-- [ ] [100 行代码实现 Promises/A+ 规范](https://mp.weixin.qq.com/s/qdJ0Xd8zTgtetFdlJL3P1g)
-- [ ] Github
-- [ ] [promise-fun](https://github.com/sindresorhus/promise-fun)
+- [ ] [0.1 + 0.2 !== 0.3](https://zhuanlan.zhihu.com/p/225490777)，JS 浮点数会造成的问题
 
 ### HTML
 
@@ -324,6 +380,9 @@ html 语义化就是让页面的内容结构化，便于对浏览器、搜索引
   - [ ] [关于 HTML 语义和前端架构](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)，HTML语义化在开发中配合CSS结构化类名的使用构建可重用和可组合的组件
 
 ### CSS
+
+- [ ] 推荐文章
+  - [ ] [一文梳理 CSS 必会知识点](https://juejin.cn/post/6854573212337078285)
 
 #### CSS 盒子模型
 
@@ -363,6 +422,48 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 - [ ] 推荐文档
   - [ ] [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
   - [ ] [最强大的 CSS 布局 —— Grid 布局](https://juejin.cn/post/6854573220306255880)
+
+#### 其他
+
+- [ ] 推荐文档
+  - [ ] [详谈层合成（composite)](http://jartto.wang/2017/09/29/expand-on-performance-composite/)
+  - [ ] [移动设备如何实现真正 1px 的线？](https://jinlong.github.io/2015/05/24/css-retina-hairlines/)
+
+## 浏览器
+
+推荐文章：
+
+- [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1) 另有[中文翻译](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
+- [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
+- [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
+- [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.cn/post/6844903569087266823)
+- [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
+- [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
+
+## 性能优化
+
+性能优化与用户体验密切相关，是前端进阶中必不可少的一部分。
+
+推荐文章:
+
+- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)
+- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)
+- [Web Vitals](https://web.dev/learn-web-vitals/)
+- [Metrics](https://web.dev/metrics/)
+- [Fast load times](https://web.dev/fast/)
+- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
+
+## 框架
+
+### 虚拟 DOM
+
+Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的真实节点对象，再通过特定的 render 方法将其渲染成真实的 DOM 节点。
+
+- [ ] 文档
+  - [ ] [React 官网介绍](https://reactjs.org/docs/faq-internals.html)
+- [ ] 推荐文章
+  - [ ] [ Virtual Dom 和 Diff 算法在 React 中是如何工作的？](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)，需自备梯子
+  - [ ] [ React 核心知识点 -- Virtual Dom 与 Diff ](https://github.com/pfan123/Articles/issues/62)
 
 ## React
 
@@ -417,8 +518,31 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 - [react-source-code-debug](https://github.com/neroneroffy/react-source-code-debug)，学习如何调试源码
 - [react-illustration-series](https://github.com/7kms/react-illustration-series)，图解 react 源码，用大量配图的方式，致力于将 react 原理表述清楚
 - [just-react](https://github.com/BetaSu/just-react)，「React 技术揭秘」，一本自顶向下的 React 源码分析书
+- [tiny-react](https://github.com/PiNengShaoNian/tiny-react)，基于 React17 精简而来的最小版实现
 
 ## Vue
+
+文档
+
+- [ ] [Vue 官方文档](https://vuejs.org/)
+- [ ] [Vue Router 官方文档](https://router.vuejs.org/)
+- [ ] [Vuex 官方文档](https://vuex.vuejs.org/)
+
+推荐文章
+
+- [ ] [实战技巧，Vue 原来还可以这样写](https://juejin.cn/post/6844904196626448391#heading-9)
+- [ ] [来聊聊源码学习](https://juejin.cn/post/6844903617762492423)
+
+推荐开源项目
+
+- [ ] [awesome-vue](https://github.com/vuejs/awesome-vue)
+- [ ] [vue-patterns](https://github.com/learn-vuejs/vue-patterns)，有用的 Vue 模式，技巧，提示以及有帮助的精选链接
+
+原理
+
+- [ ] [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662#heading-3)
+- [ ] [详解 vue 的 diff 算法](https://juejin.cn/post/6844903607913938951#heading-3)
+- [ ] [Vue Design](https://github.com/HcySunYang/vue-design)，master 分支：《渲染器》 elegant 分支：逐行级别的源码分析
 
 ## TypeScript
 
@@ -431,10 +555,12 @@ TypeScript 是为开发大型应用而设计的，并且 TypeScript 可转译成
 推荐文章
 
 - [TypeScript 入门教程](https://ts.xcatliu.com/)
+- [TypeScript 的另一面：类型编程](https://juejin.cn/post/6989796543880495135)
 - [TypeScript Deep Dive](https://basarat.gitbook.io/typescript/) 另有[中文版](https://jkchao.github.io/typescript-book-chinese/)
 
 推荐开源项目
 
+- [TypeScript-for-Beginner-Programmers](https://github.com/chibicode/TypeScript-for-Beginner-Programmers) 需自备梯子
 - [type-challenges](https://github.com/type-challenges/type-challenges)
 - [TypeScript exercises](https://github.com/typescript-exercises/typescript-exercises)
 
@@ -483,19 +609,6 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [基于 lerna 和 yarn workspace 的 monorepo 工作流](https://zhuanlan.zhihu.com/p/71385053)
 - [FusionNext 可配置能力从 Sass 体系升级为支持 Css Variable](https://zhuanlan.zhihu.com/p/257159028)
 
-## 性能优化
-
-性能优化与用户体验密切相关，是前端进阶中必不可少的一部分。
-
-推荐文章:
-
-- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)
-- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)
-- [Web Vitals](https://web.dev/learn-web-vitals/)
-- [Metrics](https://web.dev/metrics/)
-- [Fast load times](https://web.dev/fast/)
-- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
-
 ## 微前端
 
 是一种类似于微服务的架构，它将微服务的理念应用于浏览器端，即将单页面前端应用由单一的单体应用转变为多个小型前端应用聚合为一的应用。
@@ -515,6 +628,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [字节-Garfish](https://github.com/modern-js-dev/garfish)
 - [京东-micro-app](https://github.com/micro-zoe/micro-app)
 - [Bit](https://bit.dev)
+- [EMP - Micro Frontends solution](https://github.com/efoxTeam/emp) 基于 webpack 5 & module federation
 
 推荐文章：
 
@@ -554,6 +668,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 
 - [rrweb](https://github.com/rrweb-io/rrweb)，提供像素级的录制与回放，帮助正确定位问题是如何发生的
 - [monitor](https://github.com/clouDr-f2e/monitor)，👀 一款轻量级的收集页面的用户点击行为、路由跳转、接口报错、代码报错、并上报服务端的 SDK
+- [mitojs](https://github.com/mitojs/mitojs) 上面 `monitor` 作者新维护的库。全新插拔式的监控 SDK，代码架构更清晰，配置项更丰富，高度可定制化
 
 推荐文章：
 
@@ -561,12 +676,31 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [如何进行 web 性能监控？](http://www.alloyteam.com/2020/01/14184/#prettyPhoto)
 - [蚂蚁金服如何把前端性能监控做到极致?](https://www.infoq.cn/article/dxa8am44oz*lukk5ufhy)
 - [如何做前端异常监控？](https://www.zhihu.com/question/29953354)
+- [前端监控平台系列：JS SDK（已开源）](https://juejin.cn/post/6862559324632252430#heading-17)
 
 ## 面试
 
 ## 日常充电
 
+### CSS
+
+- [ ] [You-need-to-know-css](https://github.com/l-hammer/You-need-to-know-css)
+- [ ] [CSS Inspiration](https://csscoco.com/inspiration/#/)
+- [ ] [CSS Tricks](https://qishaoxuan.github.io/css_tricks/)
+- [ ] [spinkit](https://tobiasahlin.com/spinkit/) 需自备梯子
+- [ ] [animista](https://animista.net/)
+
 ## Github 优秀学习资料
+
+### JS
+
+- [ ] [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
+- [ ] [JavaScript 安全指南](https://github.com/Tencent/secguide/blob/main/JavaScript%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97.md#1.1)
+- [ ] [What the f\*ck JavaScript?](https://github.com/denysdovhan/wtfjs)，有趣的 JavaScript 示例列表，附有解释
+
+### 代码样式及安全
+
+- [secguide](https://github.com/Tencent/secguide)，面向开发人员梳理的代码安全指南
 
 ## 生产力工具
 
