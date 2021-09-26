@@ -196,8 +196,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [You Don't Know JS 书中关于 this 的第二章节](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch2.md)
   - [ ] [深入理解 js this 绑定 ( 无需死记硬背，尾部有总结和面试题解析 )](https://segmentfault.com/a/1190000011194676)
 
-> 务必自己总结规则！
-
 #### 闭包
 
 - [ ] 文档
@@ -206,17 +204,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [You Don't Know JS 第二版中对于闭包的解释](https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/ch7.md)，该版本暂无中文翻译，读者可用 [DeepL](https://www.deepl.com/translator) 进行翻译。
   - [ ] [JavaScript 的静态作用域链与“动态”闭包链](https://juejin.cn/post/6957913856488243237)
   - [ ] [知乎中关于闭包的讨论](https://www.zhihu.com/question/34210214)
-
-#### 变量提升
-
-变量提升（Hoisting）可以将变量和函数在编译阶段放入内存，从而在执行阶段时在声明前使用。
-
-- [ ] 文档
-  - [ ] [JS 变量提升](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
-- [ ] 推荐文章
-  - [ ] [JavaScript 变量提升和函数提升](https://towind.fun/2021/05/10/js-hoisting/)
-  - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)
-  - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
 
 #### 作用域
 
@@ -404,7 +391,7 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 - [ ] 文档
   - [ ] [CSS 选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)，官方文档详细地讲授选择器的不同使用方式，并了解它们的工作原理。
 - [ ] 推荐文章
-  - [ ] [30 个你必须熟记的 CSS 选择器](https://code.tutsplus.com/zh-hans/tutorials/the-30-css-selectors-you-must-memorize--net-16048),开发中常用的 CSS 选择器，熟练掌握以后可以很大程度提高 CSS 的编码体验
+  - [ ] [30 个你必须熟记的 CSS 选择器](https://code.tutsplus.com/zh-hans/tutorials/the-30-css-selectors-you-must-memorize--net-16048)，开发中常用的 CSS 选择器，熟练掌握以后可以很大程度提高 CSS 的编码体验
   - [ ] [深入解析 CSS 样式优先级](https://cloud.tencent.com/developer/article/1545341)，详细介绍了 CSS 样式的权重优先级，避免写重复样式和样式被覆盖不生效的问题
 
 #### Flex
