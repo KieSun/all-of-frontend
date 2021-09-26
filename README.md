@@ -671,6 +671,8 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 
 ## 日常充电
 
+- [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)，优秀的工程师都应该阅读的网站
+
 ### CSS
 
 - [ ] [You-need-to-know-css](https://github.com/l-hammer/You-need-to-know-css)
