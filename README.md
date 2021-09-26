@@ -216,9 +216,9 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 - [ ] 文档
   - [ ] [JS 变量提升](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting) 变量提升的概念
 - [ ] 推荐文章
-  - [ ] [JavsScript 变量提升和函数提升](https://towind.fun/2021/05/10/js-hoisting/) 深度解析变量提升和函数提升，举例说明各种情况下的变量提升
-  - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/) 深度理解解析 let 和 val 的区别和 let 的暂时死区
-  - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html) JavaScript 中的作用域和函数声明和变量声明的提升
+  - [ ] [JavsScript 变量提升和函数提升](https://towind.fun/2021/05/10/js-hoisting/)，深度解析变量提升和函数提升，举例说明各种情况下的变量提升
+  - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)，深度理解解析let和val的区别，和let的暂时死区
+  - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)，JavaScript中的作用域和函数声明和变量声明的提升
 
 #### Class(类)
 
@@ -318,10 +318,10 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 html 语义化就是让页面的内容结构化，便于对浏览器、搜索引擎解析。在没有引入样式 CCS 样式的时候也能以一种可以分辨出来大致表示内容的文档格式显示，并且是容易阅读的。 搜索引擎的爬虫依赖于标记来确定上下文和各个关键字的权重，利于 SEO。 使阅读源代码的人对网站更容易将网站分块，便于阅读维护理解。
 
 - [ ] 文档
-  - [ ] [HTML 中的语义](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html) 什么是 HTML 语义化，HTML 语义化有什么好处
+  - [ ] [HTML 中的语义](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#semantics_in_html)，什么是HTML语义化，HTML语义化有什么好处
 - [ ] 推荐文章
-  - [ ] [IFE-NOTE：页面结构语义化](https://rainylog.com/post/ife-note-1/)　 HTML5 　语义化中的页面结构语义化的一些经验和理解
-  - [ ] [关于 HTML 语义和前端架构](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)　 HTML 语义化在开发中配合 CSS 结构化类名的使用构建可重用和可组合的组件
+  - [ ] [IFE-NOTE：页面结构语义化](https://rainylog.com/post/ife-note-1/)，HTML5语义化中的页面结构语义化的一些经验和理解
+  - [ ] [关于 HTML 语义和前端架构](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/)，HTML语义化在开发中配合CSS结构化类名的使用构建可重用和可组合的组件
 
 ### CSS
 
@@ -330,11 +330,11 @@ html 语义化就是让页面的内容结构化，便于对浏览器、搜索引
 在 CSS 中，所有的元素都被一个个的“盒子（box）”包围着，我们广泛地使用两种“盒子” —— 块级盒子 (block box) 和 内联盒子 (inline box)，理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
 
 - [ ] 文档
-  - [ ] [CSS 盒子模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)　官方文档深入了解 CSS 盒子模型
+  - [ ] [CSS 盒子模型](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model)，官方文档深入了解 CSS 盒子模型
 - [ ] 推荐文章
-  - [ ] [CSS 盒模型之内边距、边框、外边距 十九问](https://juejin.cn/post/6880111680153059341)　通过举例说明盒子模型各种常见形态和问题
-  - [ ] [CSS Box Model](https://www.w3.org/TR/css-box-3/)　盒子模型的一些规范介绍
-  - [ ] [CSS 盒模型详解（图文教程）](https://www.cnblogs.com/qianguyihao/p/7256371.html)　通过图片和例子说明盒子模型的各个部分和在页面上的表现形式
+  - [ ] [CSS 盒模型之内边距、边框、外边距 十九问](https://juejin.cn/post/6880111680153059341)，通过举例说明盒子模型各种常见形态和问题
+  - [ ] [CSS Box Model](https://www.w3.org/TR/css-box-3/)，盒子模型的一些规范介绍
+  - [ ] [CSS 盒模型详解（图文教程）](https://www.cnblogs.com/qianguyihao/p/7256371.html)，通过图片和例子说明盒子模型的各个部分和在页面上的表现形式
 
 #### CSS 选择器
 
@@ -343,10 +343,10 @@ CSS 中，选择器用来指定网页上我们想要样式化的 HTML 元素。C
 CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合起来告诉浏览器哪个 HTML 元素应当是被选为应用规则中的 CSS 属性值的方式。选择器所选择的元素，叫做“选择器的对象”。
 
 - [ ] 文档
-  - [ ] [CSS 选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)
+  - [ ] [CSS 选择器](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors)，官方文档详细地讲授选择器的不同使用方式，并了解它们的工作原理。
 - [ ] 推荐文章
-  - [ ] [30 个你必须熟记的 CSS 选择器](https://code.tutsplus.com/zh-hans/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
-  - [ ] [深入解析 CSS 样式优先级](https://cloud.tencent.com/developer/article/1545341)
+  - [ ] [30 个你必须熟记的 CSS 选择器](https://code.tutsplus.com/zh-hans/tutorials/the-30-css-selectors-you-must-memorize--net-16048),开发中常用的CSS选择器，熟练掌握以后可以很大程度提高CSS的编码体验
+  - [ ] [深入解析 CSS 样式优先级](https://cloud.tencent.com/developer/article/1545341)，详细介绍了CSS样式的权重优先级，避免写重复样式和样式被覆盖不生效的问题
 
 #### Flex
 
