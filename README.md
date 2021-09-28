@@ -477,6 +477,7 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
   - [ ] [寫 React Components 該注意的 6 個地方與技巧](https://medium.com/@chihsuan/%E5%AF%AB-react-components-%E8%A9%B2%E6%B3%A8%E6%84%8F%E7%9A%846%E5%80%8B%E5%9C%B0%E6%96%B9%E8%88%87%E6%8A%80%E5%B7%A7-faa2bb87a18e)
   - [ ] [编写高效且可读组件的 5 个最佳实践](https://www.infoq.cn/article/ry4icky5crb1pokvi0ql)
   - [ ] [designing-react-components-best-practices](https://www.thisdot.co/blog/designing-react-components-best-practices)
+  - [ ] [React 复合组件](https://www.smashingmagazine.com/2021/08/compound-components-react/)
 
 ### 受控组件和非受控组件
 
