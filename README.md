@@ -505,13 +505,14 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
   - [ ] [hoc 库 recompose](https://github.com/acdlite/recompose)
   - [ ] [精读 React 高阶组件](https://zhuanlan.zhihu.com/p/27434557)
 
-
 ### React Hooks
+
 Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。
+
 - [ ] 文档
   - [ ] [React Hooks 官方文档](https://zh-hans.reactjs.org/docs/hooks-intro.html)
 - [ ] 推荐文章
-  - [ ] [彻底理解 React hook useCallback和useMemo的区别](https://juejin.cn/post/6844904032113278990)
+  - [ ] [彻底理解 React hook useCallback 和 useMemo 的区别](https://juejin.cn/post/6844904032113278990)
   - [ ] [React hooks 最佳实践](https://mp.weixin.qq.com/s/0sykIHDM_Ih3W3md-DwFkw)
 
 ### 原理
@@ -520,7 +521,7 @@ Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情�
 - [react-illustration-series](https://github.com/7kms/react-illustration-series)，图解 react 源码，用大量配图的方式，致力于将 react 原理表述清楚
 - [just-react](https://github.com/BetaSu/just-react)，「React 技术揭秘」，一本自顶向下的 React 源码分析书
 - [tiny-react](https://github.com/PiNengShaoNian/tiny-react)，基于 React17 精简而来的最小版实现
-- [从Context源码实现谈React性能优化](https://juejin.cn/post/6907546624441090055)
+- [从 Context 源码实现谈 React 性能优化](https://juejin.cn/post/6907546624441090055)
 
 ## Vue
 
