@@ -635,6 +635,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 推荐文章：
 
 - [从零到一实现企业级微前端框架，保姆级教学](https://juejin.cn/post/7004661323124441102)
+- [字节跳动是如何落地微前端的](https://mp.weixin.qq.com/s/L9wbfNG5fTXF5bx7dcgj4Q)
 - [What Are Micro Frontends?](https://livebook.manning.com/book/micro-frontends-in-action/chapter-1/v-4/)
 - [Bifrost 微前端框架及其在美团闪购中的实践](https://tech.meituan.com/2019/12/26/meituan-bifrost.html)
 - [每日优鲜供应链前端团队微前端改造](https://juejin.cn/post/6844903943873675271)
