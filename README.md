@@ -704,6 +704,11 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [ ] [JavaScript 安全指南](https://github.com/Tencent/secguide/blob/main/JavaScript%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97.md#1.1)
 - [ ] [What the f\*ck JavaScript?](https://github.com/denysdovhan/wtfjs)，有趣的 JavaScript 示例列表，附有解释
 
+### React
+
+- [ ] [react-philosophies](https://github.com/mithi/react-philosophies)，React 哲学，内容为写 React 代码时思考的事情
+
+
 ### 代码样式及安全
 
 - [secguide](https://github.com/Tencent/secguide)，面向开发人员梳理的代码安全指南
