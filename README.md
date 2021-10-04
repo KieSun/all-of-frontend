@@ -438,7 +438,6 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 
 - [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1) 另有[中文翻译](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
 
-
 ### 整体流程
 
 - [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
