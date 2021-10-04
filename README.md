@@ -430,14 +430,35 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 
 ## 浏览器
 
-推荐文章：
+一般说到浏览器，常指的都是 Chrome。浏览器作为前端不可或缺的载体，我们势必需要好好学习及掌握其相关的知识。
+
+**另外浏览器中涉及到的知识面很多，与 JS 执行机制、网络、性能优化、安全等领域都有关联，因此大家在学习这部分的内容时需要多与之前学习的知识联系起来。**
+
+### 架构
 
 - [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1) 另有[中文翻译](https://xie.infoq.cn/article/5d36d123bfd1c56688e125ad3)
+
+
+### 整体流程
+
 - [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)
 - [浏览器工作原理：从 URL 输入到页面展现到底发生了什么？](https://www.jianshu.com/p/d616d887953a)
+
+### 渲染相关
+
 - [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.cn/post/6844903569087266823)
-- [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
+
+### JS 执行机制
+
 - [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)
+
+### 缓存
+
+- [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)
+
+### Devtools
+
+### 浏览器安全
 
 ## 性能优化
 
