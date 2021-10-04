@@ -53,14 +53,14 @@
     - [原型](#原型)
     - [new](#new)
     - [变量提升](#变量提升)
-    - [Class(类)](<#Class(类)>)
+    - [Class](#Class)
     - [继承](#继承)
     - [模块化](#模块化)
     - [事件循环](#事件循环)
     - [Promise](#promise)
     - [迭代器与生成器](#迭代器与生成器)
     - [节流与防抖](#节流与防抖)
-    - [柯里化（Currying）](#柯里化（Currying）)
+    - [柯里化](#柯里化)
     - [垃圾回收](#垃圾回收)
     - [其他零散但重要的知识点](#其他零散但重要的知识点)
   - [HTML](#html)
@@ -74,7 +74,7 @@
 - [浏览器](#浏览器)
 - [性能优化](#性能优化)
 - [框架](#框架)
-  - [虚拟 DOM](#虚拟DOM)
+  - [虚拟 DOM](#虚拟-DOM)
 - [React](#react)
   - [合成事件](#合成事件)
   - [如何编写一个组件](#如何编写一个组件)
@@ -260,7 +260,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [call和apply的模拟实现](https://github.com/mqyqingfeng/Blog/issues/11)，模拟实现 call 和 apply，帮助更好理解
   - [ ] [bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)，模拟实现 bind，帮助更好理解
 
-#### Class(类)
+#### Class
 
 `class` 只是原型链的语法糖，与其它语言中的类不是同一样东西。
 
@@ -340,7 +340,7 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
   - [ ] [Debounce – How to Delay a Function in JavaScript](https://www.freecodecamp.org/news/javascript-debounce-example)
   - [ ] [Debouncing and Throttling in JavaScript](https://www.telerik.com/blogs/debouncing-and-throttling-in-javascript)
 
-#### 柯里化（Currying）
+#### 柯里化
 
 柯里化就是将接收多个参数的函数转换成接收一个参数的函数。
 
