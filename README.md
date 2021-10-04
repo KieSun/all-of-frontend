@@ -249,6 +249,17 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)，深度理解解析 let 和 val 的区别，和 let 的暂时死区
   - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)，JavaScript 中的作用域和函数声明和变量声明的提升
 
+#### call、apply、bind
+
+- [ ] 文档
+  - [ ] [call](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call)，call 的概念
+  - [ ] [apply](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply)，apply 的概念
+  - [ ] [bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind)，bind 的概念
+- [ ] 推荐文章
+  - [ ] [JS中的call、apply、bind方法详解](https://segmentfault.com/a/1190000018270750)，对这三个方法的使用、面试题及具体实现做了详解
+  - [ ] [call和apply的模拟实现](https://github.com/mqyqingfeng/Blog/issues/11)，模拟实现 call 和 apply，帮助更好理解
+  - [ ] [bind的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)，模拟实现 bind，帮助更好理解
+
 #### Class(类)
 
 `class` 只是原型链的语法糖，与其它语言中的类不是同一样东西。
@@ -282,19 +293,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JavaScript modules](https://v8.dev/features/modules)，由浅入深解释 JS 模块化
   - [ ] [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)，一篇对 JS 模块化深入解释的文章，另有 [中文版](https://juejin.cn/post/6844903591979778061)
 
-#### 事件循环
-
-大家都知道 JS 是一门单线程的非阻塞的脚本语言。这也就意味着，代码在执行的任何时候只有一个主线程来处理所有的任务。所以弄懂事件循环机制对我们学习 JS 至关重要。
-
-- [ ] 文档
-  - [ ] [事件循环](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
-- [ ] 推荐文章
-  - [ ] [这一次，彻底弄懂 JavaScript 执行机制](https://juejin.cn/post/6844903512845860872)
-  - [ ] [一次弄懂 Event Loop](https://juejin.cn/post/6844903764202094606)
-  - [ ] [JavaScript 的工作原理](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)，需自备梯子，另有 [中文翻译版](https://github.com/Troland/how-javascript-works/blob/master/event-loop.md)。
-- [ ] 事件循环可视化
-  - [ ] [Loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
-
 #### Promise
 
 Promise 是由社区最早提出和实现的异步编程的一种解决方案。
@@ -317,6 +315,19 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
   - [ ] [[译] 什么是 JavaScript 生成器？如何使用生成器？](https://juejin.cn/post/6844903616357072910)
   - [ ] [Understanding Generators in ES6 JavaScript with Examples](https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5)，需自备梯子
   - [ ] [A Simple Guide to ES6 Iterators in JavaScript with Examples](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)，需自备梯子
+
+#### 事件循环
+
+大家都知道 JS 是一门单线程的非阻塞的脚本语言。这也就意味着，代码在执行的任何时候只有一个主线程来处理所有的任务。所以弄懂事件循环机制对我们学习 JS 至关重要。
+
+- [ ] 文档
+  - [ ] [事件循环](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
+- [ ] 推荐文章
+  - [ ] [这一次，彻底弄懂 JavaScript 执行机制](https://juejin.cn/post/6844903512845860872)
+  - [ ] [一次弄懂 Event Loop](https://juejin.cn/post/6844903764202094606)
+  - [ ] [JavaScript 的工作原理](https://blog.sessionstack.com/how-javascript-works-event-loop-and-the-rise-of-async-programming-5-ways-to-better-coding-with-2f077c4438b5)，需自备梯子，另有 [中文翻译版](https://github.com/Troland/how-javascript-works/blob/master/event-loop.md)。
+- [ ] 事件循环可视化
+  - [ ] [Loupe](http://latentflip.com/loupe/?code=JC5vbignYnV0dG9uJywgJ2NsaWNrJywgZnVuY3Rpb24gb25DbGljaygpIHsKICAgIHNldFRpbWVvdXQoZnVuY3Rpb24gdGltZXIoKSB7CiAgICAgICAgY29uc29sZS5sb2coJ1lvdSBjbGlja2VkIHRoZSBidXR0b24hJyk7ICAgIAogICAgfSwgMjAwMCk7Cn0pOwoKY29uc29sZS5sb2coIkhpISIpOwoKc2V0VGltZW91dChmdW5jdGlvbiB0aW1lb3V0KCkgewogICAgY29uc29sZS5sb2coIkNsaWNrIHRoZSBidXR0b24hIik7Cn0sIDUwMDApOwoKY29uc29sZS5sb2coIldlbGNvbWUgdG8gbG91cGUuIik7!!!PGJ1dHRvbj5DbGljayBtZSE8L2J1dHRvbj4%3D)
 
 #### 节流与防抖
 
