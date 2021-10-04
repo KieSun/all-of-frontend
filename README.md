@@ -35,73 +35,70 @@
 
 ## 📖 目录
 
-- [Fucking Frontend](#fucking-frontend)
-  - [🔥 这是什么？](#-这是什么)
-  - [💻 如何使用](#-如何使用)
-  - [如何获取本仓库资料](#如何获取本仓库资料)
-  - [📖 目录](#-目录)
-  - [如何高效自学](#如何高效自学)
-  - [书籍推荐](#书籍推荐)
-    - [初级](#初级)
-    - [进阶](#进阶)
-    - [高级](#高级)
-  - [前端核心学习路径](#前端核心学习路径)
-    - [前端核心三板斧](#前端核心三板斧)
-    - [JS](#js)
-      - [数据类型](#数据类型)
-      - [类型判断](#类型判断)
-      - [类型转换](#类型转换)
-      - [this](#this)
-      - [闭包](#闭包)
-      - [作用域](#作用域)
-      - [原型](#原型)
-      - [new](#new)
-      - [变量提升](#变量提升)
-      - [Class(类)](#class类)
-      - [继承](#继承)
-      - [模块化](#模块化)
-      - [事件循环](#事件循环)
-      - [Promise](#promise)
-      - [迭代器与生成器](#迭代器与生成器)
-      - [节流与防抖](#节流与防抖)
-      - [柯里化（Currying）](#柯里化currying)
-      - [垃圾回收](#垃圾回收)
-      - [其他零散但重要的知识点](#其他零散但重要的知识点)
-    - [HTML](#html)
-      - [HTML 语义化](#html-语义化)
-    - [CSS](#css)
-      - [CSS 盒子模型](#css-盒子模型)
-      - [CSS 选择器](#css-选择器)
-      - [Flex](#flex)
-      - [grid](#grid)
-      - [其他](#其他)
-  - [浏览器](#浏览器)
-  - [性能优化](#性能优化)
-  - [框架](#框架)
-    - [虚拟 DOM](#虚拟-dom)
-  - [React](#react)
-    - [合成事件](#合成事件)
-    - [如何编写一个组件](#如何编写一个组件)
-    - [受控组件和非受控组件](#受控组件和非受控组件)
-    - [高阶组件（HOC）](#高阶组件hoc)
-    - [React Hooks](#react-hooks)
-    - [原理](#原理)
-  - [Vue](#vue)
-  - [TypeScript](#typescript)
-  - [Electron](#electron)
-  - [组件库](#组件库)
-  - [微前端](#微前端)
-  - [跨端框架](#跨端框架)
-  - [监控](#监控)
-  - [面试](#面试)
-  - [日常充电](#日常充电)
-    - [CSS](#css-1)
-  - [Github 优秀学习资料](#github-优秀学习资料)
-    - [JS](#js-1)
-    - [代码样式及安全](#代码样式及安全)
-  - [生产力工具](#生产力工具)
-    - [流程图](#流程图)
-  - [作者信息](#作者信息)
+- [如何获取本仓库资料](#如何获取本仓库资料)
+- [如何高效自学](#如何高效自学)
+- [书籍推荐](#书籍推荐)
+  - [初级](#初级)
+  - [进阶](#进阶)
+  - [高级](#高级)
+- [前端核心学习路径](#前端核心学习路径)
+  - [前端核心三板斧](#前端核心三板斧)
+  - [JS](#js)
+    - [数据类型](#数据类型)
+    - [类型判断](#类型判断)
+    - [类型转换](#类型转换)
+    - [this](#this)
+    - [闭包](#闭包)
+    - [作用域](#作用域)
+    - [原型](#原型)
+    - [new](#new)
+    - [变量提升](#变量提升)
+    - [Class(类)](#Class(类))
+    - [继承](#继承)
+    - [模块化](#模块化)
+    - [事件循环](#事件循环)
+    - [Promise](#promise)
+    - [迭代器与生成器](#迭代器与生成器)
+    - [节流与防抖](#节流与防抖)
+    - [柯里化（Currying）](#柯里化（Currying）)
+    - [垃圾回收](#垃圾回收)
+    - [其他零散但重要的知识点](#其他零散但重要的知识点)
+  - [HTML](#html)
+    - [HTML 语义化](#语义化)
+  - [CSS](#css)
+    - [盒子模型](#盒子模型)
+    - [选择器](#选择器)
+    - [Flex](#flex)
+    - [grid](#grid)
+    - [其他](#其他)
+- [浏览器](#浏览器)
+- [性能优化](#性能优化)
+- [框架](#框架)
+  - [虚拟DOM](#虚拟DOM)
+- [React](#react)
+  - [合成事件](#合成事件)
+  - [如何编写一个组件](#如何编写一个组件)
+  - [受控组件和非受控组件](#受控组件和非受控组件)
+  - [高阶组件（HOC）](#高阶组件（HOC）)
+  - [React Hooks](#hooks)
+  - [原理](#原理)
+- [Vue](#vue)
+- [TypeScript](#typescript)
+- [Electron](#electron)
+- [组件库](#组件库)
+- [微前端](#微前端)
+- [跨端框架](#跨端框架)
+- [监控](#监控)
+- [面试](#面试)
+- [日常充电](#日常充电)
+  - [CSS](#CSS-日常充电)
+- [Github 优秀学习资料](#github-优秀学习资料)
+  - [JS](#JS-优秀学习资料)
+  - [React](#react-优秀学习资料)
+  - [代码样式及安全](#代码样式及安全)
+- [生产力工具](#生产力工具)
+  - [流程图](#流程图)
+- [作者信息](#作者信息)
 
 ## 如何高效自学
 
@@ -358,7 +355,7 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 
 ### HTML
 
-#### HTML 语义化
+#### 语义化
 
 html 语义化就是让页面的内容结构化，便于对浏览器、搜索引擎解析。在没有引入样式 CCS 样式的时候也能以一种可以分辨出来大致表示内容的文档格式显示，并且是容易阅读的。 搜索引擎的爬虫依赖于标记来确定上下文和各个关键字的权重，利于 SEO。 使阅读源代码的人对网站更容易将网站分块，便于阅读维护理解。
 
@@ -373,7 +370,7 @@ html 语义化就是让页面的内容结构化，便于对浏览器、搜索引
 - [ ] 推荐文章
   - [ ] [一文梳理 CSS 必会知识点](https://juejin.cn/post/6854573212337078285)
 
-#### CSS 盒子模型
+#### 盒子模型
 
 在 CSS 中，所有的元素都被一个个的“盒子（box）”包围着，我们广泛地使用两种“盒子” —— 块级盒子 (block box) 和 内联盒子 (inline box)，理解这些“盒子”的基本原理，是我们使用 CSS 实现准确布局、处理元素排列的关键。
 
@@ -384,7 +381,7 @@ html 语义化就是让页面的内容结构化，便于对浏览器、搜索引
   - [ ] [CSS Box Model](https://www.w3.org/TR/css-box-3/)，盒子模型的一些规范介绍
   - [ ] [CSS 盒模型详解（图文教程）](https://www.cnblogs.com/qianguyihao/p/7256371.html)，通过图片和例子说明盒子模型的各个部分和在页面上的表现形式
 
-#### CSS 选择器
+#### 选择器
 
 CSS 中，选择器用来指定网页上我们想要样式化的 HTML 元素。CSS 选择器提供了很多种方法，所以在选择要样式化的元素时，我们可以做到很精细的地步。
 
@@ -446,7 +443,7 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 
 ## 框架
 
-### 虚拟 DOM
+### 虚拟DOM
 
 Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的真实节点对象，再通过特定的 render 方法将其渲染成真实的 DOM 节点。
 
@@ -505,7 +502,7 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
   - [ ] [hoc 库 recompose](https://github.com/acdlite/recompose)
   - [ ] [精读 React 高阶组件](https://zhuanlan.zhihu.com/p/27434557)
 
-### React Hooks
+### Hooks
 
 Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。
 
@@ -688,7 +685,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 
 - [Best-websites-a-programmer-should-visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit)，优秀的工程师都应该阅读的网站
 
-### CSS
+### CSS 日常充电
 
 - [ ] [You-need-to-know-css](https://github.com/l-hammer/You-need-to-know-css)
 - [ ] [CSS Inspiration](https://csscoco.com/inspiration/#/)
@@ -698,13 +695,13 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 
 ## Github 优秀学习资料
 
-### JS
+### JS 优秀学习资料
 
 - [ ] [33-js-concepts](https://github.com/leonardomso/33-js-concepts)
 - [ ] [JavaScript 安全指南](https://github.com/Tencent/secguide/blob/main/JavaScript%E5%AE%89%E5%85%A8%E6%8C%87%E5%8D%97.md#1.1)
 - [ ] [What the f\*ck JavaScript?](https://github.com/denysdovhan/wtfjs)，有趣的 JavaScript 示例列表，附有解释
 
-### React
+### React 优秀学习资料
 
 - [ ] [react-philosophies](https://github.com/mithi/react-philosophies)，React 哲学，内容为写 React 代码时思考的事情
 
