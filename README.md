@@ -471,16 +471,45 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 
 ## 性能优化
 
-性能优化与用户体验密切相关，是前端进阶中必不可少的一部分。
+性能优化是一个系统性工程，涉及到的方面很多，不仅仅只是大家常说的静态文件和代码优化那么简单。
 
-推荐文章:
+### 推荐书籍
 
-- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)
-- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)
-- [Web Vitals](https://web.dev/learn-web-vitals/)
-- [Metrics](https://web.dev/metrics/)
-- [Fast load times](https://web.dev/fast/)
-- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)
+其实性能优化相关的书籍市面上出的不多，优秀的也都是好几年前的老书了，看不看也无所谓了。
+
+- [Web性能权威指南](https://book.douban.com/subject/25856314/)，豆瓣 8.9 分，老书
+- [高性能网站建设进阶指南](https://book.douban.com/subject/4719162/)，豆瓣 8.9 分，老书
+
+### 推荐网站
+
+- [web.dev](https://web.dev/)，Google 自家的 blog，你能在这上面学到很多性能优化及如何做好用户体验的知识，其实很多市面上的文章内容都有这个网站的影子
+
+### 整体优化建议
+
+- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)，类似现代版雅虎军规
+- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)，系统性介绍性能优化的手段，参考资料也值得学习
+- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)，一本很火的免费 PDF，包含了很多性能优化相关的 Checklist
+
+### 静态文件优化
+
+- [Web静态资源缓存及优化](https://zhuanlan.zhihu.com/p/30780216)，主要还是缓存的运用，但是比之前的文章更详细
+
+### 代码优化
+
+### 打包速度优化
+
+### 浏览器优化
+
+### 网络优化
+
+### 性能指标
+
+- [文档](https://web.dev/learn-web-vitals/)
+- [还在看那些老掉牙的性能优化文章么？这些最新性能指标了解下](https://juejin.cn/post/6850037270729359367)，文章会介绍谷歌提倡的七个用户体验指标（也可以认为是性能指标）
+
+### 性能监控
+
+- [前端搞工程化：从零打造性能检测库「源码 + 视频」](https://juejin.cn/post/6919295789630455815)，光会性能优化的手段还是不够的，如何体现优化的价值也是至关重要的
 
 ## 框架
 
