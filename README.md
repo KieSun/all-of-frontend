@@ -592,6 +592,41 @@ Hook 是 React 16.8 的新增特性。它可以让你在不编写类组件的情
   - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
   - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
 
+### React 路由
+
+- [react-router](https://github.com/remix-run/react-router)
+- [reach router](https://github.com/reach/router)
+
+### React 状态管理
+
+React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这些库。但是实际上很多项目完全是不需要用到状态管理的，反而是增加编码复杂度，其实利用 React Context 或者 [react-query](https://github.com/tannerlinsley/react-query) 这类接口请求库就能很好地满足需求了。
+
+- [redux](https://github.com/reduxjs/redux)
+- [mobx](https://github.com/mobxjs/mobx)
+- [recoil](https://github.com/facebookexperimental/Recoil)
+- [xstate](https://github.com/statelyai/xstate)
+- [zustand](https://github.com/pmndrs/zustand)
+
+### React 接口请求
+
+- [axios](https://github.com/axios/axios)
+- [react-query](https://github.com/tannerlinsley/react-query)
+- [swr](https://github.com/vercel/swr)
+
+### React SSR
+
+- [nest.js](https://github.com/nestjs/nest)
+
+### React 单测
+
+- [jest](https://github.com/facebook/jest)
+- [react-testing-library](https://github.com/testing-library/react-testing-library)
+
+### React CSS 方案
+
+- [styled-components](https://github.com/styled-components/styled-components)
+- [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+
 ### 原理
 
 - [react-source-code-debug](https://github.com/neroneroffy/react-source-code-debug)，学习如何调试源码
