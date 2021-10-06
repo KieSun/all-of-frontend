@@ -507,11 +507,21 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 
 Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的真实节点对象，再通过特定的 render 方法将其渲染成真实的 DOM 节点。
 
-- [ ] 文档
-  - [ ] [React 官网介绍](https://reactjs.org/docs/faq-internals.html)
-- [ ] 推荐文章
-  - [ ] [ Virtual Dom 和 Diff 算法在 React 中是如何工作的？](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)，需自备梯子
-  - [ ] [ React 核心知识点 -- Virtual Dom 与 Diff ](https://github.com/pfan123/Articles/issues/62)
+- 文档
+  - [React 官网介绍](https://reactjs.org/docs/faq-internals.html)
+- 推荐文章
+  - [ Virtual Dom 和 Diff 算法在 React 中是如何工作的？](https://medium.com/@gethylgeorge/how-virtual-dom-and-diffing-works-in-react-6fc805f9f84e)，需自备梯子
+  - [ React 核心知识点 -- Virtual Dom 与 Diff ](https://github.com/pfan123/Articles/issues/62)
+
+### 路由
+
+路由在 SPA 架构中都有被用到，实际原理就是运用 `hash` 及 `history` 相关的 API 实现。
+
+- 文档
+  - [hashchange](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event)
+  - [history](https://developer.mozilla.org/en-US/docs/Web/API/History)
+- 推荐文章
+  - [前端路由简介以及vue-router实现原理](https://zhuanlan.zhihu.com/p/37730038)，对前端路由及 Vue-Route 库原理做了解释，**几个框架的路由库原理都一致**
 
 ## React
 
@@ -564,7 +574,7 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
 
 ### Hooks
 
-Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情况下使用 state 以及其他的 React 特性。
+Hook 是 React 16.8 的新增特性。它可以让你在不编写类组件的情况下使用 React 的特性。
 
 - [ ] 文档
   - [ ] [React Hooks 官方文档](https://zh-hans.reactjs.org/docs/hooks-intro.html)
@@ -578,7 +588,10 @@ Hook 是 React 16.8 的新增特性。它可以让你在不编写 class 的情�
 - [react-illustration-series](https://github.com/7kms/react-illustration-series)，图解 react 源码，用大量配图的方式，致力于将 react 原理表述清楚
 - [just-react](https://github.com/BetaSu/just-react)，「React 技术揭秘」，一本自顶向下的 React 源码分析书
 - [tiny-react](https://github.com/PiNengShaoNian/tiny-react)，基于 React17 精简而来的最小版实现
-- [从 Context 源码实现谈 React 性能优化](https://juejin.cn/post/6907546624441090055)
+
+### Blog 推荐
+
+- [Dan Abramov](https://overreacted.io/)，React 核心开发者的 Blog
 
 ## Vue
 
