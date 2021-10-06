@@ -525,17 +525,15 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
 
 ## React
 
-### 合成事件
+学习框架务必从[文档](https://reactjs.org/)出发，起码熟读一遍及自己写过一些初步的 Demo 之后再考虑学习别的资料。
 
-合成事件（SyntheticEvent）是 React 模拟原生 DOM 事件所有能力的一个事件对象，即浏览器原生事件的跨浏览器包装器。React 根据 [W3C 规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。需要注意的是 v16 和 17 版本中的合成事件有差异。
+![8x1Cnl](https://yck-1254263422.file.myqcloud.com/uPic/8x1Cnl.png)
 
-- [ ] 文档
-  - [ ] [React 官方文档](https://reactjs.org/docs/events.html)
-- [ ] 推荐文章
-  - [ ] [探索 React 合成事件](https://segmentfault.com/a/1190000038251163)
-  - [ ] [大佬，怎么办？升级 React17，Toast 组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
-  - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
-  - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
+大家可以跟着以上学习路径学习，其中除了概念相关的内容是必须学习之外，生态相关的内容大家可以在使用时再学习。
+
+### 推荐资料
+
+- [React 学习之道](https://leanpub.com/the-road-to-learn-react-chinese/)，可以 0 元购买
 
 ### 如何编写一个组件
 
@@ -553,9 +551,9 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
 - 受控组件：在 HTML 中，表单元素（如 input、 textarea 和 select ）通常自己维护 state，并根据用户输入进行更新。而在 React 中，可变状态（mutable state）通常保存在组件的 state 属性中，并且只能通过使用 setState() 或者 props 来更新
 - 非受控组件：是一个存储其自己的内部状态，并且您使用查询 DOM ref，当你需要它来找到它的当前值，这有点像传统的 HTML
 
-* [ ] 文档
+- [ ] 文档
   - [ ] [React 官方文档](https://reactjs.org/docs/uncontrolled-components.html)
-* [ ] 推荐文章
+- [ ] 推荐文章
   - [ ] [受控和非受控组件真的那么难理解吗](https://juejin.cn/post/6858276396968951822)
   - [ ] [[译]受控组件 & 非受控组件](https://www.baobangdong.cn/controlled-components-and-uncontrolled-components/)
 
@@ -581,6 +579,18 @@ Hook 是 React 16.8 的新增特性。它可以让你在不编写类组件的情
 - [ ] 推荐文章
   - [ ] [彻底理解 React hook useCallback 和 useMemo 的区别](https://juejin.cn/post/6844904032113278990)
   - [ ] [React hooks 最佳实践](https://mp.weixin.qq.com/s/0sykIHDM_Ih3W3md-DwFkw)
+
+### 合成事件
+
+合成事件（SyntheticEvent）是 React 模拟原生 DOM 事件所有能力的一个事件对象，即浏览器原生事件的跨浏览器包装器。React 根据 [W3C 规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。需要注意的是 v16 和 17 版本中的合成事件有差异。
+
+- [ ] 文档
+  - [ ] [React 官方文档](https://reactjs.org/docs/events.html)
+- [ ] 推荐文章
+  - [ ] [探索 React 合成事件](https://segmentfault.com/a/1190000038251163)
+  - [ ] [大佬，怎么办？升级 React17，Toast 组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
+  - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
+  - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
 
 ### 原理
 
