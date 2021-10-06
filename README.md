@@ -537,25 +537,25 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
 
 ### 如何编写一个组件
 
-- [ ] 文档
-  - [ ] [React 官方文档](https://reactjs.org/docs/components-and-props.html)
-- [ ] 推荐文章
-  - [ ] [[译]React 函数组件和类组件的差异](https://jishuin.proginn.com/p/763bfbd4cad4)
-  - [ ] [寫 React Components 該注意的 6 個地方與技巧](https://medium.com/@chihsuan/%E5%AF%AB-react-components-%E8%A9%B2%E6%B3%A8%E6%84%8F%E7%9A%846%E5%80%8B%E5%9C%B0%E6%96%B9%E8%88%87%E6%8A%80%E5%B7%A7-faa2bb87a18e)
-  - [ ] [编写高效且可读组件的 5 个最佳实践](https://www.infoq.cn/article/ry4icky5crb1pokvi0ql)
-  - [ ] [designing-react-components-best-practices](https://www.thisdot.co/blog/designing-react-components-best-practices)
-  - [ ] [React 复合组件](https://www.smashingmagazine.com/2021/08/compound-components-react/)
+- 文档
+  - [React 官方文档](https://reactjs.org/docs/components-and-props.html)
+- 推荐文章
+  - [[译]React 函数组件和类组件的差异](https://jishuin.proginn.com/p/763bfbd4cad4)
+  - [寫 React Components 該注意的 6 個地方與技巧](https://medium.com/@chihsuan/%E5%AF%AB-react-components-%E8%A9%B2%E6%B3%A8%E6%84%8F%E7%9A%846%E5%80%8B%E5%9C%B0%E6%96%B9%E8%88%87%E6%8A%80%E5%B7%A7-faa2bb87a18e)
+  - [编写高效且可读组件的 5 个最佳实践](https://www.infoq.cn/article/ry4icky5crb1pokvi0ql)
+  - [designing-react-components-best-practices](https://www.thisdot.co/blog/designing-react-components-best-practices)
+  - [React 复合组件](https://www.smashingmagazine.com/2021/08/compound-components-react/)
 
 ### 受控组件和非受控组件
 
 - 受控组件：在 HTML 中，表单元素（如 input、 textarea 和 select ）通常自己维护 state，并根据用户输入进行更新。而在 React 中，可变状态（mutable state）通常保存在组件的 state 属性中，并且只能通过使用 setState() 或者 props 来更新
 - 非受控组件：是一个存储其自己的内部状态，并且您使用查询 DOM ref，当你需要它来找到它的当前值，这有点像传统的 HTML
 
-- [ ] 文档
-  - [ ] [React 官方文档](https://reactjs.org/docs/uncontrolled-components.html)
-- [ ] 推荐文章
-  - [ ] [受控和非受控组件真的那么难理解吗](https://juejin.cn/post/6858276396968951822)
-  - [ ] [[译]受控组件 & 非受控组件](https://www.baobangdong.cn/controlled-components-and-uncontrolled-components/)
+- 文档
+  - [React 官方文档](https://reactjs.org/docs/uncontrolled-components.html)
+- 推荐文章
+  - [受控和非受控组件真的那么难理解吗](https://juejin.cn/post/6858276396968951822)
+  - [[译]受控组件 & 非受控组件](https://www.baobangdong.cn/controlled-components-and-uncontrolled-components/)
 
 ### 高阶组件（HOC）
 
@@ -563,69 +563,69 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
 
 具体而言，高阶组件是参数为组件，返回值为新组件的函数。
 
-- [ ] 文档
-  - [ ] [React 官方文档](https://reactjs.org/docs/higher-order-components.html)
-- [ ] 推荐文章
-  - [ ] [React 高阶组件(HOC)入门指南](https://github.com/MrErHu/blog/issues/4)
-  - [ ] [hoc 库 recompose](https://github.com/acdlite/recompose)
-  - [ ] [精读 React 高阶组件](https://zhuanlan.zhihu.com/p/27434557)
+- 文档
+  - [React 官方文档](https://reactjs.org/docs/higher-order-components.html)
+- 推荐文章
+  - [React 高阶组件(HOC)入门指南](https://github.com/MrErHu/blog/issues/4)
+  - [hoc 库 recompose](https://github.com/acdlite/recompose)
+  - [精读 React 高阶组件](https://zhuanlan.zhihu.com/p/27434557)
 
 ### Hooks
 
 Hook 是 React 16.8 的新增特性。它可以让你在不编写类组件的情况下使用 React 的特性。
 
-- [ ] 文档
-  - [ ] [React Hooks 官方文档](https://zh-hans.reactjs.org/docs/hooks-intro.html)
-- [ ] 推荐文章
-  - [ ] [彻底理解 React hook useCallback 和 useMemo 的区别](https://juejin.cn/post/6844904032113278990)
-  - [ ] [React hooks 最佳实践](https://mp.weixin.qq.com/s/0sykIHDM_Ih3W3md-DwFkw)
+- 文档
+  - [React Hooks 官方文档](https://zh-hans.reactjs.org/docs/hooks-intro.html)
+- 推荐文章
+  - [彻底理解 React hook useCallback 和 useMemo 的区别](https://juejin.cn/post/6844904032113278990)
+  - [React hooks 最佳实践](https://mp.weixin.qq.com/s/0sykIHDM_Ih3W3md-DwFkw)
 
 ### 合成事件
 
 合成事件（SyntheticEvent）是 React 模拟原生 DOM 事件所有能力的一个事件对象，即浏览器原生事件的跨浏览器包装器。React 根据 [W3C 规范](https://www.w3.org/TR/DOM-Level-3-Events/) 定义了合成事件。需要注意的是 v16 和 17 版本中的合成事件有差异。
 
-- [ ] 文档
-  - [ ] [React 官方文档](https://reactjs.org/docs/events.html)
-- [ ] 推荐文章
-  - [ ] [探索 React 合成事件](https://segmentfault.com/a/1190000038251163)
-  - [ ] [大佬，怎么办？升级 React17，Toast 组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
-  - [ ] [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
-  - [ ] [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
+- 文档
+  - [React 官方文档](https://reactjs.org/docs/events.html)
+- 推荐文章
+  - [探索 React 合成事件](https://segmentfault.com/a/1190000038251163)
+  - [大佬，怎么办？升级 React17，Toast 组件不能用了](https://zhuanlan.zhihu.com/p/380941094)
+  - [What’s the Difference Between Synthetic React Events and JavaScript Events?](https://betterprogramming.pub/whats-the-difference-between-synthetic-react-events-and-javascript-events-ba7dbc742294)，需自备梯子
+  - [React 17 removes event pooling in the modern browsers](https://blog.saeloun.com/2021/04/06/react-17-removes-event-pooling-in-modern-system.html)
 
 ### React 路由
 
-- [react-router](https://github.com/remix-run/react-router)
-- [reach router](https://github.com/reach/router)
+- [react-router](https://github.com/remix-run/react-router)，React 声明式路由
+- [reach router](https://github.com/reach/router)，下一代的 React 路由
 
 ### React 状态管理
 
 React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这些库。但是实际上很多项目完全是不需要用到状态管理的，反而是增加编码复杂度，其实利用 React Context 或者 [react-query](https://github.com/tannerlinsley/react-query) 这类接口请求库就能很好地满足需求了。
 
-- [redux](https://github.com/reduxjs/redux)
-- [mobx](https://github.com/mobxjs/mobx)
-- [recoil](https://github.com/facebookexperimental/Recoil)
-- [xstate](https://github.com/statelyai/xstate)
-- [zustand](https://github.com/pmndrs/zustand)
+- [redux](https://github.com/reduxjs/redux)，JS 应用的状态容器，提供可预测的状态管理
+- [mobx](https://github.com/mobxjs/mobx)，简单，可扩展的状态管理库
+- [recoil](https://github.com/facebookexperimental/Recoil)，React 状态管理库
+- [xstate](https://github.com/statelyai/xstate)，有限状态机
+- [zustand](https://github.com/pmndrs/zustand)，简单、快速和可扩展的骨状态管理解决方案
 
 ### React 接口请求
 
-- [axios](https://github.com/axios/axios)
-- [react-query](https://github.com/tannerlinsley/react-query)
-- [swr](https://github.com/vercel/swr)
+- [axios](https://github.com/axios/axios)，传统接口请求库
+- [react-query](https://github.com/tannerlinsley/react-query)，用于获取、缓存和更新 React 中异步数据的 Hooks 接口请求库
+- [swr](https://github.com/vercel/swr)，用于数据请求的 React Hooks 库
 
 ### React SSR
 
-- [nest.js](https://github.com/nestjs/nest)
+- [nest.js](https://github.com/nestjs/nest)，一个渐进式的 Node.js 框架，用于构建高效、可靠和可扩展的服务端应用。
 
 ### React 单测
 
-- [jest](https://github.com/facebook/jest)
-- [react-testing-library](https://github.com/testing-library/react-testing-library)
+- [jest](https://github.com/facebook/jest)，优雅、简洁的 JavaScript 测试框架，单测必选项
+- [react-testing-library](https://github.com/testing-library/react-testing-library)，简单且完整的 React DOM 测试工具
 
 ### React CSS 方案
 
-- [styled-components](https://github.com/styled-components/styled-components)
-- [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+- [styled-components](https://github.com/styled-components/styled-components)，CSS in JS 方案
+- [tailwindcss](https://github.com/tailwindlabs/tailwindcss)，Atom CSS 方案
 
 ### 原理
 
