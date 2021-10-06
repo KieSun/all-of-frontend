@@ -521,7 +521,7 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
   - [hashchange](https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event)
   - [history](https://developer.mozilla.org/en-US/docs/Web/API/History)
 - 推荐文章
-  - [前端路由简介以及vue-router实现原理](https://zhuanlan.zhihu.com/p/37730038)，对前端路由及 Vue-Route 库原理做了解释，**几个框架的路由库原理都一致**
+  - [前端路由简介以及 vue-router 实现原理](https://zhuanlan.zhihu.com/p/37730038)，对前端路由及 Vue-Route 库原理做了解释，**几个框架的路由库原理都一致**
 
 ## React
 
