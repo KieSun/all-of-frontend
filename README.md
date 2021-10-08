@@ -671,6 +671,9 @@ React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这�
 
 ### Vue 推荐学习路径
 
+目前 3.0 生态并不完善，在公司内部基本需要先熟悉 2.0 的写法，因此推荐新手先学习 2.0 的内容。
+
+- [新手向：Vue 2.0 的建议学习顺序](https://zhuanlan.zhihu.com/p/23134551)，尤雨溪自己写的学习路径，时至今日也不过时
 
 ### Vue 推荐学习资料
 
@@ -678,8 +681,6 @@ React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这�
 - [ ] [vue-patterns](https://github.com/learn-vuejs/vue-patterns)，有用的 Vue 模式、技巧、提示以及有帮助的精选链接
 
 ### Vue 原理
-
-Vue 原理看以下两个仓库就足够了。
 
 - [vue-analysis](https://github.com/ustbhuangyi/vue-analysis)，黄老师出品
 - [vue-design](https://github.com/HcySunYang/vue-design)，官方人员出品
