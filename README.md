@@ -552,6 +552,8 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
 
 学习框架务必从[文档](https://reactjs.org/)出发，起码熟读一遍及自己写过一些初步的 Demo 之后再考虑学习别的资料。
 
+### React 推荐学习路径
+
 ![LR1Dyo](https://yck-1254263422.file.myqcloud.com/uPic/LR1Dyo.png)
 
 大家可以跟着以上学习路径学习，其中除了概念相关的内容是必须学习之外，生态相关的内容大家可以在使用时再学习。
