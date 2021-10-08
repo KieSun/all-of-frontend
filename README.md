@@ -667,27 +667,22 @@ React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这�
 
 ## Vue
 
-文档
+学习框架务必从[文档](https://vuejs.org/)出发，起码熟读一遍及自己写过一些初步的 Demo 之后再考虑学习别的资料。
 
-- [ ] [Vue 官方文档](https://vuejs.org/)
-- [ ] [Vue Router 官方文档](https://router.vuejs.org/)
-- [ ] [Vuex 官方文档](https://vuex.vuejs.org/)
+### Vue 推荐学习路径
 
-推荐文章
 
-- [ ] [实战技巧，Vue 原来还可以这样写](https://juejin.cn/post/6844904196626448391#heading-9)
-- [ ] [来聊聊源码学习](https://juejin.cn/post/6844903617762492423)
-
-推荐开源项目
+### Vue 推荐学习资料
 
 - [ ] [awesome-vue](https://github.com/vuejs/awesome-vue)
-- [ ] [vue-patterns](https://github.com/learn-vuejs/vue-patterns)，有用的 Vue 模式，技巧，提示以及有帮助的精选链接
+- [ ] [vue-patterns](https://github.com/learn-vuejs/vue-patterns)，有用的 Vue 模式、技巧、提示以及有帮助的精选链接
 
-原理
+### Vue 原理
 
-- [ ] [图解 Vue 响应式原理](https://juejin.cn/post/6857669921166491662#heading-3)
-- [ ] [详解 vue 的 diff 算法](https://juejin.cn/post/6844903607913938951#heading-3)
-- [ ] [Vue Design](https://github.com/HcySunYang/vue-design)，master 分支：《渲染器》 elegant 分支：逐行级别的源码分析
+Vue 原理看以下两个仓库就足够了。
+
+- [vue-analysis](https://github.com/ustbhuangyi/vue-analysis)，黄老师出品
+- [vue-design](https://github.com/HcySunYang/vue-design)，官方人员出品
 
 ## TypeScript
 
