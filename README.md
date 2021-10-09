@@ -572,6 +572,7 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
 ### React 推荐学习资料
 
 - [React 学习之道](https://leanpub.com/the-road-to-learn-react-chinese/)，可以 0 元购买
+- [React 生命周期](https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
 ### 如何编写一个组件
 
