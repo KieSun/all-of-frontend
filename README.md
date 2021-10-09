@@ -782,6 +782,10 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [How We Build Micro Frontends](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
 - [Revolutionizing Micro Frontends with Webpack 5, Module Federation and Bit](https://blog.bitsrc.io/revolutionizing-micro-frontends-with-webpack-5-module-federation-and-bit-99ff81ceb0)
 
+### 推荐学习资料
+
+- [](https://github.com/billyjov/microfrontend-resources)，🔥 关于微前端的各类资料推荐
+
 ## 跨端框架
 
 跨端的最主要的含义就是一套代码多端运行，减少重复劳动
