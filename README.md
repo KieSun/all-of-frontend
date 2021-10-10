@@ -499,7 +499,7 @@ Virtual DOM 也就是虚拟节点。通过 JS 的 Object 对象模拟 DOM 中的
 
 ### React 推荐学习路径
 
-![LR1Dyo](https://yck-1254263422.file.myqcloud.com/uPic/LR1Dyo.png)
+![LR1Dyo](./img/reactStudy.png)
 
 大家可以跟着以上学习路径学习，其中除了概念相关的内容是必须学习之外，生态相关的内容大家可以在使用时再学习。
 
