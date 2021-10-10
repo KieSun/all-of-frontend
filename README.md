@@ -360,7 +360,7 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
   - [ ] [await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
 - [ ] 推荐文章
-  - [ ] [手写async await的最简实现（20行）](https://juejin.cn/post/6844904102053281806)
+  - [ ] [手写 async await 的最简实现（20 行）](https://juejin.cn/post/6844904102053281806)
   - [ ] [Babel 将 Generator 编译成了什么样子 ](https://github.com/mqyqingfeng/Blog/issues/102)
 
 #### 事件循环
