@@ -178,7 +178,7 @@
 - [JavaScript 高级程序设计（第 4 版）](https://book.douban.com/subject/35175321/)
 - [JavaScript 忍者秘籍（第 2 版）](https://book.douban.com/subject/30143702/)
 
-### JS
+### JS 核心知识点
 
 #### 数据类型
 
@@ -475,82 +475,9 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
   - [ ] [详谈层合成（composite)](http://jartto.wang/2017/09/29/expand-on-performance-composite/)
   - [ ] [移动设备如何实现真正 1px 的线？](https://jinlong.github.io/2015/05/24/css-retina-hairlines/)
 
-## 浏览器
-
-一般说到浏览器，常指的都是 Chrome。浏览器作为前端不可或缺的载体，我们势必需要好好学习及掌握其相关的知识。
-
-**另外浏览器中涉及到的知识面很多，与 JS 执行机制、网络、性能优化、安全等领域都有关联，因此大家在学习这部分的内容时需要多与之前学习的知识联系起来。**
-
-### 架构
-
-- [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1)，这是一个 Google 出的系列专栏，共有四篇文章，内容上到浏览器的整体架构，下至页面的渲染规则都说了一遍，另有 [中文翻译](https://cloud.tencent.com/developer/article/1806716)
-
-### 整体流程
-
-- [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)，这虽然是一篇 11 年的文章，但是内容在如今也不过时，文章广为流传
-- [当···时发生了什么？](https://github.com/skyline75489/what-happens-when-zh_CN)，经典面试题，文中对于这个流程里的相关内容力求尽可能具体，不遗漏任何细节
-- [从输入 URL 到页面加载完成的过程中都发生了什么事情？](https://fex.baidu.com/blog/2014/05/what-happen/)，这篇文章涉及了大量网络及硬件知识
-
-### 渲染相关
-
-- [浏览器的渲染原理简介](https://coolshell.cn/articles/9666.html)，左耳朵耗子出品，如果上文「浏览器的工作原理：新式网络浏览器幕后揭秘」觉得太长不看或者看完觉得没看懂什么，那么可以来阅读下本文，起码能从中学会一些能用在工作上的东西
-- [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.cn/post/6844903569087266823)
-
-### JS 执行机制
-
-- [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)，超长文，这篇文章能让你对进程线程，浏览器多进程、浏览器内核多线程、JS 单线程、JS 运行机制有个不错的理解
-
-### 缓存
-
-- [文档](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching)
-- [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)，浏览器缓存机制与性能优化息息相关
-
-### Devtools
-
-- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)，Google 出的 DevTools 的使用说明书，对于每个功能的使用都有详细的介绍，看啥文章都不如看这个
-- [Chrome_Devtools_Tricks](https://github.com/dendoink/FrontendWingman/tree/master/Chrome_Devtools_Tricks)，介绍了 Chrome DevTools 的使用技巧，从不同的情景来说明应该如何搭配使用 Chrome DevTools 中的小技巧，适合英文不怎么好的读者阅读
-
-### 浏览器安全
-
-- [文档](https://developer.mozilla.org/en-US/docs/Web/Security)
-- [一文读懂 Web 安全](https://segmentfault.com/a/1190000023396707)，简单介绍了一些前端需要注意的安全知识
-- [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)，如果你对安全领域有兴趣，可以阅读下这个仓库的内容
-
-## 性能优化
-
-性能优化是一个系统性工程，涉及到的方面很多，不仅仅只是大家常说的静态文件和代码优化那么简单。
-
-大家学习这部分内容的时候可以先从推荐的文章中了解具体有哪些性能优化手段及具体方法，然后根据这些内容去实验。
-
-### 推荐书籍
-
-其实性能优化相关的书籍市面上出的不多，优秀的也都是好几年前的老书了，看不看也无所谓了。
-
-- [Web 性能权威指南](https://book.douban.com/subject/25856314/)，豆瓣 8.9 分，老书
-- [高性能网站建设进阶指南](https://book.douban.com/subject/4719162/)，豆瓣 8.9 分，老书
-
-### 推荐网站
-
-- [web.dev](https://web.dev/)，Google 自家的 blog，你能在这上面学到很多性能优化及如何做好用户体验的知识，其实很多市面上的文章内容都有这个网站的影子
-
-### 整体优化建议
-
-- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)，类似现代版雅虎军规
-- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)，系统性介绍性能优化的手段，参考资料也值得学习
-- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)，一本很火的免费 PDF，包含了很多性能优化相关的 Checklist
-- [React 性能优化 | 包括原理、技巧、Demo、工具使用](https://juejin.cn/post/6935584878071119885)
-
-### 性能指标
-
-- [文档](https://web.dev/learn-web-vitals/)
-- [还在看那些老掉牙的性能优化文章么？这些最新性能指标了解下](https://juejin.cn/post/6850037270729359367)，文章会介绍谷歌提倡的七个用户体验指标（也可以认为是性能指标）
-- [做性能优化时，我们关注哪些指标？](https://mp.weixin.qq.com/s/SlS0J9eSb20PCLW062sQVg)
-
-### 性能监控
-
-- [前端搞工程化：从零打造性能检测库「源码 + 视频」](https://juejin.cn/post/6919295789630455815)，光会性能优化的手段还是不够的，如何体现优化的价值也是至关重要的
-
 ## 框架
+
+框架一般选其一深入学习即可。
 
 ### 虚拟 DOM
 
@@ -694,6 +621,8 @@ React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这�
 
 学习框架务必从[文档](https://vuejs.org/)出发，起码熟读一遍及自己写过一些初步的 Demo 之后再考虑学习别的资料。
 
+对于 Vue 来说，官方文档内容相当齐全，并且全家桶也都是官方出的，因此无需头疼技术栈选型。
+
 ### Vue 推荐学习路径
 
 目前 3.0 生态并不完善，在公司内部基本需要先熟悉 2.0 的写法，因此推荐新手先学习 2.0 的内容。
@@ -709,6 +638,81 @@ React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这�
 
 - [vue-analysis](https://github.com/ustbhuangyi/vue-analysis)，黄老师出品
 - [vue-design](https://github.com/HcySunYang/vue-design)，官方人员出品，域名已过期，需要大家自行在仓库内浏览内容。虽然麻烦了点，但是质量绝对过关
+
+## 浏览器
+
+一般说到浏览器，常指的都是 Chrome。浏览器作为前端不可或缺的载体，我们势必需要好好学习及掌握其相关的知识。
+
+**另外浏览器中涉及到的知识面很多，与 JS 执行机制、网络、性能优化、安全等领域都有关联，因此大家在学习这部分的内容时需要多与之前学习的知识联系起来。**
+
+### 架构
+
+- [Inside look at modern web browser](https://developers.google.com/web/updates/2018/09/inside-browser-part1)，这是一个 Google 出的系列专栏，共有四篇文章，内容上到浏览器的整体架构，下至页面的渲染规则都说了一遍，另有 [中文翻译](https://cloud.tencent.com/developer/article/1806716)
+
+### 整体流程
+
+- [浏览器的工作原理：新式网络浏览器幕后揭秘](https://www.html5rocks.com/zh/tutorials/internals/howbrowserswork/)，这虽然是一篇 11 年的文章，但是内容在如今也不过时，文章广为流传
+- [当···时发生了什么？](https://github.com/skyline75489/what-happens-when-zh_CN)，经典面试题，文中对于这个流程里的相关内容力求尽可能具体，不遗漏任何细节
+- [从输入 URL 到页面加载完成的过程中都发生了什么事情？](https://fex.baidu.com/blog/2014/05/what-happen/)，这篇文章涉及了大量网络及硬件知识
+
+### 渲染相关
+
+- [浏览器的渲染原理简介](https://coolshell.cn/articles/9666.html)，左耳朵耗子出品，如果上文「浏览器的工作原理：新式网络浏览器幕后揭秘」觉得太长不看或者看完觉得没看懂什么，那么可以来阅读下本文，起码能从中学会一些能用在工作上的东西
+- [浏览器的回流与重绘 (Reflow & Repaint)](https://juejin.cn/post/6844903569087266823)
+
+### JS 执行机制
+
+- [从浏览器多进程到 JS 单线程，JS 运行机制最全面的一次梳理](https://segmentfault.com/a/1190000012925872)，超长文，这篇文章能让你对进程线程，浏览器多进程、浏览器内核多线程、JS 单线程、JS 运行机制有个不错的理解
+
+### 缓存
+
+- [文档](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching)
+- [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)，浏览器缓存机制与性能优化息息相关
+
+### Devtools
+
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/)，Google 出的 DevTools 的使用说明书，对于每个功能的使用都有详细的介绍，看啥文章都不如看这个
+- [Chrome_Devtools_Tricks](https://github.com/dendoink/FrontendWingman/tree/master/Chrome_Devtools_Tricks)，介绍了 Chrome DevTools 的使用技巧，从不同的情景来说明应该如何搭配使用 Chrome DevTools 中的小技巧，适合英文不怎么好的读者阅读
+
+### 浏览器安全
+
+- [文档](https://developer.mozilla.org/en-US/docs/Web/Security)
+- [一文读懂 Web 安全](https://segmentfault.com/a/1190000023396707)，简单介绍了一些前端需要注意的安全知识
+- [the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge)，如果你对安全领域有兴趣，可以阅读下这个仓库的内容
+
+## 性能优化
+
+性能优化是一个系统性工程，涉及到的方面很多，不仅仅只是大家常说的静态文件和代码优化那么简单。
+
+大家学习这部分内容的时候可以先从推荐的文章中了解具体有哪些性能优化手段及具体方法，然后根据这些内容去实验。
+
+### 推荐书籍
+
+其实性能优化相关的书籍市面上出的不多，优秀的也都是好几年前的老书了，看不看也无所谓了。
+
+- [Web 性能权威指南](https://book.douban.com/subject/25856314/)，豆瓣 8.9 分，老书
+- [高性能网站建设进阶指南](https://book.douban.com/subject/4719162/)，豆瓣 8.9 分，老书
+
+### 推荐网站
+
+- [web.dev](https://web.dev/)，Google 自家的 blog，你能在这上面学到很多性能优化及如何做好用户体验的知识，其实很多市面上的文章内容都有这个网站的影子
+
+### 整体优化建议
+
+- [前端性能优化 24 条建议（2020）](https://juejin.cn/post/6892994632968306702)，类似现代版雅虎军规
+- [前端性能优化之旅](https://github.com/alienzhou/fe-performance-journey)，系统性介绍性能优化的手段，参考资料也值得学习
+- [Front-End Performance Checklist 2021](https://www.smashingmagazine.com/2021/01/front-end-performance-2021-free-pdf-checklist/)，一本很火的免费 PDF，包含了很多性能优化相关的 Checklist
+- [React 性能优化 | 包括原理、技巧、Demo、工具使用](https://juejin.cn/post/6935584878071119885)
+
+### 性能指标
+
+- [文档](https://web.dev/learn-web-vitals/)
+- [还在看那些老掉牙的性能优化文章么？这些最新性能指标了解下](https://juejin.cn/post/6850037270729359367)，文章会介绍谷歌提倡的七个用户体验指标（也可以认为是性能指标）
+- [做性能优化时，我们关注哪些指标？](https://mp.weixin.qq.com/s/SlS0J9eSb20PCLW062sQVg)
+
+### 性能监控
+
+- [前端搞工程化：从零打造性能检测库「源码 + 视频」](https://juejin.cn/post/6919295789630455815)，光会性能优化的手段还是不够的，如何体现优化的价值也是至关重要的
 
 ## TypeScript
 
@@ -848,14 +852,6 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [蚂蚁金服如何把前端性能监控做到极致?](https://www.infoq.cn/article/dxa8am44oz*lukk5ufhy)
 - [如何做前端异常监控？](https://www.zhihu.com/question/29953354)
 - [前端监控平台系列：JS SDK（已开源）](https://juejin.cn/post/6862559324632252430#heading-17)
-
-## 面试
-
-### 面试方法论
-
-### 面经推荐
-
-### 内推
 
 ## 日常充电
 
