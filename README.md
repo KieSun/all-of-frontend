@@ -165,17 +165,15 @@
 
 ## 前端核心学习路径
 
-前端知识点很多这是公认的事情，但是我们确实没必要把所有知识都去学习，那样只会贪多嚼不烂。我们能把核心知识点、热门技术以及工作中需要用到的知识学好就已经能打败大部分前端工程师了，剩下的大家可以自行选择学习内容。
+前端知识点很多这是公认的事情，但是我们确实没必要把所有知识都去学习，那样只会贪多嚼不烂。我们能把核心知识点、热门技术以及工作中需要用到的知识学好就已经能打败大部分前端工程师了，剩下的大家可以自行根据兴趣选择学习内容。
 
-接下来的内容笔者会按照优先级高低来排布学习路径的目录，大家只需从上到下顺序学习即可。
+**但是在学习其他内容之前，笔者强烈推荐各位务必一定一定先把基础打扎实了，基础不好真的不可能把自己技术往上拔高的。**
 
 > 为了保证大家学到的知识是正确的，下文中的文档资料笔者都使用了英文版本。因为在审核资料的过程中笔者发现不少中文文档都存在翻译错误或者过时的情况。
 
-### 前端核心三板斧
+如果你还是一位初学者，推荐先自行完整阅读一至二本书后再按照该计划学习，因为以下计划并没有囊括 JS 的所有知识，而是列出了所有核心知识点。
 
-前端核心三板斧分为三块，分别为 HTML、CSS、JS，其中最重要的当然是 JS 了。
-
-如果你还是一位初学者，推荐先自行完整阅读一至二本书后再按照该计划学习。关于书籍笔者推荐以下两本：
+关于书籍笔者推荐以下两本：
 
 - [JavaScript 高级程序设计（第 4 版）](https://book.douban.com/subject/35175321/)
 - [JavaScript 忍者秘籍（第 2 版）](https://book.douban.com/subject/30143702/)
@@ -233,6 +231,8 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 #### 闭包
 
+闭包特别常用，但是其实挺多工程师对于闭包的理解是错误的。
+
 - [ ] 文档
   - [ ] [闭包](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 - [ ] 推荐文章
@@ -254,26 +254,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [You Don't Know JS Yet: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/scope-closures)
   - [ ] [The battle between function scope and block scope](https://www.deadcoderising.com/2017-04-11-es6-var-let-and-const-the-battle-between-function-scope-and-block-scope/)
 
-#### 原型
-
-- [ ] 文档
-  - [ ] [原型](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
-- [ ] 推荐文章
-  - [ ] [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch5.md)
-  - [ ] [深入理解 JavaScript 原型](https://mp.weixin.qq.com/s/1UDILezroK5wrcK-Z5bHOg)
-  - [ ] [深度解析原型中的各个难点](https://juejin.cn/post/6844903575974313992)
-  - [ ] [Prototypes in JavaScript](https://betterprogramming.pub/prototypes-in-javascript-5bba2990e04b) 需自备梯子
-
-#### new
-
-`new` 操作符可以帮助我们构建出一个实例，并且绑定上 `this`。
-
-- [ ] 文档
-  - [ ] [new](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
-- [ ] 推荐文章
-  - [ ] [JS 的 new 到底是干什么的？](https://zhuanlan.zhihu.com/p/23987456)
-  - [ ] [JavaScript 深入之 new 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
-
 #### 变量提升
 
 变量提升（Hoisting）可以将变量和函数在编译阶段放入内存，从而在执行阶段时在声明前使用。
@@ -285,6 +265,16 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [我用了两个月的时间才理解 let](https://fangyinghang.com/let-in-js/)，深度理解解析 let 和 val 的区别，和 let 的暂时死区
   - [ ] [JavaScript Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)，JavaScript 中的作用域和函数声明和变量声明的提升
 
+#### new
+
+`new` 操作符可以帮助我们构建出一个实例，并且绑定上 `this`。
+
+- [ ] 文档
+  - [ ] [new](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
+- [ ] 推荐文章
+  - [ ] [JS 的 new 到底是干什么的？](https://zhuanlan.zhihu.com/p/23987456)
+  - [ ] [JavaScript 深入之 new 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/13)
+
 #### call、apply、bind
 
 - [ ] 文档
@@ -295,6 +285,18 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [JS 中的 call、apply、bind 方法详解](https://segmentfault.com/a/1190000018270750)，对这三个方法的使用、面试题及具体实现做了详解
   - [ ] [call 和 apply 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/11)，模拟实现 call 和 apply，帮助更好理解
   - [ ] [bind 的模拟实现](https://github.com/mqyqingfeng/Blog/issues/12)，模拟实现 bind，帮助更好理解
+
+#### 原型
+
+通过原型这种机制，JavaScript 中的对象从其他对象继承功能特性。
+
+- [ ] 文档
+  - [ ] [原型](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
+- [ ] 推荐文章
+  - [ ] [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/this%20%26%20object%20prototypes/ch5.md)
+  - [ ] [深入理解 JavaScript 原型](https://mp.weixin.qq.com/s/1UDILezroK5wrcK-Z5bHOg)
+  - [ ] [深度解析原型中的各个难点](https://juejin.cn/post/6844903575974313992)
+  - [ ] [Prototypes in JavaScript](https://betterprogramming.pub/prototypes-in-javascript-5bba2990e04b) 需自备梯子
 
 #### Class
 
@@ -322,6 +324,8 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
 
 #### 模块化
 
+这块知识必会，最好了解下模块化的前世今生以及对 ES6 的原生模块化有个深入的理解。
+
 - [ ] 文档
   - [ ] [Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 - [ ] 推荐文章
@@ -330,8 +334,6 @@ JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增
   - [ ] [ES modules: A cartoon deep-dive](https://hacks.mozilla.org/2018/03/es-modules-a-cartoon-deep-dive/)，一篇对 JS 模块化深入解释的文章，另有 [中文版](https://juejin.cn/post/6844903591979778061)
 
 #### Promise
-
-Promise 是由社区最早提出和实现的异步编程的一种解决方案。
 
 - [ ] 文档
   - [ ] [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
@@ -351,6 +353,15 @@ Promise 是由社区最早提出和实现的异步编程的一种解决方案。
   - [ ] [[译] 什么是 JavaScript 生成器？如何使用生成器？](https://juejin.cn/post/6844903616357072910)
   - [ ] [Understanding Generators in ES6 JavaScript with Examples](https://codeburst.io/understanding-generators-in-es6-javascript-with-examples-6728834016d5)，需自备梯子
   - [ ] [A Simple Guide to ES6 Iterators in JavaScript with Examples](https://codeburst.io/a-simple-guide-to-es6-iterators-in-javascript-with-examples-189d052c3d8e)，需自备梯子
+
+#### async await
+
+- [ ] 文档
+  - [ ] [async](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+  - [ ] [await](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await)
+- [ ] 推荐文章
+  - [ ] [手写async await的最简实现（20行）](https://juejin.cn/post/6844904102053281806)
+  - [ ] [Babel 将 Generator 编译成了什么样子 ](https://github.com/mqyqingfeng/Blog/issues/102)
 
 #### 事件循环
 
