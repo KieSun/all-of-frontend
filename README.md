@@ -41,7 +41,7 @@
 
 **笔者已经将仓库内容里的重要资料整理好了，大家可以关注关注发送「资料」获取。**
 
-<div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div> 
+<div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div>
 
 ## 如何贡献
 
