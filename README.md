@@ -11,7 +11,7 @@
   <img src="./img/logo.png" width="300" />
 </p>
 
-<div align="center"><strong>资料会整合在公众号「前端真好玩」，扫码发送关键字「资料」，你会发现相见恨晚！</strong></div>
+<div align="center"><strong>重要资料已经整合在公众号「前端真好玩」，另外还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。扫码发送关键字「资料」，你会发现相见恨晚！</strong></div>
 
 <div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div>
 
@@ -39,7 +39,7 @@
 
 ## 如何获取本仓库资料
 
-**笔者已经将仓库内容里的重要资料整理好了，大家可以关注公众号发送「资料」获取。**
+**笔者已经将仓库内容里的重要资料整理好了，还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。大家可以关注公众号发送「资料」获取。**
 
 <div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div>
 
@@ -163,7 +163,7 @@
 - [JavaScript 悟道](https://book.douban.com/subject/35469273/)
 - [JavaScript 语言精髓与编程实践（第 3 版）](https://book.douban.com/subject/35085910/)
 
-**上述书籍大家可以关注【[公众号](#作者信息)】发送「资料」获取。**
+**上述书籍大家可以关注【[公众号](#作者信息)】发送「资料」获取，另外还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。**
 
 ## 前端核心学习路径
 
