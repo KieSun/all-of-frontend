@@ -1,5 +1,3 @@
-# Fucking Frontend
-
 <p align='center'>
   <img alt="contributors" src="https://img.shields.io/github/contributors/KieSun/fucking-frontend.svg" />
   <img alt="Commit" src="https://img.shields.io/github/commit-activity/w/KieSun/fucking-frontend" />
@@ -9,7 +7,14 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=KieSun.fucking-frontend" alt="visitor badge"/>  
 </p>
 
-干爆前端。一网打尽前端学习、进阶、面试等各类内容，帮助大家一年内拿到期望的 offer！大家可以关注【[公众号](#作者信息)】获取最新内容或者加我【[微信](#作者信息)】提意见（别忘了点个 Star 咯）。
+<p align="center">
+  <img src="./img/logo.png" width="300" />
+</p>
+
+<div align="center"><strong>资料会整合在公众号「前端真好玩」，扫码发送关键字「资料」，你会发现相见恨晚！</strong></div>
+
+<div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div> 
+
 
 ## 🔥 这是什么？
 
