@@ -13,8 +13,7 @@
 
 <div align="center"><strong>资料会整合在公众号「前端真好玩」，扫码发送关键字「资料」，你会发现相见恨晚！</strong></div>
 
-<div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div> 
-
+<div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div>
 
 ## 🔥 这是什么？
 
