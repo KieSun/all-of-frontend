@@ -817,6 +817,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [微前端在美团外卖的实践](https://tech.meituan.com/2020/02/27/meituan-waimai-micro-frontends-practice.html)
 - [How We Build Micro Frontends](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
 - [Revolutionizing Micro Frontends with Webpack 5, Module Federation and Bit](https://blog.bitsrc.io/revolutionizing-micro-frontends-with-webpack-5-module-federation-and-bit-99ff81ceb0)
+- [万字长文+图文并茂+全面解析微前端框架 qiankun 源码](https://github.com/a1029563229/blogs/blob/master/Source-Code/qiankun/1.md)
 
 ### 推荐学习资料
 
