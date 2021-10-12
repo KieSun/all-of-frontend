@@ -49,6 +49,11 @@
 
 ## 📖 目录
 
+- [🔥 这是什么？](#-这是什么)
+- [💻 如何使用](#-如何使用)
+- [如何获取本仓库资料](#如何获取本仓库资料)
+- [如何贡献](#如何贡献)
+- [📖 目录](#-目录)
 - [如何高效自学](#如何高效自学)
 - [书籍推荐](#书籍推荐)
   - [初级](#初级)
@@ -854,6 +859,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 - [蚂蚁金服如何把前端性能监控做到极致?](https://www.infoq.cn/article/dxa8am44oz*lukk5ufhy)
 - [如何做前端异常监控？](https://www.zhihu.com/question/29953354)
 - [前端监控平台系列：JS SDK（已开源）](https://juejin.cn/post/6862559324632252430#heading-17)
+- [前端监控 SDK 的一些技术要点原理分析](https://juejin.cn/post/7017974567943536671?utm_source=gold_browser_extension)
 
 ## 日常充电
 
