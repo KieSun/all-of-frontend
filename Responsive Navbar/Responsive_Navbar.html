@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!-- Created By Sahil Verma
+ 
+  CAUTION: Don't copy without my permission -->
+
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navigation Bar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <nav>
+      <ul>
+<li class="logo">DesignX</li>
+<li class="items"><a href="#">Home</a></li>
+<li class="items"><a href="#">About</a></li>
+<li class="items"><a href="#">Blogs</a></li>
+<li class="items"><a href="#">Contact</a></li>
+<li class="items"><a href="#">Feedback</a></li>
+<li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+</ul>
+</nav>
+    <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+  </body>
+</html>
