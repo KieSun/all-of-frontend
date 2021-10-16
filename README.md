@@ -196,7 +196,7 @@
 
 #### 数据类型
 
-JS 数据类型分为两大类及八种数据类型，注意别漏了 ES6 新增的 `bigint`。
+JS 数据类型分为两大类及八种数据类型，注意别漏了新增的 `bigint`。
 
 - [ ] 文档：
   - [ ] [JavaScript 数据类型和数据结构](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
