@@ -88,6 +88,7 @@
     - [节流与防抖](#节流与防抖)
     - [柯里化](#柯里化)
     - [垃圾回收](#垃圾回收)
+    - [设计模式](#设计模式)
     - [其他零散但重要的知识点](#其他零散但重要的知识点)
   - [HTML](#html)
     - [语义化](#语义化)
@@ -420,6 +421,15 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
   - [ ] [深入理解 Chrome V8 垃圾回收机制](https://github.com/yacan8/blog/issues/33)，该文章的参考文献也可阅读下
   - [ ] [GC in v8](https://github.com/lrlna/sketchin/blob/master/guides/garbage-collection-in-v8.md)
   - [ ] [JavaScript 工作原理：内存管理 + 处理常见的 4 种内存泄漏](https://blog.sessionstack.com/how-javascript-works-memory-management-how-to-handle-4-common-memory-leaks-3f28b94cfbec)，另有[中文版](https://juejin.cn/post/6844903519078580238)
+
+#### 设计模式
+
+- [  ] 文档
+  - [  ] [wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+  - [  ] [中文版维基百科](https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_(%E8%AE%A1%E7%AE%97%E6%9C%BA))
+- [  ] 推荐书籍
+  - [  ] 《Head First Design Pattern》 也有中文版的
+  - [  ] 《Design Patterns: Elements of Reusable Object-Oriented Software》 设计模式：可复用面向对象软件的基础
 
 #### 其他零散但重要的知识点
 
