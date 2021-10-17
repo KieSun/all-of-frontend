@@ -425,8 +425,8 @@ JavaScrip 在变量被创建时分配内存，并在对象不再使用时自动�
 #### 设计模式
 
 - [ ] 文档
-  - [ ] [wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
-  - [ ] [中文版维基百科](<https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_(%E8%AE%A1%E7%AE%97%E6%9C%BA)>)
+  - [ ] [English Wikipedia](https://en.wikipedia.org/wiki/Software_design_pattern)
+  - [ ] [中文维基百科](<https://zh.wikipedia.org/wiki/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F_(%E8%AE%A1%E7%AE%97%E6%9C%BA)>)
 - [ ] 推荐书籍
   - [ ] 《Head First Design Pattern》 也有中文版的
   - [ ] 《Design Patterns: Elements of Reusable Object-Oriented Software》 设计模式：可复用面向对象软件的基础
