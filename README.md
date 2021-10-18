@@ -692,7 +692,7 @@ React 状态管理可谓百花齐放百家争鸣，远远不止笔者列的这�
 
 - [文档](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching)
 - [彻底理解浏览器的缓存机制](https://juejin.cn/post/6844903593275817998)，浏览器缓存机制与性能优化息息相关
-- [图解Http缓存控制之max-age=0、no-cache、no-store区别](https://zhuanlan.zhihu.com/p/55623075)，很有趣的图解文章
+- [图解 Http 缓存控制之 max-age=0、no-cache、no-store 区别](https://zhuanlan.zhihu.com/p/55623075)，很有趣的图解文章
 
 ### Devtools
 
