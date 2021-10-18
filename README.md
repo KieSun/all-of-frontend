@@ -58,6 +58,7 @@
 
 - [🔥 这是什么？](#-这是什么)
 - [💻 如何使用](#-如何使用)
+- [Comming soon!](#comming-soon)
 - [如何获取本仓库资料](#如何获取本仓库资料)
 - [如何贡献](#如何贡献)
 - [📖 目录](#-目录)
@@ -169,7 +170,7 @@
 ### 进阶
 
 - [JavaScript 忍者秘籍（第 2 版）](https://book.douban.com/subject/30143702/)
-- [你不知道的 JS 三卷](https://book.douban.com/subject/26351021/)，该书英文版是开源的，并且作者已经在写第二版，有能力阅读英文的读者推荐直接看 [原著](https://github.com/getify/You-Dont-Know-JS)
+- [你不知道的 JS 上卷](https://book.douban.com/subject/26351021/)，该书英文版是开源的，并且作者已经在写第二版，有能力阅读英文的读者推荐直接看 [原著](https://github.com/getify/You-Dont-Know-JS)
 
 ### 高级
 
