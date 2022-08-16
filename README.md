@@ -1,6 +1,5 @@
 <p align='center'>
   <img alt="contributors" src="https://img.shields.io/github/contributors/KieSun/fucking-frontend.svg" />
-  <img alt="Commit" src="https://img.shields.io/github/commit-activity/w/KieSun/fucking-frontend" />
   <img alt="Stars" src="https://img.shields.io/github/stars/KieSun/fucking-frontend" />
   <img alt="Forks" src="https://img.shields.io/github/forks/KieSun/fucking-frontend" />
   <img alt="GitHub" src="https://img.shields.io/github/license/KieSun/fucking-frontend">
@@ -11,9 +10,9 @@
   <img src="./img/logo.png" width="300" />
 </p>
 
-<div align="center"><strong>重要资料已经整合在公众号「前端真好玩」，另外还附赠了前端 10 万字的面试攻略，已经帮助上千人拿到 offer。扫码发送关键字「资料」，你会发现相见恨晚！</strong></div>
+<div align="center"><strong>前端面试之道，帮助近千人进大厂</strong></div>
 
-<div align="center"><img src='./img/qrcode.jpeg' width=150 alt=''> </img></div>
+<div align="center"><img src='./img/qrcode.png' width=150 alt=''> </img></div>
 
 ## 🔥 这是什么？
 
@@ -36,13 +35,6 @@
 以下所有知识点笔者都会帮助读者朋友们将知识连贯起来，从而建立自己的知识体系而不是单独记忆松散的知识点。
 
 **推荐大家 Star 并 Fork 本项目（点击仓库顶部右上角按钮），然后 `git clone` 到本地后从上至下逐步完成学习计划。**
-
-## Comming soon!
-
-- 构建器相关内容
-- 前端核心学习路径思维导图
-
-另外各位读者有任何想了解的主题都可以告诉我。
 
 ## 如何获取本仓库资料
 
