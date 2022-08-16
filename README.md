@@ -10,7 +10,9 @@
   <img src="./img/logo.png" width="300" />
 </p>
 
-<div align="center"><strong>前端面试之道，帮助近千人进大厂</strong></div>
+## 前端面试必备
+
+笔者画了半年时间完成的专栏「前端面试之道」，至今已售出 14000+ 份，帮助近千人进大厂，有兴趣的读者可以扫码了解。
 
 <div align="center"><img src='./img/qrcode.png' width=150 alt=''> </img></div>
 
