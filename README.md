@@ -882,6 +882,7 @@ Electron 是一个可以使用 Web 技术如 JavaScript、HTML 和 CSS 来创建
 
 ### CSS 日常充电
 
+- [Gradienty](https://www.gradienty.com/)，一体化 CSS 生成器工具包
 - [You-need-to-know-css](https://github.com/l-hammer/You-need-to-know-css)
 - [CSS Inspiration](https://csscoco.com/inspiration/#/)
 - [CSS Tricks](https://qishaoxuan.github.io/css_tricks/)
